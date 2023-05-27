@@ -58,14 +58,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -157.97995, y: -87.58328}
-      - {x: -158.85626, y: -42.5375}
-      - {x: 157.3969, y: -43.023956}
-      - {x: 156.91043, y: -87.34688}
     - - {x: -157.6684, y: -37.597046}
       - {x: -157.66841, y: 7.666378}
       - {x: 157.14938, y: 7.19965}
-      - {x: 156.70009, y: -39.533684}
+      - {x: 157.10078, y: -36.076485}
 --- !u!114 &646201070549666647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,7 +144,8 @@ MonoBehaviour:
   - {fileID: 2224997963256725325}
   - {fileID: 5616182601523407300}
   - {fileID: 6507190796365610939}
-  m_regionComponents: [{fileID: 1776099199229050563}]
+  m_regionComponents:
+  - {fileID: 1776099199229050563}
   m_walkableAreas:
   - {fileID: 646201070549666647}
   m_animations: []

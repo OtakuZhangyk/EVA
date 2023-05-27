@@ -80,7 +80,7 @@ MonoBehaviour:
     m_useSpriteAsHotspot: 0
     m_baseline: 1
     m_walkToPoint: {x: 10, y: 1}
-    m_lookAtPoint: {x: -5, y: 1}
+    m_lookAtPoint: {x: 0, y: 1}
     m_scriptName: Me
     m_scriptClass: CharacterMe
   m_clickableColliders: []
@@ -114,10 +114,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -9.44519, y: 0.35376358}
-      - {x: -10.211807, y: 37.927727}
-      - {x: -0.30794525, y: 40.03556}
-      - {x: -1.3618546, y: 0.9473381}
+    - - {x: -5.486702, y: 0.88869476}
+      - {x: -5.076477, y: 38.78361}
+      - {x: 5.255333, y: 39.179672}
+      - {x: 5.48526, y: 0.8403511}
 --- !u!212 &3699145761395730980
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_tint: {r: 1, g: 1, b: 1, a: 0}
   m_outline: {r: 1, g: 1, b: 1, a: 0}
-  m_offset: {x: 0, y: 17}
+  m_offset: {x: 6, y: 17}
   m_shaderOverride: {fileID: 0}
 --- !u!95 &1901263494026284849
 Animator:
