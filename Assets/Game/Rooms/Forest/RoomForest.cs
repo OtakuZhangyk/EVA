@@ -30,13 +30,13 @@ public class RoomForest : RoomScript<RoomForest>
 		{
 		
 			yield return C.Dave.Say("Well, I guess this is a test project for an adventure game");
-			yield return C.Dave.WalkTo(Point("EntryWalk"));
+			yield return C.Me.WalkTo(Point("EntryWalk"));
 			yield return C.Dave.Say("Sure looks adventurey!");
 			Audio.PlayMusic("MusicExample");
 			yield return E.WaitSkip();
 			yield return C.Display("Left Click to Walk & Interact\nRight Click to Look At");
 		}
-		C.Dave.WalkToBG(Point("EntryWalk"));
+		C.Me.WalkToBG(Point("EntryWalk"));
 		
 		yield return E.Break;
 	}

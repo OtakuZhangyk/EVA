@@ -13,4 +13,16 @@ public class CharacterMe : CharacterScript<CharacterMe>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteract()
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnUseInv( IInventory item )
+	{
+
+		yield return E.Break;
+	}
 }
