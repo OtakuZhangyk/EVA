@@ -10,6 +10,7 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	IEnumerator OnInteractPropDoor( IProp prop )
 	{
+		yield return C.WalkToClicked();
 		E.ChangeRoomBG(R.Hallway);
 		yield return E.ConsumeEvent;
 	}
