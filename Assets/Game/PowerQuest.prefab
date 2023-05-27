@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,8 +76,7 @@ MonoBehaviour:
   m_customKbShortcuts: 0
   m_transitionFadeTime: 0.3
   m_menuManager:
-    m_prefabEffectMenuFadeOut: {fileID: 212000010572677458, guid: 8586ef0cf80cdcb429678b9dd0b8180f,
-      type: 3}
+    m_prefabEffectMenuFadeOut: {fileID: 212000010572677458, guid: 8586ef0cf80cdcb429678b9dd0b8180f, type: 3}
     m_fadeColour: {r: 0, g: 0, b: 0, a: 1}
     m_customFade: 0
   m_spawnablePrefabs:
@@ -155,5 +155,5 @@ MonoBehaviour:
   - {fileID: 4800000, guid: d98a9fb29ffd9b047b8b28042595d236, type: 3}
   - {fileID: 4800000, guid: a2c3f6022054c654ea6aeb84a997cda4, type: 3}
   - {fileID: 4800000, guid: 553637da87459c4428e8af106c8e49fd, type: 3}
-  m_version: 15011
-  m_newVersion: 14010
+  m_version: 15013
+  m_newVersion: 16008
