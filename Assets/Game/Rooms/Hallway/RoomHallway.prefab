@@ -206,10 +206,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -479.05624, y: -85.65004}
-      - {x: -477.90662, y: -45.029987}
-      - {x: 477.39902, y: -45.029984}
-      - {x: 474.50836, y: -87.06391}
+    - - {x: -467.27756, y: -85.65004}
+      - {x: -467.7341, y: -45.565384}
+      - {x: 467.391, y: -45.029984}
+      - {x: 466.50195, y: -87.06391}
 --- !u!114 &4924776483145320853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,11 +275,11 @@ MonoBehaviour:
     m_verticalResolution: 0
     m_activeWalkableArea: 0
     m_bounds:
-      m_min: {x: 0, y: 0}
-      m_max: {x: 0, y: 0}
+      m_min: {x: -561, y: -90}
+      m_max: {x: 559, y: 90}
     m_scrollBounds:
-      m_min: {x: 0, y: 0}
-      m_max: {x: 0, y: 0}
+      m_min: {x: -561, y: -90}
+      m_max: {x: 559, y: 90}
     m_shortName: Hallway
     m_scriptClass: RoomHallway
     m_sceneName: SceneRoomHallway
@@ -292,7 +292,8 @@ MonoBehaviour:
   m_regionComponents: []
   m_walkableAreas:
   - {fileID: 4924776483145320853}
-  m_animations: []
+  m_animations:
+  - {fileID: 7400000, guid: cec686a651f8f1447940d7eba43ed3b1, type: 2}
   m_sprites:
   - {fileID: 21300000, guid: 042fdb4c3f646a343921b5889c5af011, type: 3}
   - {fileID: 21300000, guid: 297b267daff49a644ac2d31f20d73121, type: 3}
