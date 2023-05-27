@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Rooms/Forest/SceneRoomForest.unity
     guid: 1121794b7ab7e6f44a29b3e8be8fbb08
+  - enabled: 1
+    path: Assets/Game/Rooms/Operation_Room/SceneRoomOperation_Room.unity
+    guid: 2c74bf3aec0e26a4aa89f881dad51220
   m_configObjects: {}
