@@ -7,4 +7,10 @@ using static GlobalScript;
 public class CharacterDave : CharacterScript<CharacterDave>
 {
 
+
+	IEnumerator OnUseInv( IInventory item )
+	{
+
+		yield return E.Break;
+	}
 }
