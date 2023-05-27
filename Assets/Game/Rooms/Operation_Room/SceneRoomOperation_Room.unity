@@ -215,7 +215,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _Offset: {r: 0, g: 17, b: 0, a: 0}
+    - _Offset: {r: 6, g: 17, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _Tint: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 424708, guid: b254fcd8f583c324ba3da9904a492986, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 424708, guid: b254fcd8f583c324ba3da9904a492986, type: 3}
       propertyPath: m_LocalPosition.x
@@ -289,7 +289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 424708, guid: dba8cdb55bc7ac6458f9a539610fe130, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 424708, guid: dba8cdb55bc7ac6458f9a539610fe130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -350,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4016405803184589643, guid: 023fdd18e2c5dee4f94b3c46e2eaf3e0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4016405803184589643, guid: 023fdd18e2c5dee4f94b3c46e2eaf3e0, type: 3}
       propertyPath: m_LocalPosition.x
