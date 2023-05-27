@@ -371,7 +371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334569988241212}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 9.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -401,11 +401,12 @@ MonoBehaviour:
   m_keepOnScreen: 0
   m_shaderOverride: {fileID: 0}
   m_outline:
-    m_directions: 1
+    m_directions: 33
     m_width: 1
     m_color: {r: 0, g: 0, b: 0, a: 1}
   m_unlocalizedText: CONTINUE
   m_outlineMeshes:
+  - {fileID: 0}
   - {fileID: 0}
 --- !u!23 &23196043347144360
 MeshRenderer:
@@ -464,8 +465,8 @@ TextMesh:
   m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 60
-  m_FontStyle: 0
+  m_FontSize: 100
+  m_FontStyle: 1
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: 153cf283d6d92154ca4d7298e15653a6, type: 3}
   m_Color:
@@ -830,7 +831,7 @@ MonoBehaviour:
   m_keepOnScreen: 0
   m_shaderOverride: {fileID: 0}
   m_outline:
-    m_directions: 1
+    m_directions: 32
     m_width: 1
     m_color: {r: 0, g: 0, b: 0, a: 1}
   m_unlocalizedText: NEW GAME
@@ -893,9 +894,9 @@ TextMesh:
   m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 60
-  m_FontStyle: 0
-  m_RichText: 1
+  m_FontSize: 100
+  m_FontStyle: 1
+  m_RichText: 0
   m_Font: {fileID: 12800000, guid: 153cf283d6d92154ca4d7298e15653a6, type: 3}
   m_Color:
     serializedVersion: 2
