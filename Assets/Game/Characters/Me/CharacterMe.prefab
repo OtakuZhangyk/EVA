@@ -78,15 +78,17 @@ MonoBehaviour:
     m_LipSyncEnabled: 0
     m_footstepSound: 
     m_useSpriteAsHotspot: 0
-    m_baseline: 0
-    m_walkToPoint: {x: 0, y: 0}
-    m_lookAtPoint: {x: 0, y: 0}
+    m_baseline: -15
+    m_walkToPoint: {x: 0, y: -15}
+    m_lookAtPoint: {x: 0, y: -15}
     m_scriptName: Me
     m_scriptClass: CharacterMe
   m_clickableColliders: []
   m_turnAnims: []
   m_transitionAnims: []
-  m_animations: []
+  m_animations:
+  - {fileID: 7400000, guid: 01f31334024124c4e83560af3fbc3ddf, type: 2}
+  - {fileID: 7400000, guid: f9bc1c59cec9a8346a021bb5577ed0c0, type: 2}
 --- !u!60 &4320129529328439820
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -156,7 +158,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 150
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
