@@ -80,7 +80,7 @@ MonoBehaviour:
     m_useSpriteAsHotspot: 0
     m_baseline: 1
     m_walkToPoint: {x: 10, y: 1}
-    m_lookAtPoint: {x: -5, y: 1}
+    m_lookAtPoint: {x: 0, y: 1}
     m_scriptName: Me
     m_scriptClass: CharacterMe
   m_clickableColliders: []
@@ -114,6 +114,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
+    - - {x: -5.486702, y: 0.88869476}
+      - {x: -5.076477, y: 38.78361}
+      - {x: 5.255333, y: 39.179672}
+      - {x: 5.48526, y: 0.8403511}
     - - {x: -4.591324, y: 0.63928604}
       - {x: -4.7869034, y: 35.643562}
       - {x: 6.259033, y: 40.32108}
