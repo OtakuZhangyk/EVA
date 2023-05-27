@@ -63,4 +63,50 @@ public class RoomTitle : RoomScript<RoomTitle>
 		yield return E.ConsumeEvent;
 	}
 
+
+	IEnumerator OnAnyClick()
+	{
+
+		yield return E.Break;
+	}
+
+	void OnPostRestore( int version )
+	{
+	}
+
+	IEnumerator OnWalkTo()
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator UpdateBlocking()
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnUseInvPropTitle( IProp prop, IInventory item )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropTitle( IProp prop )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropTitle( IProp prop )
+	{
+
+		yield return E.Break;
+	}
 }
