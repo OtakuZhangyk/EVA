@@ -10,7 +10,8 @@ public class InventoryHandnote : InventoryScript<InventoryHandnote>
 
 	IEnumerator OnLookAtInventory( IInventory thisItem )
 	{
-
+		yield return C.Display("It's a blue cup");
+		yield return C.Display("I mean... a bucket");
 		yield return E.Break;
 	}
 
