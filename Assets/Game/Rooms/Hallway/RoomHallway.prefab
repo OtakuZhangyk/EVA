@@ -203,7 +203,7 @@ MonoBehaviour:
     m_animation: Poster1
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -38
+    m_baseline: -36
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -284,7 +284,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 387
+  m_SortingOrder: 367
   m_Sprite: {fileID: 21300000, guid: aa4d557f3a8b62745a0ee310d99cdbc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -499,7 +499,7 @@ MonoBehaviour:
     m_animation: Memo
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -28
+    m_baseline: -27
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -580,7 +580,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 366
+  m_SortingOrder: 356
   m_Sprite: {fileID: 21300000, guid: 30d47e6885c6d584c9e3c65bab1bd843, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -647,7 +647,7 @@ MonoBehaviour:
     m_animation: Plant
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -12
+    m_baseline: -10
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -728,7 +728,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 397
+  m_SortingOrder: 377
   m_Sprite: {fileID: 21300000, guid: 2d90be1e0d9c3974f933b1140b0c298b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
     m_animation: Chairs
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -16
+    m_baseline: -14
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -876,7 +876,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 414
+  m_SortingOrder: 394
   m_Sprite: {fileID: 21300000, guid: 3c85c9314aea1a54882e8e4f0a7cedaf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -916,7 +916,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3277458673400489415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -405.7, y: 58, z: 0}
+  m_LocalPosition: {x: -405.7, y: 43.6, z: 0}
   m_LocalScale: {x: -1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -943,7 +943,7 @@ MonoBehaviour:
     m_animation: Camera
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -81
+    m_baseline: -75
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -1024,7 +1024,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 230
+  m_SortingOrder: 314
   m_Sprite: {fileID: 21300000, guid: dcb87a1a75d14dc4499562cb9faac5a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1091,7 +1091,7 @@ MonoBehaviour:
     m_animation: RoadblockR
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: 40
+    m_baseline: 42
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -1172,7 +1172,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 403
+  m_SortingOrder: 383
   m_Sprite: {fileID: 21300000, guid: 3f1f0f739dc8d3442a428e4a2f80bd0d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1313,7 +1313,7 @@ MonoBehaviour:
     m_animation: Roadblock
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: 19
+    m_baseline: 21
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -1394,7 +1394,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 417
+  m_SortingOrder: 397
   m_Sprite: {fileID: 21300000, guid: 3f1f0f739dc8d3442a428e4a2f80bd0d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

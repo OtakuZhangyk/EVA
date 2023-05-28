@@ -227,9 +227,9 @@ MonoBehaviour:
     m_animation: Infusion_stand
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -25
+    m_baseline: -23
     m_baselineFixed: 0
-    m_walkToPoint: {x: -1, y: -24}
+    m_walkToPoint: {x: -1, y: -23}
     m_lookAtPoint: {x: -1, y: 0}
     m_scriptName: Infusion_stand
   m_parallaxDepth: 0
@@ -339,7 +339,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 756
+  m_SortingOrder: 736
   m_Sprite: {fileID: 21300000, guid: 8e6b312f9a682004da84c79e52a8a3fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -407,7 +407,7 @@ MonoBehaviour:
     m_animation: Handnote
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: 0
+    m_baseline: 5
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -517,7 +517,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 747
+  m_SortingOrder: 697
   m_Sprite: {fileID: 21300000, guid: e8187b4e26c698e49ac3c6882bd28b23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -763,7 +763,7 @@ MonoBehaviour:
     m_animation: Sink
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -24
+    m_baseline: -16
     m_baselineFixed: 0
     m_walkToPoint: {x: -1, y: -24}
     m_lookAtPoint: {x: -1, y: -1}
@@ -873,7 +873,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 429
+  m_SortingOrder: 349
   m_Sprite: {fileID: 21300000, guid: 6949491e518375e4f9e47bddec146c08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1023,7 +1023,7 @@ MonoBehaviour:
     m_animation: Pc
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -17
+    m_baseline: -11
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: -21}
     m_lookAtPoint: {x: 0, y: 0}
@@ -1133,7 +1133,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 419
+  m_SortingOrder: 359
   m_Sprite: {fileID: 21300000, guid: 2d413cec34bfe264d86430fc0cb76b31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1349,7 +1349,7 @@ MonoBehaviour:
     m_animation: Trash
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -20
+    m_baseline: -8
     m_baselineFixed: 0
     m_walkToPoint: {x: -6, y: -20}
     m_lookAtPoint: {x: 0, y: -2}
@@ -1459,7 +1459,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 467
+  m_SortingOrder: 347
   m_Sprite: {fileID: 21300000, guid: 6ac45826126b0ce45be0ea1ba315d1a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
