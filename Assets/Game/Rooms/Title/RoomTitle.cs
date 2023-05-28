@@ -52,7 +52,7 @@ public class RoomTitle : RoomScript<RoomTitle>
 		G.InventoryBar.Show();
 		
 		// Move the player to the room
-		E.ChangeRoomBG(R.Forest);
+		E.ChangeRoomBG(R.Operation_Room);
 		yield return E.ConsumeEvent;
 	}
 
@@ -105,6 +105,12 @@ public class RoomTitle : RoomScript<RoomTitle>
 	}
 
 	IEnumerator OnInteractPropTitle( IProp prop )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropNew( IProp prop )
 	{
 
 		yield return E.Break;
