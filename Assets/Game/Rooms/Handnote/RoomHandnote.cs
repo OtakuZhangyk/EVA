@@ -29,4 +29,17 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteractPropClose( IProp prop )
+	{
+		E.ChangeRoomBG(C.Me.LastRoom);
+		G.InventoryBar.Show();
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropTurnR( IProp prop )
+	{
+		
+		yield return E.Break;
+	}
 }

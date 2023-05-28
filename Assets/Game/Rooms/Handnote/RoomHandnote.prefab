@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: TurnL
+    m_description: Prev Page
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: TurnR
+    m_description: Next Page
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -497,10 +497,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -10, y: -10}
-      - {x: -10, y: 10}
-      - {x: 10, y: 10}
-      - {x: 10, y: -10}
+    - - {x: -6.1230474, y: -2.9510026}
+      - {x: -6.827953, y: 4.0083513}
+      - {x: 7.1803994, y: 4.008351}
+      - {x: 6.827947, y: -3.3034515}
 --- !u!95 &8720363430880987070
 Animator:
   serializedVersion: 5
@@ -675,6 +675,7 @@ GameObject:
   - component: {fileID: 7113675680368480243}
   - component: {fileID: 4116630419898353112}
   - component: {fileID: 7579669181607057953}
+  - component: {fileID: 2349192748871750941}
   m_Layer: 0
   m_Name: PropTextL
   m_TagString: Untagged
@@ -808,10 +809,10 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6426131288524207782}
-  m_Text: "To let Eva out, the main power \nsupply has to be turned off \nfirst.\nAfterward,
-    you need to turn \noff three backup power supplies, \nor else it'll still be
-    restrained.\nThen it's going to the cryogenic \nchamber, injecting the drug,
-    I \nhave to remember to bring the \nsyringe."
+  m_Text: "Memo #5\nTo let Eva out, the main power \nsupply has to be turned off
+    \nfirst.\nAfterward, you need to turn \noff three backup power supplies, \nor
+    else it'll still be restrained.\nThen it's going to the cryogenic \nchamber,
+    injecting the drug, I \nhave to remember to bring the \nsyringe."
   m_OffsetZ: 0
   m_CharacterSize: 2
   m_LineSpacing: 1
@@ -825,6 +826,40 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4278190080
+--- !u!114 &2349192748871750941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6426131288524207782}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f5801e9ab1722449b271233da6c14c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_text: "Memo #5\nTo let Eva out, the main power \nsupply has to be turned off
+    \nfirst.\nAfterward, you need to turn \noff three backup power supplies, \nor
+    else it'll still be restrained.\nThen it's going to the cryogenic \nchamber,
+    injecting the drug, I \nhave to remember to bring the \nsyringe."
+  m_localize: 0
+  m_sortingLayer: Default
+  m_orderInLayer: 0
+  m_wrapWidth: 0
+  m_truncate: 0
+  m_wrapUniformLineWidth: 0
+  m_wrapWidthMin: 0
+  m_keepOnScreen: 0
+  m_shaderOverride: {fileID: 0}
+  m_outline:
+    m_directions: 0
+    m_width: 1
+    m_color: {r: 0, g: 0, b: 0, a: 1}
+  m_unlocalizedText: "Memo #5\nTo let Eva out, the main power \nsupply has to be
+    turned off \nfirst.\nAfterward, you need to turn \noff three backup power supplies,
+    \nor else it'll still be restrained.\nThen it's going to the cryogenic \nchamber,
+    injecting the drug, I \nhave to remember to bring the \nsyringe."
+  m_outlineMeshes: []
 --- !u!1 &7904630096518716387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,10 +1109,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -10, y: -10}
-      - {x: -10, y: 10}
-      - {x: 10, y: 10}
-      - {x: 10, y: -10}
+    - - {x: -6.814148, y: -7.1327286}
+      - {x: -6.92955, y: 5.5604973}
+      - {x: 7.132736, y: 5.539795}
+      - {x: 7.7698975, y: -6.814148}
 --- !u!95 &4911967495808142882
 Animator:
   serializedVersion: 5
