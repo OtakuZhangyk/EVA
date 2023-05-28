@@ -6,6 +6,7 @@ using static GlobalScript;
 
 public class RoomHandnote : RoomScript<RoomHandnote>
 {
+	int page = 1;
 	public void OnEnterRoom()
 	{
 		
@@ -30,6 +31,7 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 		yield return E.Break;
 	}
 
+
 	IEnumerator OnInteractPropClose( IProp prop )
 	{
 		E.ChangeRoomBG(C.Me.LastRoom);
@@ -39,7 +41,8 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 
 	IEnumerator OnInteractPropTurnR( IProp prop )
 	{
-		
+
+		page += 2;
 		yield return E.Break;
 	}
 }
