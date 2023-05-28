@@ -23,7 +23,7 @@ SpriteAtlas:
     platformSettings:
     - serializedVersion: 3
       m_BuildTarget: DefaultTexturePlatform
-      m_MaxTextureSize: 2048
+      m_MaxTextureSize: 32
       m_ResizeAlgorithm: 0
       m_TextureFormat: -1
       m_TextureCompression: 0
@@ -40,6 +40,7 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+      enableAlphaDilation: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
@@ -49,8 +50,10 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: f702d8676150682408682f25b08a6ba3, type: 3}
   - {fileID: 21300000, guid: 3128a95e76c6adf44a7ffde8daa56743, type: 3}
   m_PackedSpriteNamesToIndex:
+  - handnote_icon
   - Bucket_0
   m_RenderDataMap: {}
   m_Tag: InventoryAtlas
