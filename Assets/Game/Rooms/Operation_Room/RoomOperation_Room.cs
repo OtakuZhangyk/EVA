@@ -21,7 +21,7 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 		yield return C.FaceClicked();
 		yield return C.Display("Dave stoops to pick up the bucket");
 		prop.Disable();
-		I.Handnote.AddAsActive();
+		I.Handnote.Add();
 		yield return E.WaitSkip();
 		yield return C.Player.FaceDown();
 		yield return C.Me.Say("Say something.");
