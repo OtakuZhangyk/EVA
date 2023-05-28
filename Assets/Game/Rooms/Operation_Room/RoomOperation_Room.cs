@@ -31,4 +31,12 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 		
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropHandnote( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		yield return C.Me.Say("A handnote? Who left it here?");
+		yield return E.Break;
+	}
 }
