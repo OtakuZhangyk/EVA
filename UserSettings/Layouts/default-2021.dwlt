@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 998
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Git for Unity
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 366
+  controlID: 311
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 116
+  controlID: 172
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 247
+  controlID: 129
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 117
+  controlID: 173
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 118
+  controlID: 174
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,8 +291,8 @@ MonoBehaviour:
     y: 0
     width: 748.5
     height: 462
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -371,14 +371,14 @@ MonoBehaviour:
     y: 0
     width: 453
     height: 948
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 23}
   - {fileID: 24}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -439,7 +439,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -452,18 +452,18 @@ MonoBehaviour:
       y: 21
       width: 1066
       height: 444
-    m_Scale: {x: 1.1940521, y: 1.1940521}
-    m_Translation: {x: 533, y: 194.30579}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 533, y: 222}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -446.37918
-      y: -162.72806
-      width: 892.75836
-      height: 371.84308
+      x: -533
+      y: -222
+      width: 1066
+      height: 444
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 2132, y: 930}
@@ -492,25 +492,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 398.5
+    x: 399
     y: 534
-    width: 1066.5
+    width: 1066
     height: 465
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_clip: {fileID: 7400000, guid: 258ca0e789d6abd47b443213a590c80a, type: 2}
+  m_clip: {fileID: 7400000, guid: 8ee1d7e779939f547a418cd51aef0f28, type: 2}
   m_uiImage: 0
   m_frames:
   - m_time: 0
     m_length: 0.1
-    m_sprite: {fileID: 21300000, guid: ff2aab478e99c5e448b87acdaa7cf5ce, type: 3}
-    m_nodes: []
-  - m_time: 0.1
-    m_length: 0.1
-    m_sprite: {fileID: 21300000, guid: ff2aab478e99c5e448b87acdaa7cf5ce, type: 3}
+    m_sprite: {fileID: 21300000, guid: adadfa460a346084b948281d4680bfb9, type: 3}
     m_nodes: []
   m_events: []
   m_spritePath: 
@@ -603,7 +599,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_scrollPosition: {x: 0, y: 0}
+  m_scrollPosition: {x: 0, y: 240}
   m_powerQuest: {fileID: 11480482, guid: 1d431f985e21f9746a18b85a5ac67c89, type: 3}
   m_powerQuestPath: Assets/Game/PowerQuest.prefab
   m_systemAudioPath: Assets/Game/
@@ -612,7 +608,7 @@ MonoBehaviour:
   m_systemAudio: {fileID: 11461390, guid: f0b6ac7e109cb2543a538fce1bf8a997, type: 3}
   m_questCamera: {fileID: 138134, guid: b254fcd8f583c324ba3da9904a492986, type: 3}
   m_questGuiCamera: {fileID: 195666, guid: dba8cdb55bc7ac6458f9a539610fe130, type: 3}
-  m_selectedTab: 0
+  m_selectedTab: 1
   m_showRooms: 1
   m_showCharacters: 1
   m_showInventory: 1
@@ -683,10 +679,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 47.5}
-      m_SelectedIDs: bc57feff
-      m_LastClickedID: -108612
-      m_ExpandedIDs: ca57fefff457feffaa6cfeffe46cfeffb2aafeffdcaafefff4abfeff1eacfeff10bafeff3abafeff8ec3feffc8c3feffeecffeff18d0feffbed1feff74d4feff9ed4feffeceffeff16f0fefffaf7feff7c03ffff8203ffffbc03ffffaa04ffffb404ffff0e05ffff9807ffffc207fffff009ffff2a0affff305dffff5a5dffffe2a5ffff1ca6ffff60b0ffff16b8ffffd6e6ffff10e7ffff2afbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 447dffff5c7fffff369bffff609bffff68a4ffffe4adffffe8aeffff14b0ffff18b1ffffacfaffff2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -764,10 +760,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 136}
-    m_SelectedIDs: 5e600000
-    m_LastClickedID: 24670
-    m_ExpandedIDs: 000000001a5f00001c5f00001e5f0000205f0000225f0000245f0000265f0000285f00002a5f00002c5f00002e5f0000305f0000505f0000545f00000265000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: f0600000
+    m_LastClickedID: 24816
+    m_ExpandedIDs: 00000000b2600000b4600000b6600000b8600000ba600000bc600000be600000c0600000c2600000c4600000c6600000c8600000ca600000f460000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -795,7 +791,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a5f00001c5f00001e5f0000205f0000225f0000245f0000265f0000285f00002a5f00002c5f00002e5f0000305f0000
+    m_ExpandedIDs: 00000000b2600000b4600000b6600000b8600000ba600000bc600000be600000c0600000c2600000c4600000c6600000c8600000ca600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -822,7 +818,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ca610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -847,7 +843,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 60}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 188
@@ -1132,9 +1128,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -83.09873, y: 45.794838, z: 71.36323}
+    m_Target: {x: 183.71704, y: -9.822235, z: 63.685192}
     speed: 2
-    m_Value: {x: -83.09873, y: 45.794838, z: 71.36323}
+    m_Value: {x: 183.71704, y: -9.822235, z: 63.685192}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1185,9 +1181,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 300.29535
+    m_Target: 59.167473
     speed: 2
-    m_Value: 300.29535
+    m_Value: 59.167473
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1277,7 +1273,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 486
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1312,14 +1308,14 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 3272.3964264
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -1478,10 +1474,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-05-28T00:08:47.150-04:00
+      updatedTimeString: 2023-05-28T22:19:52.449-04:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-05-28T00:04:30.119-04:00
+      updatedTimeString: 2023-05-28T22:21:09.383-04:00
       cacheType: 1
     currentBranch:
       name: master
@@ -1504,8 +1500,8 @@ MonoBehaviour:
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: master
@@ -1567,18 +1563,822 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-05-28T21:56:08.430-04:00
+      updatedTimeString: 2023-05-28T23:06:20.664-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-05-28T22:11:46.176-04:00
+      updatedTimeString: 2023-05-28T23:06:14.791-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-05-28T23:05:24.799-04:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 464ff1858f75d60ebcdcd3ba8b0d844dc271bfa3
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: modified reference
+      description: 
+      timeString: 2023-05-28T22:19:45.000-04:00
+      commitTimeString: 2023-05-28T22:19:45.000-04:00
+      changes:
+      - path: Assets\Game\Rooms\Hallway\Background.anim
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Background.anim
+        projectPath: Assets\Game\Rooms\Hallway\Background.anim
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Background.anim.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Background.anim.meta
+        projectPath: Assets\Game\Rooms\Hallway\Background.anim.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: ff0d34b29b87378ce8b94ce01a7b02cb41146e70
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: modified stairs
+      description: 
+      timeString: 2023-05-28T22:14:15.000-04:00
+      commitTimeString: 2023-05-28T22:14:15.000-04:00
+      changes:
+      - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\operation_back1.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\operation_back1.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\operation_back1.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\operation_back1.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\operation_back1.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\operation_back1.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: E:\games\EVA\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: b7709c69b1c4ffeb5f4e507df641b0a4e0736ab6
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: local
+      description: 
+      timeString: 2023-05-28T21:55:09.000-04:00
+      commitTimeString: 2023-05-28T21:55:09.000-04:00
+      changes:
+      - path: Assets\Game\Rooms\Lab\RoomLab.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLab.prefab
+        projectPath: Assets\Game\Rooms\Lab\RoomLab.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+        projectPath: Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+        projectPath: Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+        projectPath: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+        projectPath: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 3669242e39d5745a4638548f7738115498e47ae3
+      mergeA: 7926102f017f53c1a200c44ab270b8757d46edd5
+      mergeB: 4644ee3339fd07e8f5448c77bb3061a10f93f857
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: local
+      description: 
+      timeString: 2023-05-28T21:54:56.000-04:00
+      commitTimeString: 2023-05-28T21:54:56.000-04:00
+      changes: []
+    - commitID: 7926102f017f53c1a200c44ab270b8757d46edd5
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: added stairs
+      description: 
+      timeString: 2023-05-28T21:54:35.000-04:00
+      commitTimeString: 2023-05-28T21:54:35.000-04:00
+      changes:
+      - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\back2.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\back2.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\back2.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\back2.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\back2.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\back2.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stair_down.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stair_down.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stair_down1.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down1.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stair_down1.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down1.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stair_down2.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down2.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down2.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stair_down2.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down2.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down2.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stair_up.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_up.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_up.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stair_up.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_up.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_up.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\back1.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\back1.png
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\back1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\back1.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\back1.png.meta
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\back1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\back2.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\back2.png
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\back2.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\back2.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\back2.png.meta
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\back2.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png.meta
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 4644ee3339fd07e8f5448c77bb3061a10f93f857
+      mergeA: 
+      mergeB: 
+      authorName: VQSHR
+      authorEmail: stoneliuicloud@icloud.com
+      commitEmail: stoneliuicloud@icloud.com
+      commitName: VQSHR
+      summary: Tank of EVa in Lab
+      description: 
+      timeString: 2023-05-28T20:58:03.000-04:00
+      commitTimeString: 2023-05-28T20:58:03.000-04:00
+      changes:
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 90f1e89a841422cf1eb61c73f4de0e71c2c50cf8
+      mergeA: 
+      mergeB: 
+      authorName: VQSHR
+      authorEmail: stoneliuicloud@icloud.com
+      commitEmail: stoneliuicloud@icloud.com
+      commitName: VQSHR
+      summary: Lab background and tank of EVA
+      description: 
+      timeString: 2023-05-28T20:57:42.000-04:00
+      commitTimeString: 2023-05-28T20:57:42.000-04:00
+      changes:
+      - path: Assets\Game\Rooms\Lab\RoomLab.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLab.prefab
+        projectPath: Assets\Game\Rooms\Lab\RoomLab.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+        projectPath: Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+        projectPath: Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+        projectPath: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+        projectPath: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 4e01f1a5060583d568babceb8cc467beb7779007
+      mergeA: f04dd4c0f722fc5d2960f70bc63a6273ff40d9a5
+      mergeB: fbda81ae1f9cf285c701cd156f8eec47458a3184
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: Merge branch 'master' of https://github.com/OtakuZhangyk/EVA
+      description: 
+      timeString: 2023-05-28T17:00:10.000-04:00
+      commitTimeString: 2023-05-28T17:00:10.000-04:00
+      changes: []
+    - commitID: fbda81ae1f9cf285c701cd156f8eec47458a3184
+      mergeA: 
+      mergeB: 
+      authorName: VQSHR
+      authorEmail: stoneliuicloud@icloud.com
+      commitEmail: stoneliuicloud@icloud.com
+      commitName: VQSHR
+      summary: add obstacle for pc
+      description: 
+      timeString: 2023-05-28T16:59:54.000-04:00
+      commitTimeString: 2023-05-28T16:59:54.000-04:00
+      changes:
+      - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: f04dd4c0f722fc5d2960f70bc63a6273ff40d9a5
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: local
+      description: 
+      timeString: 2023-05-28T16:59:49.000-04:00
+      commitTimeString: 2023-05-28T16:59:49.000-04:00
+      changes:
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 2db33efbeaf018dccf8925a29eda152b0dfcfc65
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: modified baselines in rooms
+      description: 
+      timeString: 2023-05-28T16:54:39.000-04:00
+      commitTimeString: 2023-05-28T16:54:39.000-04:00
+      changes:
+      - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 4cfa931b10706cbcadbee446c8cc93a64ec6f220
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: added props to op and hall room
+      description: 
+      timeString: 2023-05-28T16:49:47.000-04:00
+      commitTimeString: 2023-05-28T16:49:47.000-04:00
+      changes:
+      - path: Assets\Game\PowerQuest.prefab
+        fullPath: E:\games\EVA\Assets\Game\PowerQuest.prefab
+        projectPath: Assets\Game\PowerQuest.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\QuestScriptAutos.cs
+        fullPath: E:\games\EVA\Assets\Game\QuestScriptAutos.cs
+        projectPath: Assets\Game\QuestScriptAutos.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\calender.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\calender.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\calender.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\calender.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\calender.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\calender.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\camera.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\camera.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\camera.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\camera.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\camera.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\camera.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\chairs.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\chairs.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\chairs.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\chairs.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\chairs.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\chairs.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\extinguisher.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\extinguisher.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\extinguisher.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\extinguisher.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\extinguisher.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\extinguisher.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\map.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\map.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\map.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\map.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\map.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\map.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\memo_page.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\memo_page.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\memo_page.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\memo_page.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\memo_page.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\memo_page.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\memo_page1.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\memo_page1.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\memo_page1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\memo_page1.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\memo_page1.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\memo_page1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\plant.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\plant.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\plant.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\plant.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\plant.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\plant.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\post1.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post1.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\post1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\post1.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post1.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\post1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\post2.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post2.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\post2.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\post2.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post2.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\post2.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\post3.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post3.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\post3.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\post3.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post3.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\post3.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\roadblockH.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\roadblockH.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\roadblockH.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\roadblockH.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\roadblockH.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\roadblockH.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\roadblockV.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\roadblockV.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\roadblockV.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\roadblockV.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\roadblockV.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\roadblockV.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\signR.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\signR.png
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\signR.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Hallway\Sprites\signR.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\signR.png.meta
+        projectPath: Assets\Game\Rooms\Hallway\Sprites\signR.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab.meta
+        projectPath: Assets\Game\Rooms\Lab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\RoomLab.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLab.prefab
+        projectPath: Assets\Game\Rooms\Lab\RoomLab.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\RoomLab.prefab.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLab.prefab.meta
+        projectPath: Assets\Game\Rooms\Lab\RoomLab.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas
+        projectPath: Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas.meta
+        projectPath: Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\SceneRoomLab.unity
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\SceneRoomLab.unity
+        projectPath: Assets\Game\Rooms\Lab\SceneRoomLab.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\SceneRoomLab.unity.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\SceneRoomLab.unity.meta
+        projectPath: Assets\Game\Rooms\Lab\SceneRoomLab.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites.meta
+        projectPath: Assets\Game\Rooms\Lab\Sprites.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\back.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\back.png
+        projectPath: Assets\Game\Rooms\Lab\Sprites\back.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\Sprites\back.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\back.png.meta
+        projectPath: Assets\Game\Rooms\Lab\Sprites\back.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\_ImportLab.asset
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\_ImportLab.asset
+        projectPath: Assets\Game\Rooms\Lab\_ImportLab.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Lab\_ImportLab.asset.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\_ImportLab.asset.meta
+        projectPath: Assets\Game\Rooms\Lab\_ImportLab.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+        projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\SceneRoomOperation_Room.unity
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\SceneRoomOperation_Room.unity
+        projectPath: Assets\Game\Rooms\Operation_Room\SceneRoomOperation_Room.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\curtain.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\curtain.png
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\curtain.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\curtain.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\curtain.png.meta
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\curtain.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png.meta
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png.meta
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\pc.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\pc.png
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\pc.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\pc.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\pc.png.meta
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\pc.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\sink.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\sink.png
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\sink.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\sink.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\sink.png.meta
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\sink.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\trash.png
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\trash.png
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\trash.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\Sprites\trash.png.meta
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\trash.png.meta
+        projectPath: Assets\Game\Rooms\Operation_Room\Sprites\trash.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: E:\games\EVA\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: E:\games\EVA\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: d76179b1ba925db48d013c44a9189f0a90f3bf94
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: local
+      description: 
+      timeString: 2023-05-28T00:44:35.000-04:00
+      commitTimeString: 2023-05-28T00:44:35.000-04:00
+      changes:
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 20eca7b402f493bfeeda671e685e7e3141973fe1
       mergeA: ba947e72e2126a0ac466598c18e28ece23a318f3
       mergeB: 9b00b9ed084b27cae40da562d00df83242e6fde0
@@ -10211,14 +11011,818 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-05-28T00:09:11.691-04:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-05-28T00:09:11.681-04:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
-      scroll: {x: 0, y: 0}
+      scroll: {x: 0, y: 520}
       entries:
+      - commitID: 464ff1858f75d60ebcdcd3ba8b0d844dc271bfa3
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: modified reference
+        description: 
+        timeString: 2023-05-28T22:19:45.000-04:00
+        commitTimeString: 2023-05-28T22:19:45.000-04:00
+        changes:
+        - path: Assets\Game\Rooms\Hallway\Background.anim
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Background.anim
+          projectPath: Assets\Game\Rooms\Hallway\Background.anim
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Background.anim.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Background.anim.meta
+          projectPath: Assets\Game\Rooms\Hallway\Background.anim.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: ff0d34b29b87378ce8b94ce01a7b02cb41146e70
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: modified stairs
+        description: 
+        timeString: 2023-05-28T22:14:15.000-04:00
+        commitTimeString: 2023-05-28T22:14:15.000-04:00
+        changes:
+        - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\operation_back1.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\operation_back1.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\operation_back1.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\operation_back1.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\operation_back1.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\operation_back1.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: E:\games\EVA\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: b7709c69b1c4ffeb5f4e507df641b0a4e0736ab6
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: local
+        description: 
+        timeString: 2023-05-28T21:55:09.000-04:00
+        commitTimeString: 2023-05-28T21:55:09.000-04:00
+        changes:
+        - path: Assets\Game\Rooms\Lab\RoomLab.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLab.prefab
+          projectPath: Assets\Game\Rooms\Lab\RoomLab.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+          projectPath: Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+          projectPath: Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+          projectPath: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+          projectPath: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 3669242e39d5745a4638548f7738115498e47ae3
+        mergeA: 7926102f017f53c1a200c44ab270b8757d46edd5
+        mergeB: 4644ee3339fd07e8f5448c77bb3061a10f93f857
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: local
+        description: 
+        timeString: 2023-05-28T21:54:56.000-04:00
+        commitTimeString: 2023-05-28T21:54:56.000-04:00
+        changes: []
+      - commitID: 7926102f017f53c1a200c44ab270b8757d46edd5
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: added stairs
+        description: 
+        timeString: 2023-05-28T21:54:35.000-04:00
+        commitTimeString: 2023-05-28T21:54:35.000-04:00
+        changes:
+        - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\back2.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\back2.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\back2.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\back2.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\back2.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\back2.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stair_down.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stair_down.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stair_down1.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down1.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stair_down1.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down1.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stair_down2.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down2.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down2.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stair_down2.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_down2.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_down2.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stair_up.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_up.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_up.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stair_up.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stair_up.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stair_up.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\stairs_sign.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\back1.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\back1.png
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\back1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\back1.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\back1.png.meta
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\back1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\back2.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\back2.png
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\back2.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\back2.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\back2.png.meta
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\back2.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png.meta
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\ractLight.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 4644ee3339fd07e8f5448c77bb3061a10f93f857
+        mergeA: 
+        mergeB: 
+        authorName: VQSHR
+        authorEmail: stoneliuicloud@icloud.com
+        commitEmail: stoneliuicloud@icloud.com
+        commitName: VQSHR
+        summary: Tank of EVa in Lab
+        description: 
+        timeString: 2023-05-28T20:58:03.000-04:00
+        commitTimeString: 2023-05-28T20:58:03.000-04:00
+        changes:
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 90f1e89a841422cf1eb61c73f4de0e71c2c50cf8
+        mergeA: 
+        mergeB: 
+        authorName: VQSHR
+        authorEmail: stoneliuicloud@icloud.com
+        commitEmail: stoneliuicloud@icloud.com
+        commitName: VQSHR
+        summary: Lab background and tank of EVA
+        description: 
+        timeString: 2023-05-28T20:57:42.000-04:00
+        commitTimeString: 2023-05-28T20:57:42.000-04:00
+        changes:
+        - path: Assets\Game\Rooms\Lab\RoomLab.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLab.prefab
+          projectPath: Assets\Game\Rooms\Lab\RoomLab.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+          projectPath: Assets\Game\Rooms\Lab\Sprites\LabBackground.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+          projectPath: Assets\Game\Rooms\Lab\Sprites\LabBackground.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+          projectPath: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+          projectPath: Assets\Game\Rooms\Lab\Sprites\tanEVANoOutline.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 4e01f1a5060583d568babceb8cc467beb7779007
+        mergeA: f04dd4c0f722fc5d2960f70bc63a6273ff40d9a5
+        mergeB: fbda81ae1f9cf285c701cd156f8eec47458a3184
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: Merge branch 'master' of https://github.com/OtakuZhangyk/EVA
+        description: 
+        timeString: 2023-05-28T17:00:10.000-04:00
+        commitTimeString: 2023-05-28T17:00:10.000-04:00
+        changes: []
+      - commitID: fbda81ae1f9cf285c701cd156f8eec47458a3184
+        mergeA: 
+        mergeB: 
+        authorName: VQSHR
+        authorEmail: stoneliuicloud@icloud.com
+        commitEmail: stoneliuicloud@icloud.com
+        commitName: VQSHR
+        summary: add obstacle for pc
+        description: 
+        timeString: 2023-05-28T16:59:54.000-04:00
+        commitTimeString: 2023-05-28T16:59:54.000-04:00
+        changes:
+        - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: f04dd4c0f722fc5d2960f70bc63a6273ff40d9a5
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: local
+        description: 
+        timeString: 2023-05-28T16:59:49.000-04:00
+        commitTimeString: 2023-05-28T16:59:49.000-04:00
+        changes:
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 2db33efbeaf018dccf8925a29eda152b0dfcfc65
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: modified baselines in rooms
+        description: 
+        timeString: 2023-05-28T16:54:39.000-04:00
+        commitTimeString: 2023-05-28T16:54:39.000-04:00
+        changes:
+        - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 4cfa931b10706cbcadbee446c8cc93a64ec6f220
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: added props to op and hall room
+        description: 
+        timeString: 2023-05-28T16:49:47.000-04:00
+        commitTimeString: 2023-05-28T16:49:47.000-04:00
+        changes:
+        - path: Assets\Game\PowerQuest.prefab
+          fullPath: E:\games\EVA\Assets\Game\PowerQuest.prefab
+          projectPath: Assets\Game\PowerQuest.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\QuestScriptAutos.cs
+          fullPath: E:\games\EVA\Assets\Game\QuestScriptAutos.cs
+          projectPath: Assets\Game\QuestScriptAutos.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\bulletin_board.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\calender.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\calender.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\calender.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\calender.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\calender.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\calender.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\camera.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\camera.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\camera.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\camera.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\camera.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\camera.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\chairs.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\chairs.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\chairs.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\chairs.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\chairs.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\chairs.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\extinguisher.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\extinguisher.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\extinguisher.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\extinguisher.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\extinguisher.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\extinguisher.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\map.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\map.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\map.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\map.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\map.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\map.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\memo_page.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\memo_page.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\memo_page.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\memo_page.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\memo_page.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\memo_page.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\memo_page1.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\memo_page1.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\memo_page1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\memo_page1.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\memo_page1.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\memo_page1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\plant.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\plant.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\plant.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\plant.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\plant.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\plant.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\post1.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post1.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\post1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\post1.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post1.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\post1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\post2.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post2.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\post2.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\post2.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post2.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\post2.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\post3.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post3.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\post3.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\post3.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\post3.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\post3.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\roadblockH.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\roadblockH.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\roadblockH.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\roadblockH.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\roadblockH.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\roadblockH.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\roadblockV.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\roadblockV.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\roadblockV.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\roadblockV.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\roadblockV.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\roadblockV.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\signR.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\signR.png
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\signR.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Hallway\Sprites\signR.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Sprites\signR.png.meta
+          projectPath: Assets\Game\Rooms\Hallway\Sprites\signR.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab.meta
+          projectPath: Assets\Game\Rooms\Lab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\RoomLab.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLab.prefab
+          projectPath: Assets\Game\Rooms\Lab\RoomLab.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\RoomLab.prefab.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLab.prefab.meta
+          projectPath: Assets\Game\Rooms\Lab\RoomLab.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas
+          projectPath: Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas.meta
+          projectPath: Assets\Game\Rooms\Lab\RoomLabAtlas.spriteatlas.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\SceneRoomLab.unity
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\SceneRoomLab.unity
+          projectPath: Assets\Game\Rooms\Lab\SceneRoomLab.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\SceneRoomLab.unity.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\SceneRoomLab.unity.meta
+          projectPath: Assets\Game\Rooms\Lab\SceneRoomLab.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites.meta
+          projectPath: Assets\Game\Rooms\Lab\Sprites.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\back.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\back.png
+          projectPath: Assets\Game\Rooms\Lab\Sprites\back.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\Sprites\back.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\Sprites\back.png.meta
+          projectPath: Assets\Game\Rooms\Lab\Sprites\back.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\_ImportLab.asset
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\_ImportLab.asset
+          projectPath: Assets\Game\Rooms\Lab\_ImportLab.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Lab\_ImportLab.asset.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Lab\_ImportLab.asset.meta
+          projectPath: Assets\Game\Rooms\Lab\_ImportLab.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+          projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\SceneRoomOperation_Room.unity
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\SceneRoomOperation_Room.unity
+          projectPath: Assets\Game\Rooms\Operation_Room\SceneRoomOperation_Room.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\curtain.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\curtain.png
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\curtain.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\curtain.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\curtain.png.meta
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\curtain.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png.meta
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\handnote_icon.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png.meta
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\infusion_stand.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\pc.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\pc.png
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\pc.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\pc.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\pc.png.meta
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\pc.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\sink.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\sink.png
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\sink.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\sink.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\sink.png.meta
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\sink.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\trash.png
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\trash.png
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\trash.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\Sprites\trash.png.meta
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\Sprites\trash.png.meta
+          projectPath: Assets\Game\Rooms\Operation_Room\Sprites\trash.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: E:\games\EVA\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: E:\games\EVA\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: d76179b1ba925db48d013c44a9189f0a90f3bf94
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: local
+        description: 
+        timeString: 2023-05-28T00:44:35.000-04:00
+        commitTimeString: 2023-05-28T00:44:35.000-04:00
+        changes:
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 20eca7b402f493bfeeda671e685e7e3141973fe1
         mergeA: ba947e72e2126a0ac466598c18e28ece23a318f3
         mergeB: 9b00b9ed084b27cae40da562d00df83242e6fde0
@@ -18850,7 +20454,7 @@ MonoBehaviour:
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 37
+      selectedIndex: 50
     selectedEntry:
       commitID: 93f638454b3710b1239d750532159c5158a8384e
       mergeA: 
@@ -19178,31 +20782,31 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: 
-      gitLfsPath: 
+      gitPath: C:\Users\Garl Vinland\AppData\Local\GitForUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\Garl Vinland\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
-    hasRemote: 0
+    hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
-    newRepositoryRemoteUrl: 
-    repositoryRemoteName: 
-    repositoryRemoteUrl: 
+      updatedTimeString: 2023-05-28T22:21:09.383-04:00
+      cacheType: 1
+    newRepositoryRemoteUrl: https://github.com/OtakuZhangyk/EVA.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/OtakuZhangyk/EVA.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: 
-      gitEmail: 
-      newGitName: 
-      newGitEmail: 
+      gitName: OtakuZhang
+      gitEmail: zhangyk@shanghaitech.edu.cn
+      newGitName: OtakuZhang
+      newGitEmail: zhangyk@shanghaitech.edu.cn
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 
-        cacheType: 0
-    webTimeout: 0
-    gitTimeout: 0
+        updatedTimeString: 2023-05-28T22:21:33.463-04:00
+        cacheType: 8
+    webTimeout: 100000
+    gitTimeout: 5000
   locksView:
     currentRemoteHasUpdate: 1
     currentStatusEntriesHasUpdate: 0
@@ -19228,34 +20832,16 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: "1 1\u6708 0001, 00:00"
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-05-27T18:57:45.172-04:00
+      updatedTimeString: 2023-05-28T22:21:09.383-04:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-05-28T22:21:10.306-04:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-05-27T19:15:59.872-04:00
+      updatedTimeString: 2023-05-28T22:21:10.310-04:00
       cacheType: 6
     lockedFiles: []
     gitStatusEntries:
-    - path: Assets\Game\Rooms\Hallway\Background.anim
-      fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Background.anim
-      projectPath: Assets\Game\Rooms\Hallway\Background.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Game\Rooms\Hallway\Background.anim.meta
-      fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\Background.anim.meta
-      projectPath: Assets\Game\Rooms\Hallway\Background.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Game\Rooms\Hallway\RoomHallway.prefab
-      fullPath: E:\games\EVA\Assets\Game\Rooms\Hallway\RoomHallway.prefab
-      projectPath: Assets\Game\Rooms\Hallway\RoomHallway.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: UserSettings\EditorUserSettings.asset
       fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
       projectPath: UserSettings\EditorUserSettings.asset
@@ -19288,13 +20874,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-05-28T21:56:08.430-04:00
+    updatedTimeString: 2023-05-28T23:06:20.664-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-05-28T22:06:05.703-04:00
+    updatedTimeString: 2023-05-28T23:06:21.209-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-05-28T22:06:05.695-04:00
+    updatedTimeString: 2023-05-28T23:06:14.791-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -19312,8 +20898,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Pushed
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
