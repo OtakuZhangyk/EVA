@@ -40,4 +40,13 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 		yield return C.Me.Say("A handnote? Who left it here?");
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropDoor( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		E.ChangeRoomBG(R.Hallway);
+		C.Me.SetPosition(-263,-46);
+		yield return E.ConsumeEvent;
+		
+	}
 }
