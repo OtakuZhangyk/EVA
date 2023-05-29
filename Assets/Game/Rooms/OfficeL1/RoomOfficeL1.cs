@@ -30,6 +30,7 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 
 	void OnEnterRoom()
 	{
-		C.Me.SetPosition(Point("Enter"));
+		if (C.Me.LastRoom == R.Hallway)
+			C.Me.SetPosition(Point("Enter"));
 	}
 }

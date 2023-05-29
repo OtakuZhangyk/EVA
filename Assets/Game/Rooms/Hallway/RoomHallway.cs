@@ -18,7 +18,6 @@ public class RoomHallway : RoomScript<RoomHallway>
 	{
 		yield return C.WalkToClicked();
 		E.ChangeRoomBG(R.Operation_Room);
-		C.Me.SetPosition(87,-44);
 		yield return E.ConsumeEvent;
 	}
 

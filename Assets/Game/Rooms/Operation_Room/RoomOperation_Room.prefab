@@ -416,7 +416,11 @@ MonoBehaviour:
     m_shortName: Operation_Room
     m_scriptClass: RoomOperation_Room
     m_sceneName: SceneRoomOperation_Room
-    m_points: []
+    m_points:
+    - m_name: Spawn
+      m_position: {x: -66, y: -72}
+    - m_name: Enter
+      m_position: {x: 85, y: -45}
   m_debugStartFunction: 
   m_hotspotComponents: []
   m_propComponents:

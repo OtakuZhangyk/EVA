@@ -49,4 +49,12 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 		yield return E.ConsumeEvent;
 		
 	}
+
+	void OnEnterRoom()
+	{
+		if (C.Me.LastRoom == R.Title)
+			C.Me.SetPosition(Point("Spawn"));
+		if (C.Me.LastRoom == R.Hallway)
+			C.Me.SetPosition(Point("Enter"));
+	}
 }
