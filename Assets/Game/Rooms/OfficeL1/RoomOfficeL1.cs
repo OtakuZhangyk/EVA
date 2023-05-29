@@ -27,4 +27,9 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		C.Me.SetPosition(258,-42);
 		yield return E.ConsumeEvent;
 	}
+
+	void OnEnterRoom()
+	{
+		C.Me.SetPosition(Point("Enter"));
+	}
 }

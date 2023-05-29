@@ -1272,7 +1272,7 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: -29
     m_baselineFixed: 0
-    m_walkToPoint: {x: -25, y: -43}
+    m_walkToPoint: {x: 0, y: -43}
     m_lookAtPoint: {x: 0, y: 0}
     m_scriptName: Stair_up
   m_parallaxDepth: 0

@@ -12,7 +12,7 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 	{
 		yield return C.WalkToClicked();
 		E.ChangeRoomBG(R.Hallway);
-		C.Me.SetPosition(393,-43);
+		C.Me.SetPosition(418,-43);
 		yield return E.ConsumeEvent;
 	}
 }

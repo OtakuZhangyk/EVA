@@ -1224,7 +1224,9 @@ MonoBehaviour:
     m_shortName: OfficeL1
     m_scriptClass: RoomOfficeL1
     m_sceneName: SceneRoomOfficeL1
-    m_points: []
+    m_points:
+    - m_name: Enter
+      m_position: {x: -118, y: -44}
   m_debugStartFunction: 
   m_hotspotComponents: []
   m_propComponents:
