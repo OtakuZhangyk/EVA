@@ -51,6 +51,7 @@ namespace PowerScript
 		public static IRoom Hallway        { get { return PowerQuest.Get.GetRoom("Hallway"); } }
 		public static IRoom Handnote       { get { return PowerQuest.Get.GetRoom("Handnote"); } }
 		public static IRoom Lab            { get { return PowerQuest.Get.GetRoom("Lab"); } }
+		public static IRoom UndergroundHallway { get { return PowerQuest.Get.GetRoom("UndergroundHallway"); } }
 		// #ROOM# - Do not edit this line, it's used by the system to insert rooms for easy access
 	}
 
