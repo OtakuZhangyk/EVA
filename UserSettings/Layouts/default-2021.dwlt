@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 998
   m_ShowMode: 4
-  m_Title: PowerQuest
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 2536
+  controlID: 366
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 2436
+  controlID: 116
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,12 +164,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 398.5
+    width: 399
     height: 948
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2566
+  controlID: 247
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 398.5
-    height: 330
+    width: 399
+    height: 330.5
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
@@ -212,9 +212,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 330
-    width: 398.5
-    height: 618
+    y: 330.5
+    width: 399
+    height: 617.5
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 20}
@@ -239,14 +239,14 @@ MonoBehaviour:
   - {fileID: 14}
   m_Position:
     serializedVersion: 2
-    x: 398.5
+    x: 399
     y: 0
-    width: 1068.5
+    width: 1068
     height: 948
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 2437
+  controlID: 117
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,12 +266,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1068.5
+    width: 1068
     height: 462
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2438
+  controlID: 118
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,7 +289,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 749
+    width: 748.5
     height: 462
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -313,12 +313,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 749
+    x: 748.5
     y: 0
     width: 319.5
     height: 462
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -341,7 +341,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 462
-    width: 1068.5
+    width: 1068
     height: 486
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -371,14 +371,14 @@ MonoBehaviour:
     y: 0
     width: 453
     height: 948
-  m_MinSize: {x: 101, y: 121}
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
   - {fileID: 24}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,9 +399,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 398.5
+    x: 399
     y: 534
-    width: 1066.5
+    width: 1066
     height: 465
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -439,7 +439,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -450,23 +450,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1066.5
+      width: 1066
       height: 444
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 533.25, y: 222}
+    m_Scale: {x: 1.1940521, y: 1.1940521}
+    m_Translation: {x: 533, y: 194.30579}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -533.25
-      y: -222
-      width: 1066.5
-      height: 444
+      x: -446.37918
+      y: -162.72806
+      width: 892.75836
+      height: 371.84308
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 2133, y: 930}
+  m_LastWindowPixelSize: {x: 2132, y: 930}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_showInventory: 1
   m_showDialogTrees: 1
   m_showGuis: 1
-  m_smartCompileRequired: 1
+  m_smartCompileRequired: 0
   m_smartCompile: 1
   m_scriptEditorFont: Consolas
   m_scriptEditorColors:
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_spellCheckEnabled: 0
   m_spellCheckIgnoredWords: []
   m_spellCheckDictionaryPath: Assets/Plugins/PowerQuest/ThirdParty/Editor/SpellCheck/en_US.dic
-  m_newVersionCheckTime: 133296866080954469
+  m_newVersionCheckTime: 133297736169939575
   m_scrollPositionGui: {x: 0, y: 0}
   m_initialSetupImportInProgress: 0
   m_filterRooms: 0
@@ -674,8 +674,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72
-    width: 397.5
-    height: 309
+    width: 398
+    height: 309.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -683,10 +683,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e540000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 783cf3ff343df3ff644cf3ff8e4cf3ff9c4ff3ffc64ff3ff3e82f3ff6882f3ff3899f3ff7299f3ffa4b3f3ffceb3f3ffdac2f3ffb8c5f3ff04d1f3ffacdff3ff2ee5f3ff92e9f3ffbce9f3ff1220f4ff3c20f4fffc24f4ff1825f4ff4225f4ffc853f4fff253f4ff0456f4ff2e56f4ffa277f4ffcc77f4ff4881f4ffc848f5fff248f5ffd04af5ffec4af5ff164bf5fff64bf5ff204cf5ffee4cf5ff184df5ff684df5ff924df5ff066bf5ff226bf5ff4c6bf5ff4876f5ff027ef5ff3ce6f5ff76e6f5ff8ef8f5ffc06af6ff486cf6ffac6cf6ff4076f6ff7a76f6ff0277f6ffe878f6ff4279f6ff8685f6ffc085f6ff6a8af6ff548cf6ffae8cf6ffac31f7ffd631f7ff5240f7ff4451f7ff385bf7ff6666f7ff9066f7ffbe67f7ff1868f7ff6c71f7ff9471f7ff9671f7fff07bf7ff9689f7ffc089f7ff0091f7ff5a91f7ff0892f7ff3292f7ffdc94f7ffca96f7ff2497f7ffd897f7ff1298f7ff5ab4f7ffb4b4f7ff76b5f7ffb6b6f7ff10b7f7ffdab7f7ffecb9f7ffe608f8fff808f8ff800af8ff960bf8ff44a4f8ff6ea4f8ff22acf8ff40aef8ff6aaef8ff4677f9ff7077f9ff6697f9ff9097f9ff669bf9ffc09bf9ff64abf9ffaebaf9ff50d2f9ff7ad2f9ffacfaf9ffbc14faffe614faff0ec5faff30c5faffae13fbffc613fbffd813fbffe815fbff821afbff8c23fbffe623fbffb6aafcffd2aafcfffcaafcff58acfcff0cfafeff24fafeff40fafeff6afafeffccfbfeff46fffeff44d4ffff5cd4ffff78d4ffffa2d4ffffd8d5ffff02d7ffff2afbfffff4ffffff
+      scrollPos: {x: 0, y: 47.5}
+      m_SelectedIDs: bc57feff
+      m_LastClickedID: -108612
+      m_ExpandedIDs: ca57fefff457feffaa6cfeffe46cfeffb2aafeffdcaafefff4abfeff1eacfeff10bafeff3abafeff8ec3feffc8c3feffeecffeff18d0feffbed1feff74d4feff9ed4feffeceffeff16f0fefffaf7feff7c03ffff8203ffffbc03ffffaa04ffffb404ffff0e05ffff9807ffffc207fffff009ffff2a0affff305dffff5a5dffffe2a5ffff1ca6ffff60b0ffff16b8ffffd6e6ffff10e7ffff2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -731,9 +731,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 402
-    width: 397.5
-    height: 597
+    y: 402.5
+    width: 398
+    height: 596.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -752,22 +752,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Game
+    - Assets/Game/Rooms/Hallway/Sprites
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Game
+  - Assets/Game/Rooms/Hallway/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\games\EVA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 185e0000
-    m_LastClickedID: 24088
-    m_ExpandedIDs: 00000000165e0000185e00001c5e0000465e0000565e00005a5e00005c5e00008e5e00002a770000be9500005aae0000b2ba000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 136}
+    m_SelectedIDs: 5e600000
+    m_LastClickedID: 24670
+    m_ExpandedIDs: 000000001a5f00001c5f00001e5f0000205f0000225f0000245f0000265f0000285f00002a5f00002c5f00002e5f0000305f0000505f0000545f00000265000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -795,7 +795,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000165e0000185e00001a5e00001c5e000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000001a5f00001c5f00001e5f0000205f0000225f0000245f0000265f0000285f00002a5f00002c5f00002e5f0000305f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -847,7 +847,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 308}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 188
@@ -871,9 +871,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 398.5
+    x: 399
     y: 72
-    width: 747
+    width: 746.5
     height: 441
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1132,9 +1132,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.5291791, y: 3.201583, z: -6.009982}
+    m_Target: {x: -83.09873, y: 45.794838, z: 71.36323}
     speed: 2
-    m_Value: {x: 1.0075237, y: 8.949989, z: -6.088714}
+    m_Value: {x: -83.09873, y: 45.794838, z: 71.36323}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1185,9 +1185,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 167.08755
+    m_Target: 300.29535
     speed: 2
-    m_Value: 174.96078
+    m_Value: 300.29535
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1316,10 +1316,10 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -1504,8 +1504,8 @@ MonoBehaviour:
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: master
@@ -1567,13 +1567,13 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-05-28T00:09:11.082-04:00
+      updatedTimeString: 2023-05-28T21:56:08.430-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-05-28T00:45:52.492-04:00
+      updatedTimeString: 2023-05-28T22:11:46.176-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-05-28T00:32:43.897-04:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -19275,7 +19275,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: master
   currentRemoteUrl: https://github.com/OtakuZhangyk/EVA.git
-  statusAhead: 1
+  statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
@@ -19288,13 +19288,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-05-28T00:09:11.082-04:00
+    updatedTimeString: 2023-05-28T21:56:08.430-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-05-28T00:45:52.516-04:00
+    updatedTimeString: 2023-05-28T22:06:05.703-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-05-28T00:45:52.492-04:00
+    updatedTimeString: 2023-05-28T22:06:05.695-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull

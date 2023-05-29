@@ -352,9 +352,9 @@ MonoBehaviour:
     m_animation: Stair_down
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: 0
+    m_baseline: -31
     m_baselineFixed: 0
-    m_walkToPoint: {x: 0, y: 0}
+    m_walkToPoint: {x: 20, y: -49}
     m_lookAtPoint: {x: 0, y: 0}
     m_scriptName: Stair_down
   m_parallaxDepth: 0
@@ -384,10 +384,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -10, y: -10}
-      - {x: -10, y: 10}
-      - {x: 10, y: 10}
-      - {x: 10, y: -10}
+    - - {x: -45.838562, y: -45.449047}
+      - {x: -45.838623, y: 46.22815}
+      - {x: 45.05948, y: 46.22815}
+      - {x: 44.66992, y: -45.05949}
 --- !u!95 &4357185980037458400
 Animator:
   serializedVersion: 5
@@ -462,7 +462,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -40
+  m_SortingOrder: 270
   m_Sprite: {fileID: 21300000, guid: 035486fe40a271b42a319ada6b84b4ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1270,9 +1270,9 @@ MonoBehaviour:
     m_animation: Stair_up
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: 0
+    m_baseline: -29
     m_baselineFixed: 0
-    m_walkToPoint: {x: 0, y: 0}
+    m_walkToPoint: {x: -25, y: -43}
     m_lookAtPoint: {x: 0, y: 0}
     m_scriptName: Stair_up
   m_parallaxDepth: 0
@@ -1302,10 +1302,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -10, y: -10}
-      - {x: -10, y: 10}
-      - {x: 10, y: 10}
-      - {x: 10, y: -10}
+    - - {x: -45.613647, y: -38.17783}
+      - {x: -46.396362, y: 45.222294}
+      - {x: 45.22232, y: 44.83093}
+      - {x: 47.570435, y: -38.960545}
 --- !u!95 &8363309395267042665
 Animator:
   serializedVersion: 5
@@ -1380,7 +1380,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 290
   m_Sprite: {fileID: 21300000, guid: 64f905ca8b32971418f3baf47f04c5c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1870,7 +1870,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: dcd3476e373540845a146116ad295668, type: 3}
   - {fileID: 21300000, guid: f17a5aa2f5e0129418c7e949f9479396, type: 3}
   - {fileID: 21300000, guid: 30d47e6885c6d584c9e3c65bab1bd843, type: 3}
-  - {fileID: 21300000, guid: 042fdb4c3f646a343921b5889c5af011, type: 3}
   - {fileID: 21300000, guid: 297b267daff49a644ac2d31f20d73121, type: 3}
   - {fileID: 21300000, guid: 2d90be1e0d9c3974f933b1140b0c298b, type: 3}
   - {fileID: 21300000, guid: aa4d557f3a8b62745a0ee310d99cdbc6, type: 3}
@@ -2417,7 +2416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8303539301157980671}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: -10.7, z: 0}
+  m_LocalPosition: {x: 1, y: -11, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2554,7 +2553,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 407
+  m_SortingOrder: 410
   m_Sprite: {fileID: 21300000, guid: 297b267daff49a644ac2d31f20d73121, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
