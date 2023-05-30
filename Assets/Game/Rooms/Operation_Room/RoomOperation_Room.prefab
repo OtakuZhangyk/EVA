@@ -1482,7 +1482,7 @@ MonoBehaviour:
     m_cursor: 
     m_visible: 1
     m_clickable: 0
-    m_animation: Operating_Bed
+    m_animation: Operating_Bed-1
     m_alpha: 1
     m_position: {x: 0, y: 0}
     m_baseline: -16
@@ -1567,7 +1567,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 632
-  m_Sprite: {fileID: 21300000, guid: 485a882f2d7adfc4bb32f8cc1e5cb145, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b2af0de2b0d800488dff7b8c7190340, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
