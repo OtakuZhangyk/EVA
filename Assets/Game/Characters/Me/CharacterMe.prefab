@@ -87,8 +87,8 @@ MonoBehaviour:
   m_turnAnims: []
   m_transitionAnims: []
   m_animations:
-  - {fileID: 7400000, guid: 01f31334024124c4e83560af3fbc3ddf, type: 2}
-  - {fileID: 7400000, guid: f9bc1c59cec9a8346a021bb5577ed0c0, type: 2}
+  - {fileID: 7400000, guid: 62eb8b03e9f546c4d9b538b5ac0a7582, type: 2}
+  - {fileID: 7400000, guid: 8edafe86cd9ca5b47b48f98f4f97b04c, type: 2}
 --- !u!60 &4320129529328439820
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -163,7 +163,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -10
-  m_Sprite: {fileID: 21300000, guid: e9141cdb10f2fbc47b58cc3f51010d11, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dfcb25fc184dde44e99114f8cfe3f0a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
