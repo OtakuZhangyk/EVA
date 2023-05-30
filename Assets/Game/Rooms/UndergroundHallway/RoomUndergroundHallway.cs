@@ -35,8 +35,8 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 	IEnumerator OnInteractPropStairsUp( IProp prop )
 	{
 		yield return C.WalkToClicked();
+		yield return C.Me.WalkTo(Point("HallwayEntry"),true);
 		E.ChangeRoomBG(R.Hallway);
-		C.Me.SetPosition(-418,-46);
 		yield return E.Break;
 	}
 

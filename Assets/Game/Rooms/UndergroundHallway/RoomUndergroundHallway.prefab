@@ -420,7 +420,7 @@ MonoBehaviour:
     m_sceneName: SceneRoomUndergroundHallway
     m_points:
     - m_name: HallwayEntry
-      m_position: {x: -300, y: -20}
+      m_position: {x: -301, y: -7}
     - m_name: HallwayEntryWalk
       m_position: {x: -290, y: -45}
     - m_name: LabEntry

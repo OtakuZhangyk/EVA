@@ -24,7 +24,6 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 	{
 		yield return C.WalkToClicked();
 		E.ChangeRoomBG(R.Hallway);
-		C.Me.SetPosition(258,-42);
 		yield return E.ConsumeEvent;
 	}
 

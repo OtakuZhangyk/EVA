@@ -11,8 +11,21 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 	IEnumerator OnInteractPropStairs_down( IProp prop )
 	{
 		yield return C.WalkToClicked();
+		yield return C.Me.WalkTo(Point("HallwayL1Enter"),true);
 		E.ChangeRoomBG(R.Hallway);
-		C.Me.SetPosition(418,-43);
 		yield return E.ConsumeEvent;
+	}
+
+	void OnEnterRoom()
+	{
+		if (C.Me.LastRoom == R.Hallway)
+			C.Me.SetPosition(Point("HallwayL1Enter"));
+		
+	}
+
+	IEnumerator OnEnterRoomAfterFade()
+	{
+		if (C.Me.LastRoom == R.Hallway)
+			yield return C.Me.WalkTo(Point("HallwayL1EnterWalk"),true);
 	}
 }
