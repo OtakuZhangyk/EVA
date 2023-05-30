@@ -352,7 +352,7 @@ MonoBehaviour:
     m_animation: Stair_down2
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: -31
+    m_baseline: 13
     m_baselineFixed: 0
     m_walkToPoint: {x: 20, y: -49}
     m_lookAtPoint: {x: 0, y: 0}
@@ -462,7 +462,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 270
+  m_SortingOrder: -170
   m_Sprite: {fileID: 21300000, guid: 035486fe40a271b42a319ada6b84b4ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1926,6 +1926,12 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -467.27756, y: -85.65004}
       - {x: -467.7341, y: -45.565384}
+      - {x: -418.18906, y: -46.149117}
+      - {x: -418.5647, y: -12.285372}
+      - {x: -411.8011, y: -6.3431435}
+      - {x: -410.83554, y: 9.622025}
+      - {x: -377.33484, y: 9.119478}
+      - {x: -375.90686, y: -44.898605}
       - {x: 467.391, y: -45.029984}
       - {x: 466.50195, y: -87.06391}
 --- !u!114 &4924776483145320853
@@ -2164,7 +2170,9 @@ MonoBehaviour:
     m_shortName: Hallway
     m_scriptClass: RoomHallway
     m_sceneName: SceneRoomHallway
-    m_points: []
+    m_points:
+    - m_name: UndergroundHallwayEntry
+      m_position: {x: -415, y: -20}
   m_debugStartFunction: 
   m_hotspotComponents: []
   m_propComponents:

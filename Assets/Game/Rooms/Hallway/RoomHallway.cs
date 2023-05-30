@@ -35,4 +35,12 @@ public class RoomHallway : RoomScript<RoomHallway>
 		C.Me.SetPosition(417,-43);
 		yield return E.ConsumeEvent;
 	}
+
+	IEnumerator OnInteractPropStair_down( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.Me.WalkTo(Point("UndergroundHallwayEntry"));
+		yield return E.ChangeRoom(R.UndergroundHallway);
+		yield return E.Break;
+	}
 }
