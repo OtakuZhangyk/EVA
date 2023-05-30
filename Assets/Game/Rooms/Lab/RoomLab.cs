@@ -13,7 +13,7 @@ public class RoomLab : RoomScript<RoomLab>
 		yield return C.WalkToClicked();
 		
 		E.ChangeRoomBG(R.UndergroundHallway);
-		C.Me.SetPosition(-26,-50);
+		
 		yield return E.Break;
 	}
 
@@ -21,5 +21,11 @@ public class RoomLab : RoomScript<RoomLab>
 	{
 		C.Me.SetPosition(-150,-50);
 		C.Me.Face(0,0);
+	}
+
+	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
+	{
+		C.Me.SetPosition(-26,-50);
+		yield return E.Break;
 	}
 }
