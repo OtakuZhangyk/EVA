@@ -16,7 +16,13 @@ public class InventoryHandnote : InventoryScript<InventoryHandnote>
 
 	IEnumerator OnUseInvInventory( IInventory thisItem, IInventory item )
 	{
+		
+		yield return E.Break;
+	}
 
+	IEnumerator OnInteractInventory( IInventory thisItem )
+	{
+		
 		yield return E.Break;
 	}
 }

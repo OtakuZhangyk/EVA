@@ -107,4 +107,10 @@ public class DialogChatWithBarney : DialogTreeScript<DialogChatWithBarney>
 		// stop the dialog
 		Stop();
 	}
+
+	IEnumerator OnStop()
+	{
+
+		yield return E.Break;
+	}
 }

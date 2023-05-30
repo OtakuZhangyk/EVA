@@ -32,4 +32,16 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		if (C.Me.LastRoom == R.Hallway)
 			C.Me.SetPosition(Point("Enter"));
 	}
+
+	IEnumerator OnUseInvPropDrawers( IProp prop, IInventory item )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropDrawers( IProp prop )
+	{
+
+		yield return E.Break;
+	}
 }
