@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Handnote
+    m_description: Handnote-Right Click to inspect
     m_animGui: handnote_icon
     m_animCursor: handnote_icon
     m_animCursorInactive: handnote_icon
