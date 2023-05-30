@@ -19,14 +19,14 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	{
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
-		yield return C.Display("Dave stoops to pick up the bucket");
+		
 		prop.Disable();
 		I.Handnote.Add();
 		yield return E.WaitSkip();
-		yield return C.Player.FaceDown();
-		yield return C.Me.Say("Say something.");
+		//C.Player.FaceDown();
+		yield return C.Me.Say("A notebook? I wonder what it says...");
 		yield return E.WaitSkip();
-		yield return C.Display("Access your Inventory from the top of the screen");
+		yield return C.Display("Access your Inventory from the top left of the screen");
 		yield return C.Display("Right click on item to inspect");
 		
 		yield return E.Break;
@@ -55,5 +55,11 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 			C.Me.SetPosition(Point("Spawn"));
 		if (C.Me.LastRoom == R.Hallway)
 			C.Me.SetPosition(Point("Enter"));
+	}
+
+	IEnumerator OnUseInvPropHandnote( IProp prop, IInventory item )
+	{
+
+		yield return E.Break;
 	}
 }
