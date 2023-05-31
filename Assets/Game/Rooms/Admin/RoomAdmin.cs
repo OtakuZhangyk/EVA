@@ -18,14 +18,18 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 	void OnEnterRoom()
 	{
 		if (C.Me.LastRoom == R.HallwayL2)
+		{
 			C.Me.SetPosition(Point("Enter"));
+		}
 	}
 
 	IEnumerator OnEnterRoomAfterFade()
 	{
 		if (C.Me.LastRoom == R.HallwayL2)
+		{
 			yield return C.Me.WalkTo(Point("EnterWalk"),true);
 			yield return C.Me.Face(Point("Enter"));
+		}
 	}
 
 	IEnumerator OnInteractPropPhoto_down( IProp prop )

@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: InventoryAtlas
+  m_Name: RoomLabL2Atlas
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -23,7 +23,7 @@ SpriteAtlas:
     platformSettings:
     - serializedVersion: 3
       m_BuildTarget: DefaultTexturePlatform
-      m_MaxTextureSize: 32
+      m_MaxTextureSize: 2048
       m_ResizeAlgorithm: 0
       m_TextureFormat: -1
       m_TextureCompression: 0
@@ -44,29 +44,13 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: 37f6ada2ecf514d43b8058e006148770, type: 3}
+    - {fileID: 102900000, guid: 85f43f6680bdb554cb670a587cc950e1, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: 387d73349e965464083597db8db1e576, type: 3}
-  - {fileID: 21300000, guid: 73b77ab4534f0ca45a5079ef13f6e3e2, type: 3}
-  - {fileID: 21300000, guid: 91fd83964efed584293d8053eb5dc431, type: 3}
-  - {fileID: 21300000, guid: f702d8676150682408682f25b08a6ba3, type: 3}
-  - {fileID: 21300000, guid: eb40f6e922b94ed42b03bb671c496d40, type: 3}
-  - {fileID: 21300000, guid: 27df1b2c4dbff144da6265f9904a4cde, type: 3}
-  - {fileID: 21300000, guid: 6f14845eaca7f2849b28a8f50494c821, type: 3}
-  - {fileID: 21300000, guid: 3128a95e76c6adf44a7ffde8daa56743, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - icons0
-  - icons3
-  - icons1
-  - handnote_icon
-  - icons2
-  - icons5
-  - icons4
-  - Bucket_0
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_RenderDataMap: {}
-  m_Tag: InventoryAtlas
+  m_Tag: RoomLabL2Atlas
   m_IsVariant: 0
