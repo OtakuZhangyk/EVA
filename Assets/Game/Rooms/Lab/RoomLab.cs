@@ -28,4 +28,12 @@ public class RoomLab : RoomScript<RoomLab>
 		C.Me.SetPosition(-26,-50);
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropEVA( IProp prop )
+	{
+		yield return C.Me.WalkTo(Prop("EVA"));
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Eva...");
+		yield return E.Break;
+	}
 }

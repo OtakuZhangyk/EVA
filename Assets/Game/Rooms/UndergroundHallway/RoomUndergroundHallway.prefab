@@ -413,8 +413,8 @@ MonoBehaviour:
       m_min: {x: -400, y: -90}
       m_max: {x: 400, y: 90}
     m_scrollBounds:
-      m_min: {x: -380, y: -90}
-      m_max: {x: 380, y: 90}
+      m_min: {x: -200, y: -90}
+      m_max: {x: 200, y: 90}
     m_shortName: UndergroundHallway
     m_scriptClass: RoomUndergroundHallway
     m_sceneName: SceneRoomUndergroundHallway
