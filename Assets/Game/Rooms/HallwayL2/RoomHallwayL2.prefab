@@ -156,6 +156,7 @@ MonoBehaviour:
   m_sprites:
   - {fileID: 21300000, guid: 6ed488b641c25044a948db058ea3cea1, type: 3}
   - {fileID: 21300000, guid: 1998ea3d484e649449b4c46972927647, type: 3}
+  - {fileID: 21300000, guid: ea61a953ab4527a42b7b047c560fc343, type: 3}
   - {fileID: 21300000, guid: b5e1fd1e8f028d84194f42a6d354d1e7, type: 3}
 --- !u!1 &2905355481808898509
 GameObject:
