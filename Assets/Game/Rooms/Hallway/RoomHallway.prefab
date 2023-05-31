@@ -2024,10 +2024,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -64.20642, y: -22.40678}
+    - - {x: -58.21991, y: -57.12855}
       - {x: -58.244476, y: 45.190125}
       - {x: 34.973633, y: 46.89287}
-      - {x: 40.798523, y: -22.069847}
+      - {x: 33.614685, y: -57.390266}
 --- !u!1 &6667578399670600513
 GameObject:
   m_ObjectHideFlags: 0
@@ -2245,11 +2245,11 @@ MonoBehaviour:
     m_verticalResolution: 0
     m_activeWalkableArea: 0
     m_bounds:
-      m_min: {x: -561, y: -90}
-      m_max: {x: 559, y: 90}
+      m_min: {x: -480, y: -90}
+      m_max: {x: 480, y: 90}
     m_scrollBounds:
-      m_min: {x: -561, y: -90}
-      m_max: {x: 559, y: 90}
+      m_min: {x: -270, y: -90}
+      m_max: {x: 270, y: 90}
     m_shortName: Hallway
     m_scriptClass: RoomHallway
     m_sceneName: SceneRoomHallway

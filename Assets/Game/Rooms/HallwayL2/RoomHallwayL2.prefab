@@ -127,11 +127,11 @@ MonoBehaviour:
     m_verticalResolution: 0
     m_activeWalkableArea: 0
     m_bounds:
-      m_min: {x: -561, y: -91}
-      m_max: {x: 559, y: 89}
+      m_min: {x: -480, y: -90}
+      m_max: {x: 480, y: 90}
     m_scrollBounds:
-      m_min: {x: -560, y: -90}
-      m_max: {x: 559, y: 89}
+      m_min: {x: -270, y: -90}
+      m_max: {x: 270, y: 90}
     m_shortName: HallwayL2
     m_scriptClass: RoomHallwayL2
     m_sceneName: SceneRoomHallwayL2

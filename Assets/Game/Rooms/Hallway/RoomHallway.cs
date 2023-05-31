@@ -64,4 +64,10 @@ public class RoomHallway : RoomScript<RoomHallway>
 			yield return C.Me.WalkTo(Point("HallwayL2EnterWalk"),true);
 		
 	}
+
+	IEnumerator OnEnterRegionScale_Stair_Down( IRegion region, ICharacter character )
+	{
+
+		yield return E.Break;
+	}
 }
