@@ -38,7 +38,6 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
 		
-		prop.Disable();
 		I.Admin_Key.Add();
 		yield return E.Break;
 	}

@@ -1420,7 +1420,7 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: 15
     m_baselineFixed: 0
-    m_walkToPoint: {x: 0, y: -43}
+    m_walkToPoint: {x: -21, y: -45}
     m_lookAtPoint: {x: 0, y: 0}
     m_scriptName: Stair_up
   m_parallaxDepth: 0
@@ -1894,7 +1894,7 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: -28
     m_baselineFixed: 0
-    m_walkToPoint: {x: 0, y: -33}
+    m_walkToPoint: {x: 5, y: -36}
     m_lookAtPoint: {x: 0, y: 0}
     m_scriptName: Office_door
   m_parallaxDepth: 0
