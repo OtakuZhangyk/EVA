@@ -20,6 +20,9 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 	{
 		if (C.Me.LastRoom == R.Hallway)
 			C.Me.SetPosition(Point("HallwayL1Enter"));
+		if (C.Me.LastRoom == R.Admin)
+			C.Me.SetPosition(Point("AdminEnter"));
+		
 		
 	}
 
@@ -27,5 +30,12 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 	{
 		if (C.Me.LastRoom == R.Hallway)
 			yield return C.Me.WalkTo(Point("HallwayL1EnterWalk"),true);
+	}
+
+	IEnumerator OnInteractPropAdmin_door( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		E.ChangeRoomBG(R.Admin);
+		yield return E.ConsumeEvent;
 	}
 }
