@@ -16,7 +16,8 @@ public class InventoryHandnote : InventoryScript<InventoryHandnote>
 
 	IEnumerator OnUseInvInventory( IInventory thisItem, IInventory item )
 	{
-		
+		if (I.Handnote.Active == true)
+			E.ChangeRoomBG(R.Handnote);
 		yield return E.Break;
 	}
 
