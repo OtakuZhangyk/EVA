@@ -6,8 +6,8 @@ using static GlobalScript;
 
 public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 {
-
-
+	bool admin_door_lock = true;
+	
 	IEnumerator OnInteractPropStairs_down( IProp prop )
 	{
 		yield return C.WalkToClicked();
@@ -51,7 +51,10 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 	IEnumerator OnInteractPropAdmin_door( IProp prop )
 	{
 		yield return C.WalkToClicked();
-		E.ChangeRoomBG(R.Admin);
+		if (admin_door_lock)
+			yield return C.Me.Say("It's locked. Need to find a key.");
+		else
+			E.ChangeRoomBG(R.Admin);
 		yield return E.ConsumeEvent;
 	}
 
@@ -59,6 +62,20 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 	{
 		yield return C.WalkToClicked();
 		E.ChangeRoomBG(R.LabL2);
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnUseInvPropAdmin_door( IProp prop, IInventory item )
+	{
+		yield return C.WalkToClicked();
+		if (I.Admin_Key.Active == true)
+		{
+			admin_door_lock = false;
+			I.Admin_Key.Active = false;
+			I.Admin_Key.Remove();
+			//play SFX unlock
+			E.ChangeRoomBG(R.Admin);
+		}
 		yield return E.ConsumeEvent;
 	}
 }

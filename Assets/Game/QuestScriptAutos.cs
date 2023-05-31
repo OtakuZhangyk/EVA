@@ -24,6 +24,7 @@ namespace PowerScript
 		// Access to specific Inventory (Auto-generated)
 		public static IInventory Bucket         { get { return PowerQuest.Get.GetInventory("Bucket"); } }
 		public static IInventory Handnote       { get { return PowerQuest.Get.GetInventory("Handnote"); } }
+		public static IInventory Admin_Key      { get { return PowerQuest.Get.GetInventory("Admin_Key"); } }
 		// #INVENTORY# - Do not edit this line, it's used by the system to insert rooms for easy access
 	}
 

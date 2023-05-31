@@ -32,4 +32,14 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 			Prop("Prot_suitF").Visible = false;
 		}
 	}
+
+	IEnumerator OnInteractPropProtect_suit( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		
+		prop.Disable();
+		I.Admin_Key.Add();
+		yield return E.Break;
+	}
 }
