@@ -18,6 +18,7 @@ public class InventoryHandnote : InventoryScript<InventoryHandnote>
 	{
 		if (I.Handnote.Active == true)
 			E.ChangeRoomBG(R.Handnote);
+			I.Handnote.Active = false;
 		yield return E.Break;
 	}
 
