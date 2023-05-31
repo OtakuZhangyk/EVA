@@ -44,4 +44,10 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnEnterRoomAfterFade()
+	{
+
+		yield return E.Break;
+	}
 }

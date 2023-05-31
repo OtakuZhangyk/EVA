@@ -62,4 +62,10 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnEnterRoomAfterFade()
+	{
+
+		yield return E.Break;
+	}
 }

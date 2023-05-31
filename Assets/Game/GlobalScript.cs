@@ -20,6 +20,7 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	public enum eProgress
 	{
 		None,
+		LeaveLabL2,
 		GotWater,
 		DrankWater,
 		WonGame
