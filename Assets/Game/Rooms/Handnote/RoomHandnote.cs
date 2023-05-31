@@ -41,7 +41,7 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 
 	IEnumerator OnInteractPropTurnR( IProp prop )
 	{
-
+		((PropComponent)Prop("TextR").Instance).GetComponent<TextMesh>().text = "hello";
 		page += 2;
 		yield return E.Break;
 	}
