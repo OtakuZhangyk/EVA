@@ -44,4 +44,10 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 		yield return E.FadeIn(0.2f);
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteractPropSafe( IProp prop )
+	{
+		yield return E.ChangeRoom(R.PasscodePad);
+		yield return E.Break;
+	}
 }
