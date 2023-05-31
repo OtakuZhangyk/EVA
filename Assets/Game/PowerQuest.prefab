@@ -127,6 +127,12 @@ MonoBehaviour:
   m_inventorySprites:
   - {fileID: 21300000, guid: 3128a95e76c6adf44a7ffde8daa56743, type: 3}
   - {fileID: 21300000, guid: f702d8676150682408682f25b08a6ba3, type: 3}
+  - {fileID: 21300000, guid: 387d73349e965464083597db8db1e576, type: 3}
+  - {fileID: 21300000, guid: 91fd83964efed584293d8053eb5dc431, type: 3}
+  - {fileID: 21300000, guid: eb40f6e922b94ed42b03bb671c496d40, type: 3}
+  - {fileID: 21300000, guid: 73b77ab4534f0ca45a5079ef13f6e3e2, type: 3}
+  - {fileID: 21300000, guid: 6f14845eaca7f2849b28a8f50494c821, type: 3}
+  - {fileID: 21300000, guid: 27df1b2c4dbff144da6265f9904a4cde, type: 3}
   m_guiAnimations:
   - {fileID: 0}
   - {fileID: 0}
