@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Rooms/UndergroundHallway/SceneRoomUndergroundHallway.unity
     guid: 14874db3aa893784fac2070c4b1aff6f
+  - enabled: 1
+    path: Assets/Game/Rooms/Admin/SceneRoomAdmin.unity
+    guid: 5b32f0ec85f621f418983a1bd1a09dea
   m_configObjects: {}
