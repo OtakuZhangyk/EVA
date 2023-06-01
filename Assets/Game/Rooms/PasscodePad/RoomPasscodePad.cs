@@ -11,6 +11,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB1( IProp prop )
 	{
 		yield return prop.PlayAnimation("b1");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "1";
@@ -34,6 +35,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB2( IProp prop )
 	{
 		yield return prop.PlayAnimation("b2");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "2";
@@ -43,6 +45,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB3( IProp prop )
 	{
 		yield return prop.PlayAnimation("b3");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "3";
@@ -52,6 +55,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB4( IProp prop )
 	{
 		yield return prop.PlayAnimation("b4");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "4";
@@ -61,6 +65,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB5( IProp prop )
 	{
 		yield return prop.PlayAnimation("b5");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "5";
@@ -70,6 +75,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB6( IProp prop )
 	{
 		yield return prop.PlayAnimation("b6");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "6";
@@ -79,6 +85,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB7( IProp prop )
 	{
 		yield return prop.PlayAnimation("b7");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "7";
@@ -88,6 +95,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB8( IProp prop )
 	{
 		yield return prop.PlayAnimation("b8");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "8";
@@ -97,6 +105,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB9( IProp prop )
 	{
 		yield return prop.PlayAnimation("b9");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "9";
@@ -106,6 +115,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropB0( IProp prop )
 	{
 		yield return prop.PlayAnimation("b0");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length < 4)
 			m_text.text += "0";
@@ -115,6 +125,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	IEnumerator OnInteractPropDelete( IProp prop )
 	{
 		yield return prop.PlayAnimation("del");
+		Audio.Play("beep");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text.Length > 0) {
 			if (m_text.text != "APPROVED" && m_text.text != "DENIED")
@@ -128,9 +139,11 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 		yield return prop.PlayAnimation("ent");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
 		if (m_text.text == "2023") {
+			Audio.Play("approve");
 			m_text.text = "APPROVED";
 			m_text.color = Color.green;
 			m_text.fontSize = 140;
+			Audio.Play("lock");
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
 			RoomAdmin.Script.bSafeUnlocked = true;
@@ -138,6 +151,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 		} else if (m_text.text == "APPROVED") {
 		
 		} else {
+			Audio.Play("deny");
 			m_text.text = "DENIED";
 			m_text.color = Color.red;
 			yield return E.WaitSkip();
