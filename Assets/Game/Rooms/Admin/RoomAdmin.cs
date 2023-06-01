@@ -6,8 +6,7 @@ using static GlobalScript;
 
 public class RoomAdmin : RoomScript<RoomAdmin>
 {
-
-
+	public bool bSafeUnlocked = false;
 	IEnumerator OnInteractPropEnter( IProp prop )
 	{
 		yield return C.WalkToClicked();
