@@ -37,6 +37,7 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 	{
 		E.ChangeRoomBG(C.Me.LastRoom);
 		G.InventoryBar.Show();
+		
 		yield return E.Break;
 	}
 
@@ -56,6 +57,17 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
 	{
 		C.Plr.Enable();
+		if (FirstTimeVisited) {
+			Globals.m_FirstReadMemo = true;
+		} else {
+			Globals.m_FirstReadMemo = false;
+		}
+		yield return E.Break;
+	}
+
+	IEnumerator OnEnterRoomAfterFade()
+	{
+
 		yield return E.Break;
 	}
 }

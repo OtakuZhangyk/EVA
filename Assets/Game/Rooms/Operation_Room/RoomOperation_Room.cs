@@ -44,17 +44,19 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	IEnumerator OnLookAtPropDoor( IProp prop )
 	{
-		yield return C.WalkToClicked();
-		E.ChangeRoomBG(R.Hallway);
-		C.Me.SetPosition(-263,-46);
+		yield return C.FaceClicked();
+		yield return C.Me.Say("Looks like doors to the hallway.");
 		yield return E.ConsumeEvent;
 		
 	}
 
 	void OnEnterRoom()
 	{
-		if (C.Me.LastRoom == R.Title)
+		if (FirstTimeVisited) {
+			E.FadeIn(3);
 			C.Me.SetPosition(Point("Spawn"));
+		}
+		
 		if (C.Me.LastRoom == R.Hallway)
 		{
 			C.Me.SetPosition(Point("Enter"));
@@ -70,7 +72,79 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	IEnumerator OnEnterRoomAfterFade()
 	{
+		if (FirstTimeVisited) {
+			yield return C.Plr.WalkTo(0,-80);
+			yield return C.Plr.FaceLeft();
+			yield return E.WaitSkip();
+			yield return C.Plr.FaceRight();
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Where am I? Why am I here?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Who am I? I don't remember anything...");
+		}
+		yield return E.Break;
+	}
 
+	IEnumerator OnInteractPropNeedle( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		
+		prop.Disable();
+		I.Needle.Add();
+		yield return E.WaitSkip();
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropTrash( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Nothing interesting in there, just a bunch of garbage.");
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropPc( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Someone's heart was really dead over here...");
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropInfusion_stand( IProp prop )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropSink( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Gotta wash my hands before exiting the operating room.");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Wait, why did that line just pop in my head?");
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropPc( IProp prop )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropSink( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return C.Me.Say("A Sink.");
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropTrash( IProp prop )
+	{
+		yield return C.Me.Say("It's a trashcan.");
 		yield return E.Break;
 	}
 }

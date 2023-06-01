@@ -41,6 +41,8 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	/// All variables like this in Quest Scripts are automatically saved
 	public bool m_spokeToBarney = false;
 	
+	public bool m_FirstReadMemo = false;
+	
 	////////////////////////////////////////////////////////////////////////////////////
 	// Global Game Functions
 	
@@ -57,11 +59,17 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	/// Blocking script called whenever you enter a room, before fading in. Non-blocking functions only
 	public void OnEnterRoom()
 	{
+		
+		
 	}
 
 	/// Blocking script called whenever you enter a room, after fade in is complete
 	public IEnumerator OnEnterRoomAfterFade()
 	{
+		if (Globals.m_FirstReadMemo) {
+			Globals.m_FirstReadMemo = false;
+			yield return C.Me.Say("Who is EVA? And whose notebook is this?");
+		}
 		yield return E.Break;
 	}
 

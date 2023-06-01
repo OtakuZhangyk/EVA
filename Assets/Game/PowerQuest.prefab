@@ -126,6 +126,7 @@ MonoBehaviour:
   - {fileID: 114497078864246608, guid: 7a896bee3c107ce49b5aebeb3b5d1b31, type: 3}
   - {fileID: 1395043092278114225, guid: 9b90c4738028c3c4b97bc8746f62d988, type: 3}
   - {fileID: 2270831425767555727, guid: 5e7c262497f176c4abbda7f28a0d472f, type: 3}
+  - {fileID: 5346395191982741774, guid: a2d18db5d7fa68c4b937960c140bdb3f, type: 3}
   m_inventoryAnimations:
   - {fileID: 7400000, guid: 10856a3a6e09a994f876dd16f8272cce, type: 2}
   m_inventorySprites:
