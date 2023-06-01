@@ -64,6 +64,7 @@ namespace PowerScript
 
 		public static IRoom LabL2          { get { return PowerQuest.Get.GetRoom("LabL2"); } }
 
+		public static IRoom Safe           { get { return PowerQuest.Get.GetRoom("Safe"); } }
 		// #ROOM# - Do not edit this line, it's used by the system to insert rooms for easy access
 	}
 

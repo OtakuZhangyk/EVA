@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Rooms/PasscodePad/SceneRoomPasscodePad.unity
     guid: 2adb413ac1779ef4599e8c55999e6d27
+  - enabled: 1
+    path: Assets/Game/Rooms/Safe/SceneRoomSafe.unity
+    guid: 3e1fa9be29a72674bb629d56052048cf
   m_configObjects: {}
