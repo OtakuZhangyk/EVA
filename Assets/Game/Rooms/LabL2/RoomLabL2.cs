@@ -37,8 +37,10 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 	{
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
+		yield return C.Me.Say("A key. I wonder what it unlocks.");
 		
 		I.Admin_Key.Add();
+		prop.Clickable = false;
 		yield return E.Break;
 	}
 }

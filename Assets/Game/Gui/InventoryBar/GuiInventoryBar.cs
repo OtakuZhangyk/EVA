@@ -21,4 +21,8 @@ public class GuiInventoryBar : GuiScript<GuiInventoryBar>
 	void OnPostRestore( int version )
 	{
 	}
+
+	void OnShow()
+	{
+	}
 }

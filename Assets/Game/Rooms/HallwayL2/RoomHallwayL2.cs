@@ -31,8 +31,9 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 	{
 		if (C.Me.LastRoom == R.Hallway)
 			yield return C.Me.WalkTo(Point("HallwayL1EnterWalk"),true);
-		if (C.Me.LastRoom == R.LabL2)
-			if (Globals.m_progressExample == eProgress.None)
+		//if (C.Me.LastRoom == R.LabL2)
+		//End
+		/*	if (Globals.m_progressExample == eProgress.None)
 			{
 				yield return C.Me.WalkTo(Point("LabEnterWalk"),true);
 				Camera.Shake(3);
@@ -45,7 +46,7 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 				yield return C.Me.WalkTo(Point("LabEnter"),true);
 				E.ChangeRoomBG(R.LabL2);
 			}
-		
+		*/
 	}
 
 	IEnumerator OnInteractPropAdmin_door( IProp prop )
@@ -73,6 +74,7 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 			admin_door_lock = false;
 			I.Admin_Key.Active = false;
 			I.Admin_Key.Remove();
+			yield return E.WaitSkip();
 			//play SFX unlock
 			E.ChangeRoomBG(R.Admin);
 		}
