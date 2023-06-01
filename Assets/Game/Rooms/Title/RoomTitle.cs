@@ -12,6 +12,8 @@ public class RoomTitle : RoomScript<RoomTitle>
 		// Hide the inventory in the title scene
 		G.InventoryBar.Hide();
 		
+		Audio.PlayMusic("title_bgm");
+		
 		// Later we could start some music here
 		//SystemAudio.PlayMusic("MusicSlowStrings", 1);
 	}
@@ -88,7 +90,7 @@ public class RoomTitle : RoomScript<RoomTitle>
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
 	{
-
+		Audio.Stop("title_bgm");
 		yield return E.Break;
 	}
 
