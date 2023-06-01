@@ -53,7 +53,7 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 
 	IEnumerator OnInteractPropSafe( IProp prop )
 	{
-		yield return E.ChangeRoom(R.PasscodePad);
+		yield return E.ChangeRoom(R.Safe);
 		yield return E.Break;
 	}
 }

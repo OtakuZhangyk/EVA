@@ -21,6 +21,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	{
 		C.Plr.Disable();
 		G.InventoryBar.Visible = false;
+		
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -115,8 +116,10 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 	{
 		yield return prop.PlayAnimation("del");
 		TextMesh m_text = ((PropComponent)Prop("Screen").Instance).GetComponent<TextMesh>();
-		if (m_text.text.Length > 0)
-			m_text.text = m_text.text.Remove(m_text.text.Length - 1, 1);
+		if (m_text.text.Length > 0) {
+			if (m_text.text != "APPROVED" && m_text.text != "DENIED")
+				m_text.text = m_text.text.Remove(m_text.text.Length - 1, 1);
+		}
 		yield return E.Break;
 	}
 
@@ -130,20 +133,29 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 			m_text.fontSize = 140;
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
-			RoomAdmin.Script.bSafeUnlocked = false;
+			RoomAdmin.Script.bSafeUnlocked = true;
+		} else if (m_text.text == "APPROVED") {
+		
 		} else {
 			m_text.text = "DENIED";
 			m_text.color = Color.red;
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
 			m_text.text = "";
+			m_text.color = Color.black;
 		}
 		yield return E.Break;
 	}
 
 	IEnumerator OnInteractPropExitButton( IProp prop )
 	{
-		yield return E.ChangeRoom(R.Admin);
+		yield return E.ChangeRoom(R.Safe);
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropScreen( IProp prop )
+	{
+
 		yield return E.Break;
 	}
 }
