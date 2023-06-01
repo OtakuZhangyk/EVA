@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &124028
+--- !u!1 &5270200093664584817
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 482834}
-  - component: {fileID: 11426600}
+  - component: {fileID: 390832992320847855}
+  - component: {fileID: 827301232583246010}
   m_Layer: 0
-  m_Name: Gunshot
+  m_Name: door_open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &482834
+--- !u!4 &390832992320847855
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124028}
+  m_GameObject: {fileID: 5270200093664584817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -198.01532, y: -3.2046742, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11426600
+--- !u!114 &827301232583246010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124028}
+  m_GameObject: {fileID: 5270200093664584817}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0f23f8c8a71fc149b63985b43cfa47a, type: 3}
@@ -52,9 +52,9 @@ MonoBehaviour:
     m_hasMax: 0
     m_hasValue: 0
   m_pitch:
-    m_min: 0.8
+    m_min: 1
     m_max: 1
-    m_hasMax: 1
+    m_hasMax: 0
     m_hasValue: 0
   m_pan:
     m_min: 0
@@ -70,14 +70,14 @@ MonoBehaviour:
     m_hasValue: 0
   m_noDuplicateTime: -1
   m_mixerGroup: {fileID: 0}
-  m_reverbPreset: 3
+  m_reverbPreset: 0
   m_distortionLevel: 0
   m_echoFilter: {fileID: 0}
   m_lowPassFilter: {fileID: 0}
   m_highPassFilter: {fileID: 0}
   m_chorusFilter: {fileID: 0}
   m_sounds:
-  - m_sound: {fileID: 8300000, guid: dc43191bdabbb734fb06decc84e31a91, type: 3}
+  - m_sound: {fileID: 8300000, guid: c190c45fb4adeb741892752aa3711d0d, type: 3}
     m_weight: 100
     m_loop: 0
     m_volume:
@@ -88,7 +88,7 @@ MonoBehaviour:
     m_pitch:
       m_min: 1
       m_max: 1
-      m_hasMax: 1
+      m_hasMax: 0
       m_hasValue: 0
     m_startTime: 0
     m_endTime: 0

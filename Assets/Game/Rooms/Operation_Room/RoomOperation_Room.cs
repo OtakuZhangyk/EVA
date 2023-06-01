@@ -11,6 +11,7 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	IEnumerator OnInteractPropDoor( IProp prop )
 	{
 		yield return C.WalkToClicked();
+		Audio.Play("door_open");
 		E.ChangeRoomBG(R.Hallway);
 		yield return E.ConsumeEvent;
 	}
@@ -54,7 +55,10 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 		if (C.Me.LastRoom == R.Title)
 			C.Me.SetPosition(Point("Spawn"));
 		if (C.Me.LastRoom == R.Hallway)
+		{
 			C.Me.SetPosition(Point("Enter"));
+			Audio.Play("door_close");
+		}
 	}
 
 	IEnumerator OnUseInvPropHandnote( IProp prop, IInventory item )
