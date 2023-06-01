@@ -2400,8 +2400,8 @@ MonoBehaviour:
       m_min: {x: -480, y: -90}
       m_max: {x: 480, y: 90}
     m_scrollBounds:
-      m_min: {x: -200, y: -90}
-      m_max: {x: 200, y: 90}
+      m_min: {x: -270, y: -90}
+      m_max: {x: 270, y: 90}
     m_shortName: Hallway
     m_scriptClass: RoomHallway
     m_sceneName: SceneRoomHallway

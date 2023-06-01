@@ -6,7 +6,8 @@ using static GlobalScript;
 
 public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 {
-	bool admin_door_lock = true;
+
+	bool admin_door_lock = true;
 	
 	IEnumerator OnInteractPropStairs_down( IProp prop )
 	{
@@ -21,7 +22,10 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 		if (C.Me.LastRoom == R.Hallway)
 			C.Me.SetPosition(Point("HallwayL1Enter"));
 		if (C.Me.LastRoom == R.Admin)
+		{
+			Audio.Play("door_close1");
 			C.Me.SetPosition(Point("AdminEnter"));
+		}
 		if (C.Me.LastRoom == R.LabL2)
 			C.Me.SetPosition(Point("LabEnter"));
 		
@@ -53,9 +57,16 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 	{
 		yield return C.WalkToClicked();
 		if (admin_door_lock)
+		{
+			yield return E.WaitSkip();
 			yield return C.Me.Say("It's locked. Need to find a key.");
+		}
 		else
+		{
+			Audio.Play("door_open1");
+			yield return E.WaitSkip();
 			E.ChangeRoomBG(R.Admin);
+		}
 		yield return E.ConsumeEvent;
 	}
 
@@ -74,10 +85,19 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 			admin_door_lock = false;
 			I.Admin_Key.Active = false;
 			I.Admin_Key.Remove();
+			Audio.Play("lock");
 			yield return E.WaitSkip();
-			//play SFX unlock
+			yield return E.WaitSkip();
+			Audio.Play("door_open1");
+			yield return E.WaitSkip();
 			E.ChangeRoomBG(R.Admin);
 		}
 		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnUseInvPropStairs_down( IProp prop, IInventory item )
+	{
+
+		yield return E.Break;
 	}
 }
