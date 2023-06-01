@@ -134,6 +134,7 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
 			RoomAdmin.Script.bSafeUnlocked = true;
+			E.ChangeRoomBG(R.Safe);
 		} else if (m_text.text == "APPROVED") {
 		
 		} else {
