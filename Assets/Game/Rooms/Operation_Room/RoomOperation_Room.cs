@@ -54,7 +54,10 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	void OnEnterRoom()
 	{
 		if (C.Me.LastRoom == R.Title)
+		{
 			C.Me.SetPosition(Point("Spawn"));
+			Audio.PlayMusic("hospital_bgm");
+		}
 		if (C.Me.LastRoom == R.Hallway)
 		{
 			C.Me.SetPosition(Point("Enter"));
