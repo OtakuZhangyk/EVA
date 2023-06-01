@@ -54,8 +54,9 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	{
 		if (FirstTimeVisited) {
 			E.FadeIn(3);
-			C.Me.SetPosition(Point("Spawn"));
-		}
+            C.Me.SetPosition(Point("Spawn"));
+            Audio.PlayMusic("hospital_bgm");
+        }
 		
 		if (C.Me.LastRoom == R.Hallway)
 		{
@@ -121,12 +122,14 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	IEnumerator OnInteractPropSink( IProp prop )
 	{
+
 		yield return C.WalkToClicked();
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Gotta wash my hands before exiting the operating room.");
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Wait, why did that line just pop in my head?");
 		yield return E.Break;
+
 	}
 
 	IEnumerator OnInteractPropPc( IProp prop )
