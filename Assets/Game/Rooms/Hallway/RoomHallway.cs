@@ -18,6 +18,7 @@ public class RoomHallway : RoomScript<RoomHallway>
 	{
 		yield return C.WalkToClicked();
 		Audio.Play("door_open");
+		yield return E.WaitSkip();
 		E.ChangeRoomBG(R.Operation_Room);
 		yield return E.ConsumeEvent;
 	}

@@ -11,6 +11,8 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 	IEnumerator OnInteractPropEnter( IProp prop )
 	{
 		yield return C.WalkToClicked();
+		Audio.Play("door_open1");
+		yield return E.WaitSkip();
 		E.ChangeRoomBG(R.HallwayL2);
 		yield return E.ConsumeEvent;
 	}
@@ -19,6 +21,7 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 	{
 		if (C.Me.LastRoom == R.HallwayL2)
 		{
+			Audio.Play("door_close1");
 			C.Me.SetPosition(Point("Enter"));
 		}
 	}
