@@ -46,8 +46,16 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 
 	IEnumerator OnInteractPropDrawers( IProp prop )
 	{
-
-		yield return E.Break;
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("drawer_open");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("A research paper");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Dr. Newman: Groundbreaking Contribution to Neuroscience or Unethical Human Experimentation?");
+		yield return E.WaitSkip();
+		Audio.Play("drawer_close");
 	}
 
 	IEnumerator OnEnterRoomAfterFade()
@@ -73,13 +81,76 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		else
 			yield return C.FaceClicked();
 		yield return E.WaitSkip();
-		yield return C.Me.Say("'Leading Neurologist or Mad Scientist? Scandal of Human Experimentation Unveiled'");
+		yield return C.Me.Say("Leading Neurologist or Mad Scientist? Scandal of Human Experimentation Unveiled");
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Seems like Dr. Newman was having a big problem");
 		if (prop.FirstUse && Globals.searched_trash == 3)
 		{
 			yield return E.WaitSkip();
 			yield return C.Me.Say("Why am I so interested in garbage?");
+		}
+	}
+
+	IEnumerator OnInteractPropDesks( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("page");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("A magazine");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("From Acclaimed Neurologist to Pariah: The Shocking Fall of Victor Newman");
+		
+	}
+
+	IEnumerator OnInteractPropPc1( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("button_click");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It shows an online article snippet");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Local Hospital Bankruptcy: The Downfall of a Once Renowned Institution");
+		if (prop.FirstUse)
+		{
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Here is a photo of Dr. Newman");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Wait, it's me");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("So I'm Dr. Newman?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Then why did I lost my memory?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Does it have some kind of connection with the human experimentation?");
+		}
+	}
+
+	IEnumerator OnInteractPropPc2( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("button_click");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It shows an online article snippet");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Local Hospital Bankruptcy: The Downfall of a Once Renowned Institution");
+		if (prop.FirstUse)
+		{
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Here is a photo of Dr. Newman");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Wait, it's me");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("So I'm Dr. Newman?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Then why did I lost my memory?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Does it have some kind of connection with the human experimentation?");
 		}
 	}
 }
