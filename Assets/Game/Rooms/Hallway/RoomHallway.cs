@@ -89,4 +89,22 @@ public class RoomHallway : RoomScript<RoomHallway>
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Just some posters, nothing special");
 	}
+
+	IEnumerator OnLookAtPropOperationRoom( IProp prop )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropMap( IProp prop )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropBoard( IProp prop )
+	{
+
+		yield return E.Break;
+	}
 }

@@ -45,7 +45,8 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	IEnumerator OnLookAtPropDoor( IProp prop )
 	{
 		yield return C.FaceClicked();
-		yield return C.Me.Say("Looks like doors to the hallway.");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Looks it leads to the hallway.");
 		yield return E.ConsumeEvent;
 		
 	}
@@ -173,19 +174,22 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	IEnumerator OnLookAtPropSink( IProp prop )
 	{
 		yield return C.FaceClicked();
+		yield return E.WaitSkip();
 		yield return C.Me.Say("A Sink.");
 		yield return E.Break;
 	}
 
 	IEnumerator OnLookAtPropTrash( IProp prop )
 	{
+		yield return E.WaitSkip();
 		yield return C.Me.Say("It's a trashcan.");
 		yield return E.Break;
 	}
 
 	IEnumerator OnLookAtPropNeedle( IProp prop )
 	{
-
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Who left the injecto here?");
 		yield return E.Break;
 	}
 
