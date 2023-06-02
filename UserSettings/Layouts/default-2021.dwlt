@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 998
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 96
+  controlID: 420
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 28
+  controlID: 136
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,12 +164,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 399
+    width: 393
     height: 948
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 211
+  controlID: 250
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,7 +187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 399
+    width: 393
     height: 330.5
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -213,7 +213,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 330.5
-    width: 399
+    width: 393
     height: 617.5
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -239,14 +239,14 @@ MonoBehaviour:
   - {fileID: 14}
   m_Position:
     serializedVersion: 2
-    x: 399
+    x: 393
     y: 0
-    width: 1068
+    width: 1074
     height: 948
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 29
+  controlID: 137
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,12 +266,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1068
+    width: 1074
     height: 480
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 30
+  controlID: 281
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,7 +289,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 748.5
+    width: 751
     height: 480
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -313,12 +313,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 748.5
+    x: 751
     y: 0
-    width: 319.5
+    width: 323
     height: 480
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -341,17 +341,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 480
-    width: 1068
+    width: 1074
     height: 468
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 22}
   - {fileID: 17}
   - {fileID: 16}
   m_Selected: 2
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -371,14 +371,14 @@ MonoBehaviour:
     y: 0
     width: 453
     height: 948
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
   - {fileID: 24}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,9 +399,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 399
+    x: 393
     y: 552
-    width: 1066
+    width: 1072
     height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -450,23 +450,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1066
+      width: 1072
       height: 426
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 533, y: 213}
+    m_Translation: {x: 536, y: 213}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -533
+      x: -536
       y: -213
-      width: 1066
+      width: 1072
       height: 426
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 2132, y: 894}
+  m_LastWindowPixelSize: {x: 2144, y: 894}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -492,9 +492,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 399
+    x: 393
     y: 552
-    width: 1066
+    width: 1072
     height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -594,16 +594,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1147.5
+    x: 1144
     y: 72
-    width: 317.5
+    width: 321
     height: 459
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_scrollPosition: {x: 0, y: 181}
+  m_scrollPosition: {x: 0, y: 0}
   m_powerQuest: {fileID: 11480482, guid: 1d431f985e21f9746a18b85a5ac67c89, type: 3}
   m_powerQuestPath: Assets/Game/PowerQuest.prefab
   m_systemAudioPath: Assets/Game/
@@ -612,7 +612,7 @@ MonoBehaviour:
   m_systemAudio: {fileID: 11461390, guid: f0b6ac7e109cb2543a538fce1bf8a997, type: 3}
   m_questCamera: {fileID: 138134, guid: b254fcd8f583c324ba3da9904a492986, type: 3}
   m_questGuiCamera: {fileID: 195666, guid: dba8cdb55bc7ac6458f9a539610fe130, type: 3}
-  m_selectedTab: 1
+  m_selectedTab: 0
   m_showRooms: 1
   m_showCharacters: 1
   m_showInventory: 1
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_spellCheckEnabled: 0
   m_spellCheckIgnoredWords: []
   m_spellCheckDictionaryPath: Assets/Plugins/PowerQuest/ThirdParty/Editor/SpellCheck/en_US.dic
-  m_newVersionCheckTime: 133300360574047989
+  m_newVersionCheckTime: 133301234061496730
   m_scrollPositionGui: {x: 0, y: 0}
   m_initialSetupImportInProgress: 0
   m_filterRooms: 0
@@ -674,7 +674,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72
-    width: 398
+    width: 392
     height: 309.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -684,9 +684,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7893fbff14a5fbff3ea5fbffc4cbfbff52ccfbff44cdfbff6acefbff02cffbff9af9fbffc4f9fbff7e0ffcffb25bfcff8c6afcff527dfcffd89cfcffaca1fcfffca6fcff30aefcffaac7fcffe4c7fcfff4cbfcff1eccfcffcadcfcff9ee1fcff6613fdff9013fdff5c31fdff5454fdff8e54fdfffa58fdff325afdffda72fdff0473fdffcc75fdff528ffdff7c8ffdff88cefdffb2cefdff34d1fdff58d4fdff82d4fdff44f5fdff6ef5fdffccf7fdfff6f7fdff4cf9fdff1e09feff460ffeff700ffeff881cfeff8a1cfeffea26feff1427feffa828feff8e2cfeffb82cfeff662dfeff902dfeff4e39feff7839feff1e67feff3a7dfeffdc7efeff0482feffae83feff4c88feff5e8efeffc295feffec95fefffc96feff70a9feff82aafeff42b9feffd6ccfeffa818ffffd218ffff521cffff021effff0223ffffc423fffff225ffff3632ffff3e35ffff6835ffff2e36ffff4e40ffff7a41ffffb84bffff7250ffff9c50ffff1a5cffff445cffff6a5dffffd26dfffffc6dffff2c6fffff666ffffff472ffff1e73ffffd67bffff4a85fffffa91ffff3492ffffacfaffff2afbfffff4ffffff
+      m_SelectedIDs: d68cfeff
+      m_LastClickedID: -95018
+      m_ExpandedIDs: 108dfeff9e9bfeff18abfeff663dffff4643ffff4244ffffacfaffff2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -732,7 +732,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 402.5
-    width: 398
+    width: 392
     height: 596.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -752,38 +752,38 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Game/Rooms/PasscodePad
+    - Assets/Game/Rooms/Operation_Room
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Game/Rooms/PasscodePad
+  - Assets/Game/Rooms/Operation_Room
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\games\EVA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 735}
-    m_SelectedIDs: ee960000
-    m_LastClickedID: 38638
-    m_ExpandedIDs: 00000000826400008464000086640000886400008a6400008c6400008e64000090640000926400009464000096640000986400009a6400009c6400009e640000a0640000a2640000a4640000a6640000a8640000aa640000ac640000ae640000b0640000b2640000b4640000b6640000146500002065000096690000ee960000b2e5000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 207.5}
+    m_SelectedIDs: 72670000
+    m_LastClickedID: 26482
+    m_ExpandedIDs: 000000006267000064670000666700006a6700006c6700006e67000070670000726700007467000076670000786700007a6700007c6700007e6700008067000082670000846700008e67000090670000926700009467000096670000986700009a6700009c6700009e670000a067000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Handnote
+      m_OriginalName: Handnote
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 26596
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -795,7 +795,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000826400008464000086640000886400008a6400008c6400008e64000090640000926400009464000096640000986400009a6400009c6400009e640000a0640000a2640000a4640000a6640000a8640000aa640000ac640000ae640000b0640000b2640000b4640000b6640000
+    m_ExpandedIDs: 00000000626700006467000066670000686700006a6700006c6700006e67000070670000726700007467000076670000786700007a6700007c6700007e67000080670000826700008467000086670000886700008a6700008c6700008e67000090670000926700009467000096670000986700009a6700009c6700009e670000a0670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -847,7 +847,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 308.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 188
@@ -871,9 +871,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 399
+    x: 393
     y: 72
-    width: 746.5
+    width: 749
     height: 459
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1132,9 +1132,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 163.2107, y: 8.305185, z: -39.0515}
+    m_Target: {x: 2.9108005, y: -14.108463, z: -40.013367}
     speed: 2
-    m_Value: {x: 163.2107, y: 8.305185, z: -39.0515}
+    m_Value: {x: 2.9108005, y: -14.108463, z: -40.013367}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1185,9 +1185,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 290.13483
+    m_Target: 145.42882
     speed: 2
-    m_Value: 290.13483
+    m_Value: 145.42882
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1232,9 +1232,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 399
+    x: 393
     y: 552
-    width: 1066
+    width: 1072
     height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1318,8 +1318,8 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -1478,10 +1478,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-05-30T22:52:46.895-04:00
+      updatedTimeString: 2023-06-01T16:33:54.163-04:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-05-30T22:52:46.907-04:00
+      updatedTimeString: 2023-06-01T16:33:54.158-04:00
       cacheType: 1
     currentBranch:
       name: master
@@ -1567,18 +1567,306 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-06-01T01:09:37.672-04:00
+      updatedTimeString: 2023-06-01T20:00:22.947-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-06-01T01:10:28.621-04:00
+      updatedTimeString: 2023-06-01T20:00:34.202-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-06-01T01:08:42.104-04:00
+      updatedTimeString: 2023-06-01T20:00:22.769-04:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 5af0e267c99b740c37c345e26c0ee5a3650b665b
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: del saves
+      description: 
+      timeString: 2023-06-01T16:33:46.000-04:00
+      commitTimeString: 2023-06-01T16:33:46.000-04:00
+      changes:
+      - path: Save1.sav
+        fullPath: E:\games\EVA\Save1.sav
+        projectPath: Save1.sav
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Settings.sav
+        fullPath: E:\games\EVA\Settings.sav
+        projectPath: Settings.sav
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+    - commitID: c713691bd2b0c4344fd77115482bb1df402dff5f
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: added hospital bgm
+      description: 
+      timeString: 2023-06-01T16:30:33.000-04:00
+      commitTimeString: 2023-06-01T16:30:33.000-04:00
+      changes:
+      - path: Assets\Audio\Music\hospital_bgm.prefab
+        fullPath: E:\games\EVA\Assets\Audio\Music\hospital_bgm.prefab
+        projectPath: Assets\Audio\Music\hospital_bgm.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\Music\hospital_bgm.prefab.meta
+        fullPath: E:\games\EVA\Assets\Audio\Music\hospital_bgm.prefab.meta
+        projectPath: Assets\Audio\Music\hospital_bgm.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\Music\old city theme 1.ogg
+        fullPath: E:\games\EVA\Assets\Audio\Music\old city theme 1.ogg
+        projectPath: Assets\Audio\Music\old city theme 1.ogg
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\Music\old city theme 1.ogg.meta
+        fullPath: E:\games\EVA\Assets\Audio\Music\old city theme 1.ogg.meta
+        projectPath: Assets\Audio\Music\old city theme 1.ogg.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\Music\old city theme.ogg
+        fullPath: E:\games\EVA\Assets\Audio\Music\old city theme.ogg
+        projectPath: Assets\Audio\Music\old city theme.ogg
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\Music\old city theme.ogg.meta
+        fullPath: E:\games\EVA\Assets\Audio\Music\old city theme.ogg.meta
+        projectPath: Assets\Audio\Music\old city theme.ogg.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+        fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+        projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\SystemAudio.prefab
+        fullPath: E:\games\EVA\Assets\Game\SystemAudio.prefab
+        projectPath: Assets\Game\SystemAudio.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Settings.sav
+        fullPath: E:\games\EVA\Settings.sav
+        projectPath: Settings.sav
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 78d5b67046268bf259b6ccf6ea4c70cc76cadf1d
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: changed deny sfx
+      description: 
+      timeString: 2023-06-01T15:12:52.000-04:00
+      commitTimeString: 2023-06-01T15:12:52.000-04:00
+      changes:
+      - path: Assets\Audio\SFX\alarm.mp3
+        fullPath: E:\games\EVA\Assets\Audio\SFX\alarm.mp3
+        projectPath: Assets\Audio\SFX\alarm.mp3
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\alarm.mp3.meta
+        fullPath: E:\games\EVA\Assets\Audio\SFX\alarm.mp3.meta
+        projectPath: Assets\Audio\SFX\alarm.mp3.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\deny.prefab
+        fullPath: E:\games\EVA\Assets\Audio\SFX\deny.prefab
+        projectPath: Assets\Audio\SFX\deny.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 1adc6170a4fd7071beeebe301d06d5540926f477
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: changed button sfx
+      description: 
+      timeString: 2023-06-01T14:46:35.000-04:00
+      commitTimeString: 2023-06-01T14:46:35.000-04:00
+      changes:
+      - path: Assets\Audio\SFX\beep (2).mp3
+        fullPath: E:\games\EVA\Assets\Audio\SFX\beep (2).mp3
+        projectPath: Assets\Audio\SFX\beep (2).mp3
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\beep (2).mp3.meta
+        fullPath: E:\games\EVA\Assets\Audio\SFX\beep (2).mp3.meta
+        projectPath: Assets\Audio\SFX\beep (2).mp3.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\beep.prefab
+        fullPath: E:\games\EVA\Assets\Audio\SFX\beep.prefab
+        projectPath: Assets\Audio\SFX\beep.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\SystemAudio.prefab
+        fullPath: E:\games\EVA\Assets\Game\SystemAudio.prefab
+        projectPath: Assets\Game\SystemAudio.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 60f3579451d1f75047ae3f30eda7e23aea94ef1a
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: added sfx in PasscodePad room
+      description: 
+      timeString: 2023-06-01T14:39:23.000-04:00
+      commitTimeString: 2023-06-01T14:39:23.000-04:00
+      changes:
+      - path: Assets\Audio\SFX\approve.mp3
+        fullPath: E:\games\EVA\Assets\Audio\SFX\approve.mp3
+        projectPath: Assets\Audio\SFX\approve.mp3
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\approve.mp3.meta
+        fullPath: E:\games\EVA\Assets\Audio\SFX\approve.mp3.meta
+        projectPath: Assets\Audio\SFX\approve.mp3.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\approve.prefab
+        fullPath: E:\games\EVA\Assets\Audio\SFX\approve.prefab
+        projectPath: Assets\Audio\SFX\approve.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\approve.prefab.meta
+        fullPath: E:\games\EVA\Assets\Audio\SFX\approve.prefab.meta
+        projectPath: Assets\Audio\SFX\approve.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\beep.mp3
+        fullPath: E:\games\EVA\Assets\Audio\SFX\beep.mp3
+        projectPath: Assets\Audio\SFX\beep.mp3
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\beep.mp3.meta
+        fullPath: E:\games\EVA\Assets\Audio\SFX\beep.mp3.meta
+        projectPath: Assets\Audio\SFX\beep.mp3.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\beep.prefab
+        fullPath: E:\games\EVA\Assets\Audio\SFX\beep.prefab
+        projectPath: Assets\Audio\SFX\beep.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\beep.prefab.meta
+        fullPath: E:\games\EVA\Assets\Audio\SFX\beep.prefab.meta
+        projectPath: Assets\Audio\SFX\beep.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\deny.mp3
+        fullPath: E:\games\EVA\Assets\Audio\SFX\deny.mp3
+        projectPath: Assets\Audio\SFX\deny.mp3
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\deny.mp3.meta
+        fullPath: E:\games\EVA\Assets\Audio\SFX\deny.mp3.meta
+        projectPath: Assets\Audio\SFX\deny.mp3.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\deny.prefab
+        fullPath: E:\games\EVA\Assets\Audio\SFX\deny.prefab
+        projectPath: Assets\Audio\SFX\deny.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Audio\SFX\deny.prefab.meta
+        fullPath: E:\games\EVA\Assets\Audio\SFX\deny.prefab.meta
+        projectPath: Assets\Audio\SFX\deny.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+        fullPath: E:\games\EVA\Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+        projectPath: Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\SystemAudio.prefab
+        fullPath: E:\games\EVA\Assets\Game\SystemAudio.prefab
+        projectPath: Assets\Game\SystemAudio.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: E:\games\EVA\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 20821ec396b44f6c8ecb1a2ca0e58b076dfc889a
+      mergeA: 
+      mergeB: 
+      authorName: OtakuZhang
+      authorEmail: zhangyk@shanghaitech.edu.cn
+      commitEmail: zhangyk@shanghaitech.edu.cn
+      commitName: OtakuZhang
+      summary: minor change
+      description: 
+      timeString: 2023-06-01T01:09:28.000-04:00
+      commitTimeString: 2023-06-01T01:09:28.000-04:00
+      changes:
+      - path: Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+        fullPath: E:\games\EVA\Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+        projectPath: Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: de3f02707bb405b2679685fd2df36980ddde1479
       mergeA: 009a35493612e7010de10f6c6b66b111f87aef22
       mergeB: 012f4f2ebcc34cf5d408055dbdf5e23b5aab9672
@@ -17175,16 +17463,304 @@ MonoBehaviour:
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-    statusAhead: 2
+    statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-06-01T01:05:35.037-04:00
+      updatedTimeString: 2023-06-01T16:33:54.752-04:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-06-01T01:05:35.017-04:00
+      updatedTimeString: 2023-06-01T16:35:21.027-04:00
       cacheType: 5
     historyControl:
-      scroll: {x: 0, y: 1280}
+      scroll: {x: 0, y: 1520}
       entries:
+      - commitID: 5af0e267c99b740c37c345e26c0ee5a3650b665b
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: del saves
+        description: 
+        timeString: 2023-06-01T16:33:46.000-04:00
+        commitTimeString: 2023-06-01T16:33:46.000-04:00
+        changes:
+        - path: Save1.sav
+          fullPath: E:\games\EVA\Save1.sav
+          projectPath: Save1.sav
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Settings.sav
+          fullPath: E:\games\EVA\Settings.sav
+          projectPath: Settings.sav
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+      - commitID: c713691bd2b0c4344fd77115482bb1df402dff5f
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: added hospital bgm
+        description: 
+        timeString: 2023-06-01T16:30:33.000-04:00
+        commitTimeString: 2023-06-01T16:30:33.000-04:00
+        changes:
+        - path: Assets\Audio\Music\hospital_bgm.prefab
+          fullPath: E:\games\EVA\Assets\Audio\Music\hospital_bgm.prefab
+          projectPath: Assets\Audio\Music\hospital_bgm.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\Music\hospital_bgm.prefab.meta
+          fullPath: E:\games\EVA\Assets\Audio\Music\hospital_bgm.prefab.meta
+          projectPath: Assets\Audio\Music\hospital_bgm.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\Music\old city theme 1.ogg
+          fullPath: E:\games\EVA\Assets\Audio\Music\old city theme 1.ogg
+          projectPath: Assets\Audio\Music\old city theme 1.ogg
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\Music\old city theme 1.ogg.meta
+          fullPath: E:\games\EVA\Assets\Audio\Music\old city theme 1.ogg.meta
+          projectPath: Assets\Audio\Music\old city theme 1.ogg.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\Music\old city theme.ogg
+          fullPath: E:\games\EVA\Assets\Audio\Music\old city theme.ogg
+          projectPath: Assets\Audio\Music\old city theme.ogg
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\Music\old city theme.ogg.meta
+          fullPath: E:\games\EVA\Assets\Audio\Music\old city theme.ogg.meta
+          projectPath: Assets\Audio\Music\old city theme.ogg.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+          fullPath: E:\games\EVA\Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+          projectPath: Assets\Game\Rooms\Operation_Room\RoomOperation_Room.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\SystemAudio.prefab
+          fullPath: E:\games\EVA\Assets\Game\SystemAudio.prefab
+          projectPath: Assets\Game\SystemAudio.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Settings.sav
+          fullPath: E:\games\EVA\Settings.sav
+          projectPath: Settings.sav
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 78d5b67046268bf259b6ccf6ea4c70cc76cadf1d
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: changed deny sfx
+        description: 
+        timeString: 2023-06-01T15:12:52.000-04:00
+        commitTimeString: 2023-06-01T15:12:52.000-04:00
+        changes:
+        - path: Assets\Audio\SFX\alarm.mp3
+          fullPath: E:\games\EVA\Assets\Audio\SFX\alarm.mp3
+          projectPath: Assets\Audio\SFX\alarm.mp3
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\alarm.mp3.meta
+          fullPath: E:\games\EVA\Assets\Audio\SFX\alarm.mp3.meta
+          projectPath: Assets\Audio\SFX\alarm.mp3.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\deny.prefab
+          fullPath: E:\games\EVA\Assets\Audio\SFX\deny.prefab
+          projectPath: Assets\Audio\SFX\deny.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 1adc6170a4fd7071beeebe301d06d5540926f477
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: changed button sfx
+        description: 
+        timeString: 2023-06-01T14:46:35.000-04:00
+        commitTimeString: 2023-06-01T14:46:35.000-04:00
+        changes:
+        - path: Assets\Audio\SFX\beep (2).mp3
+          fullPath: E:\games\EVA\Assets\Audio\SFX\beep (2).mp3
+          projectPath: Assets\Audio\SFX\beep (2).mp3
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\beep (2).mp3.meta
+          fullPath: E:\games\EVA\Assets\Audio\SFX\beep (2).mp3.meta
+          projectPath: Assets\Audio\SFX\beep (2).mp3.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\beep.prefab
+          fullPath: E:\games\EVA\Assets\Audio\SFX\beep.prefab
+          projectPath: Assets\Audio\SFX\beep.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\SystemAudio.prefab
+          fullPath: E:\games\EVA\Assets\Game\SystemAudio.prefab
+          projectPath: Assets\Game\SystemAudio.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 60f3579451d1f75047ae3f30eda7e23aea94ef1a
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: added sfx in PasscodePad room
+        description: 
+        timeString: 2023-06-01T14:39:23.000-04:00
+        commitTimeString: 2023-06-01T14:39:23.000-04:00
+        changes:
+        - path: Assets\Audio\SFX\approve.mp3
+          fullPath: E:\games\EVA\Assets\Audio\SFX\approve.mp3
+          projectPath: Assets\Audio\SFX\approve.mp3
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\approve.mp3.meta
+          fullPath: E:\games\EVA\Assets\Audio\SFX\approve.mp3.meta
+          projectPath: Assets\Audio\SFX\approve.mp3.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\approve.prefab
+          fullPath: E:\games\EVA\Assets\Audio\SFX\approve.prefab
+          projectPath: Assets\Audio\SFX\approve.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\approve.prefab.meta
+          fullPath: E:\games\EVA\Assets\Audio\SFX\approve.prefab.meta
+          projectPath: Assets\Audio\SFX\approve.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\beep.mp3
+          fullPath: E:\games\EVA\Assets\Audio\SFX\beep.mp3
+          projectPath: Assets\Audio\SFX\beep.mp3
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\beep.mp3.meta
+          fullPath: E:\games\EVA\Assets\Audio\SFX\beep.mp3.meta
+          projectPath: Assets\Audio\SFX\beep.mp3.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\beep.prefab
+          fullPath: E:\games\EVA\Assets\Audio\SFX\beep.prefab
+          projectPath: Assets\Audio\SFX\beep.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\beep.prefab.meta
+          fullPath: E:\games\EVA\Assets\Audio\SFX\beep.prefab.meta
+          projectPath: Assets\Audio\SFX\beep.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\deny.mp3
+          fullPath: E:\games\EVA\Assets\Audio\SFX\deny.mp3
+          projectPath: Assets\Audio\SFX\deny.mp3
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\deny.mp3.meta
+          fullPath: E:\games\EVA\Assets\Audio\SFX\deny.mp3.meta
+          projectPath: Assets\Audio\SFX\deny.mp3.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\deny.prefab
+          fullPath: E:\games\EVA\Assets\Audio\SFX\deny.prefab
+          projectPath: Assets\Audio\SFX\deny.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Audio\SFX\deny.prefab.meta
+          fullPath: E:\games\EVA\Assets\Audio\SFX\deny.prefab.meta
+          projectPath: Assets\Audio\SFX\deny.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+          fullPath: E:\games\EVA\Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+          projectPath: Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\SystemAudio.prefab
+          fullPath: E:\games\EVA\Assets\Game\SystemAudio.prefab
+          projectPath: Assets\Game\SystemAudio.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: E:\games\EVA\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 20821ec396b44f6c8ecb1a2ca0e58b076dfc889a
+        mergeA: 
+        mergeB: 
+        authorName: OtakuZhang
+        authorEmail: zhangyk@shanghaitech.edu.cn
+        commitEmail: zhangyk@shanghaitech.edu.cn
+        commitName: OtakuZhang
+        summary: minor change
+        description: 
+        timeString: 2023-06-01T01:09:28.000-04:00
+        commitTimeString: 2023-06-01T01:09:28.000-04:00
+        changes:
+        - path: Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+          fullPath: E:\games\EVA\Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+          projectPath: Assets\Game\Rooms\PasscodePad\RoomPasscodePad.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\games\EVA\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: de3f02707bb405b2679685fd2df36980ddde1479
         mergeA: 009a35493612e7010de10f6c6b66b111f87aef22
         mergeB: 012f4f2ebcc34cf5d408055dbdf5e23b5aab9672
@@ -32781,7 +33357,7 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      statusAhead: 2
+      statusAhead: 0
       selectedIndex: -1
     selectedEntry:
       commitID: 
@@ -33318,13 +33894,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-06-01T01:09:37.672-04:00
+    updatedTimeString: 2023-06-01T20:00:22.947-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-06-01T01:10:28.647-04:00
+    updatedTimeString: 2023-06-01T20:00:34.209-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-06-01T01:10:28.621-04:00
+    updatedTimeString: 2023-06-01T20:00:34.202-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull

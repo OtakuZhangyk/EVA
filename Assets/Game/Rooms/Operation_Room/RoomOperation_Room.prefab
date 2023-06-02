@@ -691,7 +691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Needle
+    m_description: Injector
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -1555,7 +1555,7 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: -11
     m_baselineFixed: 0
-    m_walkToPoint: {x: 20, y: -28}
+    m_walkToPoint: {x: 12, y: -25}
     m_lookAtPoint: {x: 0, y: 0}
     m_scriptName: Pc
   m_parallaxDepth: 0

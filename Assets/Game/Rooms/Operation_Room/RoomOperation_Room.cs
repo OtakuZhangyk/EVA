@@ -134,8 +134,17 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	IEnumerator OnInteractPropPc( IProp prop )
 	{
-
-		yield return E.Break;
+		if (prop.FirstUse)
+		{
+			yield return C.WalkToClicked();
+			Audio.Play("button_click");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			Audio.Play("button_click");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return C.Me.Say("It doesn't work.");
+		}
 	}
 
 	IEnumerator OnLookAtPropSink( IProp prop )
@@ -148,6 +157,12 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	IEnumerator OnLookAtPropTrash( IProp prop )
 	{
 		yield return C.Me.Say("It's a trashcan.");
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropNeedle( IProp prop )
+	{
+
 		yield return E.Break;
 	}
 }

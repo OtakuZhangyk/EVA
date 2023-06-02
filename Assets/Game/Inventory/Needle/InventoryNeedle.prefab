@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Needle
+    m_description: Injector
     m_animGui: needle_icon
     m_animCursor: needle_icon
     m_animCursorInactive: needle_icon
