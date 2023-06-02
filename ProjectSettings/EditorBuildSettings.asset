@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Rooms/Safe/SceneRoomSafe.unity
     guid: 3e1fa9be29a72674bb629d56052048cf
+  - enabled: 1
+    path: Assets/Game/Rooms/PCScreen/SceneRoomPCScreen.unity
+    guid: 943a2f5dae64d1c428993094427d5a50
   m_configObjects: {}
