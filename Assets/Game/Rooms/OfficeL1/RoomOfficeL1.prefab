@@ -58,7 +58,7 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: -6
     m_baselineFixed: 0
-    m_walkToPoint: {x: 0, y: -9}
+    m_walkToPoint: {x: -8, y: -7}
     m_lookAtPoint: {x: 0, y: 0}
     m_scriptName: Trash
   m_parallaxDepth: 0
@@ -700,8 +700,8 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: -6
     m_baselineFixed: 0
-    m_walkToPoint: {x: 24, y: -24}
-    m_lookAtPoint: {x: 0, y: 0}
+    m_walkToPoint: {x: 26, y: -23}
+    m_lookAtPoint: {x: 15, y: 4}
     m_scriptName: Desks
   m_parallaxDepth: 0
   m_parallaxAlignment: {x: 0, y: 0}
@@ -1654,8 +1654,8 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: -15
     m_baselineFixed: 0
-    m_walkToPoint: {x: -21, y: -33}
-    m_lookAtPoint: {x: 0, y: 0}
+    m_walkToPoint: {x: -17, y: -32}
+    m_lookAtPoint: {x: -4, y: 1}
     m_scriptName: Pc2
   m_parallaxDepth: 0
   m_parallaxAlignment: {x: 0, y: 0}
@@ -1980,7 +1980,7 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: -14
     m_baselineFixed: 0
-    m_walkToPoint: {x: -1, y: -25}
+    m_walkToPoint: {x: -5, y: -27}
     m_lookAtPoint: {x: -1, y: -1}
     m_scriptName: Drawers
   m_parallaxDepth: 0

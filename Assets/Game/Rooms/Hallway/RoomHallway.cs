@@ -26,6 +26,8 @@ public class RoomHallway : RoomScript<RoomHallway>
 	IEnumerator OnInteractPropOffice_door( IProp prop )
 	{
 		yield return C.WalkToClicked();
+		Audio.Play("door_open1");
+		yield return E.WaitSkip();
 		E.ChangeRoomBG(R.OfficeL1);
 		yield return E.ConsumeEvent;
 	}
@@ -56,7 +58,10 @@ public class RoomHallway : RoomScript<RoomHallway>
 			C.Me.SetPosition(Point("OpEnter"));
 		}
 		if (C.Me.LastRoom == R.OfficeL1)
+		{
+			Audio.Play("door_close1");
 			C.Me.SetPosition(Point("OfficeEnter"));
+		}
 		if (C.Me.LastRoom == R.HallwayL2)
 			C.Me.SetPosition(Point("HallwayL2Enter"));
 	}
@@ -74,5 +79,14 @@ public class RoomHallway : RoomScript<RoomHallway>
 	{
 
 		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropBoard( IProp prop )
+	{
+		if (prop.FirstUse)
+			yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Just some posters, nothing special");
 	}
 }

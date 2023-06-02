@@ -1881,7 +1881,7 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: -8
     m_baselineFixed: 0
-    m_walkToPoint: {x: -6, y: -20}
+    m_walkToPoint: {x: 15, y: -21}
     m_lookAtPoint: {x: 0, y: -2}
     m_scriptName: Trash
   m_parallaxDepth: 0

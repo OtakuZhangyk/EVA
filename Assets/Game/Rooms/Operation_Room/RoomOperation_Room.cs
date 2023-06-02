@@ -99,9 +99,25 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	IEnumerator OnInteractPropTrash( IProp prop )
 	{
-		yield return C.WalkToClicked();
+		if (prop.FirstUse)
+		{
+			yield return C.WalkToClicked();
+			yield return C.FaceClicked();
+			Globals.searched_trash++;
+			Audio.Play("loot");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+		}
+		else
+			yield return C.FaceClicked();
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Nothing interesting in there, just a bunch of garbage.");
+		if (prop.FirstUse && Globals.searched_trash == 3)
+		{
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Why am I so interested in garbage?");
+		}
 		yield return E.Break;
 	}
 
@@ -122,14 +138,14 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	IEnumerator OnInteractPropSink( IProp prop )
 	{
-
 		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Gotta wash my hands before exiting the operating room.");
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Wait, why did that line just pop in my head?");
 		yield return E.Break;
-
+		
 	}
 
 	IEnumerator OnInteractPropPc( IProp prop )
@@ -137,6 +153,7 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 		if (prop.FirstUse)
 		{
 			yield return C.WalkToClicked();
+			yield return C.FaceClicked();
 			Audio.Play("button_click");
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
@@ -144,6 +161,12 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
 			yield return C.Me.Say("It doesn't work.");
+		}
+		else
+		{
+			yield return C.FaceClicked();
+			yield return E.WaitSkip();
+			yield return C.Me.Say("I've checked it. Doesn't work.");
 		}
 	}
 
@@ -161,6 +184,12 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	}
 
 	IEnumerator OnLookAtPropNeedle( IProp prop )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropInfusion_stand( IProp prop )
 	{
 
 		yield return E.Break;

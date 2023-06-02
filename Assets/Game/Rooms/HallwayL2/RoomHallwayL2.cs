@@ -27,8 +27,10 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 			C.Me.SetPosition(Point("AdminEnter"));
 		}
 		if (C.Me.LastRoom == R.LabL2)
+		{
+			Audio.Play("door_close");
 			C.Me.SetPosition(Point("LabEnter"));
-		
+		}
 	}
 
 	IEnumerator OnEnterRoomAfterFade()
@@ -58,6 +60,8 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 		yield return C.WalkToClicked();
 		if (admin_door_lock)
 		{
+			Audio.Play("cant_open");
+			yield return E.WaitSkip();
 			yield return E.WaitSkip();
 			yield return C.Me.Say("It's locked. Need to find a key.");
 		}
@@ -73,6 +77,8 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 	IEnumerator OnInteractPropLab_door( IProp prop )
 	{
 		yield return C.WalkToClicked();
+		Audio.Play("door_open");
+		yield return E.WaitSkip();
 		E.ChangeRoomBG(R.LabL2);
 		yield return E.ConsumeEvent;
 	}

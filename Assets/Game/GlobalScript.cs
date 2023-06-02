@@ -43,6 +43,8 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	
 	public bool m_FirstReadMemo = false;
 	
+	public int searched_trash = 0;
+	
 	////////////////////////////////////////////////////////////////////////////////////
 	// Global Game Functions
 	

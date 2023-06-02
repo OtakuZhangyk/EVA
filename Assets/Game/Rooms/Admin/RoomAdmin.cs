@@ -56,4 +56,31 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 		yield return E.ChangeRoom(R.Safe);
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteractPropTrashF( IProp prop )
+	{
+		if (prop.FirstUse)
+		{
+			yield return C.WalkToClicked();
+			yield return C.FaceClicked();
+			Globals.searched_trash++;
+			Audio.Play("loot_paper");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Hmmm... A balled up personal letter");
+		}
+		else
+			yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("'Dr. Newman, Following the recent controversy surrounding your research practices, we regret to inform you that your membership in our Neurological Society has been terminated...'");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Seems like Dr. Newman was having a big problem");
+		if (prop.FirstUse && Globals.searched_trash == 3)
+		{
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Why am I so interested in garbage?");
+		}
+	}
 }

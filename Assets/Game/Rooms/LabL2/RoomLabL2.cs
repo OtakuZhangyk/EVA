@@ -11,6 +11,8 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 	IEnumerator OnInteractPropDoor( IProp prop )
 	{
 		yield return C.WalkToClicked();
+		Audio.Play("door_open");
+		yield return E.WaitSkip();
 		E.ChangeRoomBG(R.HallwayL2);
 		yield return E.ConsumeEvent;
 	}
@@ -19,6 +21,7 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 	{
 		if (C.Me.LastRoom == R.HallwayL2)
 		{
+			Audio.Play("door_close");
 			C.Me.SetPosition(Point("Enter"));
 		}
 		if (Globals.m_progressExample == eProgress.LeaveLabL2)
