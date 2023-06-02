@@ -114,6 +114,19 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		yield return C.Me.Say("It shows an online article snippet");
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Local Hospital Bankruptcy: The Downfall of a Once Renowned Institution");
+		if (prop.FirstUse)
+		{
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Here is a photo of Dr. Newman");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Wait, it's me");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("So I'm Dr. Newman?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Then why did I lost my memory?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Does it have some kind of connection with the human experimentation?");
+		}
 	}
 
 	IEnumerator OnInteractPropPc2( IProp prop )
@@ -126,5 +139,18 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		yield return C.Me.Say("It shows an online article snippet");
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Local Hospital Bankruptcy: The Downfall of a Once Renowned Institution");
+		if (prop.FirstUse)
+		{
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Here is a photo of Dr. Newman");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Wait, it's me");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("So I'm Dr. Newman?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Then why did I lost my memory?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Does it have some kind of connection with the human experimentation?");
+		}
 	}
 }

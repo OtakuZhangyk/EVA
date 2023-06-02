@@ -83,4 +83,18 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 			yield return C.Me.Say("Why am I so interested in garbage?");
 		}
 	}
+
+	IEnumerator OnInteractPropDrawers( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("drawer_open");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Some research papers by Dr. Newman");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("So I was a leading Neurologist, before the scandal");
+		yield return E.WaitSkip();
+		Audio.Play("drawer_close");
+	}
 }
