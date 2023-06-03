@@ -32,6 +32,18 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 			yield return C.Me.WalkTo(Point("EnterWalk"),true);
 			yield return C.Me.Face(Point("Enter"));
 		}
+		if (Globals.b_knowhimself == 0)
+		{
+			//C.Me.WalkTo(Prop("Photo").Position + Prop("Photo").WalkToPoint);
+			//C.Me.FaceRight();
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Is it me?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Dr. Newman, Hospital Director");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Looks like I'm the head of this hostipal");
+			Globals.b_knowhimself = 2;
+		}
 	}
 
 	IEnumerator OnInteractPropPhoto_down( IProp prop )
@@ -91,9 +103,7 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 		Audio.Play("drawer_open");
 		yield return E.WaitSkip();
 		yield return E.WaitSkip();
-		yield return C.Me.Say("Some research papers by Dr. Newman");
-		yield return E.WaitSkip();
-		yield return C.Me.Say("So I was a leading Neurologist, before the scandal");
+		//Eva documents
 		yield return E.WaitSkip();
 		Audio.Play("drawer_close");
 	}

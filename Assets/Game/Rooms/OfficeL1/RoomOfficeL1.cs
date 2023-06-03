@@ -60,8 +60,20 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 
 	IEnumerator OnEnterRoomAfterFade()
 	{
-
-		yield return E.Break;
+		if (C.Me.LastRoom == R.PCScreen && Globals.b_knowhimself == 1)
+		{
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Here is a photo of Dr. Newman");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Wait, it's me");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("So I'm Dr. Newman?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Then why did I lost my memory?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Does it have some kind of connection with the human experimentation?");
+			Globals.b_knowhimself = 2;
+		}
 	}
 
 	IEnumerator OnInteractPropTrash( IProp prop )
@@ -83,7 +95,10 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Leading Neurologist or Mad Scientist? Scandal of Human Experimentation Unveiled");
 		yield return E.WaitSkip();
-		yield return C.Me.Say("Seems like Dr. Newman was having a big problem");
+		if (Globals.b_knowhimself > 0)
+			yield return C.Me.Say("Seems like I had big trouble");
+		else
+			yield return C.Me.Say("Seems like Dr. Newman was having a big problem");
 		if (prop.FirstUse && Globals.searched_trash == 3)
 		{
 			yield return E.WaitSkip();
@@ -109,24 +124,11 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
 		Audio.Play("button_click");
-		yield return E.WaitSkip();
-		yield return E.WaitSkip();
-		yield return C.Me.Say("It shows an online article snippet");
-		yield return E.WaitSkip();
-		yield return C.Me.Say("Local Hospital Bankruptcy: The Downfall of a Once Renowned Institution");
 		if (prop.FirstUse)
 		{
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Here is a photo of Dr. Newman");
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Wait, it's me");
-			yield return E.WaitSkip();
-			yield return C.Me.Say("So I'm Dr. Newman?");
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Then why did I lost my memory?");
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Does it have some kind of connection with the human experimentation?");
+			Globals.b_knowhimself = 1;
 		}
+		E.ChangeRoomBG(R.PCScreen);
 	}
 
 	IEnumerator OnInteractPropPc2( IProp prop )
@@ -134,23 +136,10 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
 		Audio.Play("button_click");
-		yield return E.WaitSkip();
-		yield return E.WaitSkip();
-		yield return C.Me.Say("It shows an online article snippet");
-		yield return E.WaitSkip();
-		yield return C.Me.Say("Local Hospital Bankruptcy: The Downfall of a Once Renowned Institution");
 		if (prop.FirstUse)
 		{
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Here is a photo of Dr. Newman");
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Wait, it's me");
-			yield return E.WaitSkip();
-			yield return C.Me.Say("So I'm Dr. Newman?");
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Then why did I lost my memory?");
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Does it have some kind of connection with the human experimentation?");
+			Globals.b_knowhimself = 1;
 		}
+		E.ChangeRoomBG(R.PCScreen);
 	}
 }

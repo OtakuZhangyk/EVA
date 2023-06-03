@@ -45,6 +45,8 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	
 	public int searched_trash = 0;
 	
+	public int b_knowhimself = 0;
+	
 	////////////////////////////////////////////////////////////////////////////////////
 	// Global Game Functions
 	

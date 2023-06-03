@@ -606,7 +606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: TrashF
+    m_description: Trash
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -784,7 +784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Pc
+    m_description: PC
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -901,7 +901,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 631
+  m_SortingOrder: 630
   m_Sprite: {fileID: 21300000, guid: 2bcc9da03ad198343868746dfb4f5bd4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1983,7 +1983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Photo
+    m_description: 
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -1992,7 +1992,7 @@ MonoBehaviour:
     m_position: {x: 0, y: 0}
     m_baseline: -9
     m_baselineFixed: 0
-    m_walkToPoint: {x: 0, y: -64}
+    m_walkToPoint: {x: -19, y: -61}
     m_lookAtPoint: {x: 0, y: 0}
     m_scriptName: Photo
   m_parallaxDepth: 0
