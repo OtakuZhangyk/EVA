@@ -60,7 +60,7 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 
 	IEnumerator OnEnterRoomAfterFade()
 	{
-		if (C.Me.LastRoom == R.PCScreen && Globals.b_knowhimself == 1)
+		if ((C.Me.LastRoom == R.PCScreen || C.Me.LastRoom == R.PCScreen2) && Globals.b_knowhimself == 1)
 		{
 			yield return E.WaitSkip();
 			yield return C.Me.Say("Here is a photo of Dr. Newman");
@@ -126,7 +126,8 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		Audio.Play("button_click");
 		if (prop.FirstUse)
 		{
-			Globals.b_knowhimself = 1;
+			if (Globals.b_knowhimself == 0)
+				Globals.b_knowhimself = 1;
 		}
 		E.ChangeRoomBG(R.PCScreen);
 	}
@@ -138,8 +139,15 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		Audio.Play("button_click");
 		if (prop.FirstUse)
 		{
-			Globals.b_knowhimself = 1;
+			if (Globals.b_knowhimself == 0)
+				Globals.b_knowhimself = 1;
 		}
-		E.ChangeRoomBG(R.PCScreen);
+		E.ChangeRoomBG(R.PCScreen2);
+	}
+
+	IEnumerator OnUseInvPropPc1( IProp prop, IInventory item )
+	{
+
+		yield return E.Break;
 	}
 }

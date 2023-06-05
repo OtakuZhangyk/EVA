@@ -675,7 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Lab_door
+    m_description: Door
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -853,7 +853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Admin_door
+    m_description: Door
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -1475,7 +1475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Stairs_down
+    m_description: Stair Down
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -1801,7 +1801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Map
+    m_description: Directory
     m_cursor: 
     m_visible: 1
     m_clickable: 1

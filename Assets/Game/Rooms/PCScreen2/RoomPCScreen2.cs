@@ -4,15 +4,9 @@ using PowerTools.Quest;
 using PowerScript;
 using static GlobalScript;
 
-public class RoomPCScreen : RoomScript<RoomPCScreen>
+public class RoomPCScreen2 : RoomScript<RoomPCScreen2>
 {
 
-
-	IEnumerator OnInteractPropExitButton( IProp prop )
-	{
-		E.ChangeRoomBG(R.OfficeL1);
-		yield return E.Break;
-	}
 
 	void OnEnterRoom()
 	{
@@ -25,9 +19,9 @@ public class RoomPCScreen : RoomScript<RoomPCScreen>
 		yield return E.Break;
 	}
 
-	IEnumerator OnEnterRoomAfterFade()
+	IEnumerator OnInteractPropExit( IProp prop )
 	{
-
+		E.ChangeRoomBG(R.OfficeL1);
 		yield return E.Break;
 	}
 }
