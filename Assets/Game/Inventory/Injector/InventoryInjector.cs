@@ -4,7 +4,7 @@ using PowerTools.Quest;
 using PowerScript;
 using static GlobalScript;
 
-public class InventoryNeedle : InventoryScript<InventoryNeedle>
+public class InventoryInjector : InventoryScript<InventoryInjector>
 {
 
 

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6479694967906134069}
   - component: {fileID: 5346395191982741774}
   m_Layer: 0
-  m_Name: InventoryNeedle
+  m_Name: InventoryInjector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50,5 +50,5 @@ MonoBehaviour:
     m_animCursor: needle_icon
     m_animCursorInactive: needle_icon
     m_stack: 0
-    m_scriptName: Needle
-    m_scriptClass: InventoryNeedle
+    m_scriptName: Injector
+    m_scriptClass: InventoryInjector
