@@ -19,6 +19,7 @@ public class RoomSafe : RoomScript<RoomSafe>
 		C.Plr.Disable();
 		G.InventoryBar.Visible = false;
 		Hotspot("Handle").Enable();
+		
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -32,6 +33,7 @@ public class RoomSafe : RoomScript<RoomSafe>
 	IEnumerator OnInteractHotspotHandle( IHotspot hotspot )
 	{
 		if (RoomAdmin.Script.bSafeUnlocked == true) {
+			Audio.Play("safe_door");
 			yield return Prop("Background").PlayAnimation("Opensafe");
 			Hotspot("Handle").Disable();
 			Hotspot("Numpad").Disable();

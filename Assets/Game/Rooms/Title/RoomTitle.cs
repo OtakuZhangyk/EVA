@@ -50,6 +50,7 @@ public class RoomTitle : RoomScript<RoomTitle>
 
 	public IEnumerator OnInteractPropNew( Prop prop )
 	{		
+		Audio.Play("button_click");
 		// Turn on the inventory and info bar now that we're starting a game
 		G.InventoryBar.Show();
 		
@@ -60,6 +61,7 @@ public class RoomTitle : RoomScript<RoomTitle>
 
 	public IEnumerator OnInteractPropContinue( Prop prop )
 	{
+		Audio.Play("button_click");
 		// Restore most recent save game
 		E.RestoreLastSave();
 		yield return E.ConsumeEvent;

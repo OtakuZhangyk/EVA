@@ -88,7 +88,7 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Dr. Newman, Following the recent controversy surrounding your research practices, we regret to inform you that your membership in our Neurological Society has been terminated...");
 		yield return E.WaitSkip();
-		yield return C.Me.Say("Seems like Dr. Newman was having a big problem");
+		yield return C.Me.Say("Seems like I'm having a tough time");
 		if (prop.FirstUse && Globals.searched_trash == 3)
 		{
 			yield return E.WaitSkip();

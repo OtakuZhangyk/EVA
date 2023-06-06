@@ -107,4 +107,17 @@ public class RoomHallway : RoomScript<RoomHallway>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteractPropMap( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("This floor has an office and an operation room");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("The floor above has a lab and a hospital director's room");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It shows the hospital also has a basement");
+		yield return E.Break;
+	}
 }

@@ -40,8 +40,18 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 	{
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
+		Audio.Play("search_cloth");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
 		yield return C.Me.Say("A key. I wonder what it unlocks.");
-		
+		Audio.Play("pickup_keys");
 		I.Admin_Key.Add();
 		prop.Clickable = false;
 		yield return E.Break;

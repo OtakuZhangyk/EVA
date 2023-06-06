@@ -45,6 +45,7 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 	{
 		((PropComponent)Prop("TextR").Instance).GetComponent<TextMesh>().text = "hello";
 		page += 2;
+		Audio.Play("book_flip");
 		yield return E.Break;
 	}
 

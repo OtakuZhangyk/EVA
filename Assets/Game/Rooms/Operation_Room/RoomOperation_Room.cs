@@ -21,12 +21,11 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	{
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
-		
+		yield return C.Me.Say("A notebook? I wonder what it says...");
+		Audio.Play("book_flip");
 		prop.Disable();
 		I.Handnote.Add();
-		yield return E.WaitSkip();
 		//C.Player.FaceDown();
-		yield return C.Me.Say("A notebook? I wonder what it says...");
 		yield return E.WaitSkip();
 		yield return C.Display("Access your Inventory from the top left of the screen");
 		yield return C.Display("Right click on item to inspect");
@@ -141,6 +140,7 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	{
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
+		Audio.Play("tap_water");
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Gotta wash my hands before exiting the operating room.");
 		yield return E.WaitSkip();
