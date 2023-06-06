@@ -26,7 +26,8 @@ public class RoomSafe : RoomScript<RoomSafe>
 	{
 		C.Plr.Enable();
 		G.InventoryBar.Visible = true;
-		
+		if (Hotspot("Handle").Clickable == false)
+			Audio.Play("safe_door");
 		yield return E.Break;
 	}
 
