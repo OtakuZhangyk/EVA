@@ -100,6 +100,21 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 	{
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
+		if (prop.FirstUse)
+		{
+			Audio.Play("drawer_open");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Another key. I wonder what this one unlocks.");
+			Audio.Play("pickup_keys");
+			//I.s.Add();
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			Audio.Play("drawer_close");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+		}
 		Audio.Play("drawer_open");
 		yield return E.WaitSkip();
 		yield return E.WaitSkip();

@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Admin_Key
+    m_description: Key
     m_animGui: icons0
     m_animCursor: icons0
     m_animCursorInactive: icons0
