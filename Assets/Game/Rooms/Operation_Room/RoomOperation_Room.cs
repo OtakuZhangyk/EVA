@@ -92,7 +92,7 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 		yield return C.FaceClicked();
 		
 		prop.Disable();
-		I.Needle.Add();
+		I.Injector.Add();
 		yield return E.WaitSkip();
 		yield return E.Break;
 	}

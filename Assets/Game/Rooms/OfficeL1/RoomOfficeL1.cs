@@ -55,6 +55,7 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Dr. Newman: Groundbreaking Contribution to Neuroscience or Unethical Human Experimentation?");
 		yield return E.WaitSkip();
+		I.SecretLabKey.Add();
 		Audio.Play("drawer_close");
 	}
 
@@ -146,6 +147,12 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 	}
 
 	IEnumerator OnUseInvPropPc1( IProp prop, IInventory item )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropDrawers( IProp prop )
 	{
 
 		yield return E.Break;
