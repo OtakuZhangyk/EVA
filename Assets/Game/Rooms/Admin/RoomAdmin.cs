@@ -18,12 +18,12 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 
 	void OnEnterRoom()
 	{
-        if (C.Me.LastRoom == R.HallwayL2)
-        {
-            Audio.Play("door_close1");
-            C.Me.SetPosition(Point("Enter"));
-        }
-    }
+		if (C.Me.LastRoom == R.HallwayL2)
+		{
+			Audio.Play("door_close1");
+			C.Me.SetPosition(Point("Enter"));
+		}
+ }
 
 	IEnumerator OnEnterRoomAfterFade()
 	{
@@ -103,8 +103,9 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 		Audio.Play("drawer_open");
 		yield return E.WaitSkip();
 		yield return E.WaitSkip();
-		//Eva documents
 		yield return E.WaitSkip();
-		Audio.Play("drawer_close");
+		yield return C.Me.Say("Some documents about Project Eva");
+		E.ChangeRoomBG(R.Document);
+		
 	}
 }

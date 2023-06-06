@@ -522,7 +522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: ExitButton
+    m_description: Close
     m_cursor: 
     m_visible: 1
     m_clickable: 1

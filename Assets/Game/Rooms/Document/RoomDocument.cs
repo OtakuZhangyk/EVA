@@ -9,6 +9,7 @@ public class RoomDocument : RoomScript<RoomDocument>
 	int page = 0;	System.Collections.Generic.List<string> documents = new System.Collections.Generic.List<string>();
 	void OnEnterRoom()
 	{
+		Audio.Play("page");
 		C.Me.Disable();
 		G.InventoryBar.Hide();
 		Prop("Prev").Disable();
@@ -38,6 +39,7 @@ Log 1: Successfully performed operation, subject is plugged into
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
 	{
+		Audio.Play("page");
 		C.Me.Enable();
 		G.InventoryBar.Show();
 		yield return E.Break;
@@ -51,6 +53,7 @@ Log 1: Successfully performed operation, subject is plugged into
 
 	IEnumerator OnInteractPropNext( IProp prop )
 	{
+		Audio.Play("page");
 		page++;
 		((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = documents[page];
 		Prop("Prev").Enable();
@@ -61,6 +64,7 @@ Log 1: Successfully performed operation, subject is plugged into
 
 	IEnumerator OnInteractPropPrev( IProp prop )
 	{
+		Audio.Play("page");
 		page--;
 		((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = documents[page];
 		Prop("Next").Enable();
