@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8137330805687741796}
   - component: {fileID: 2838196494859901988}
   m_Layer: 0
-  m_Name: InventorySecretLabKey
+  m_Name: InventoryLabKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: SecretLabKey
+    m_description: Key
     m_animGui: SecretLabKey
     m_animCursor: SecretLabKey
     m_animCursorInactive: SecretLabKey
     m_stack: 0
-    m_scriptName: SecretLabKey
-    m_scriptClass: InventorySecretLabKey
+    m_scriptName: LabKey
+    m_scriptClass: InventoryLabKey

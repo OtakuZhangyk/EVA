@@ -108,7 +108,7 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 			yield return E.WaitSkip();
 			yield return C.Me.Say("Another key. I wonder what this one unlocks.");
 			Audio.Play("pickup_keys");
-			I.SecretLabKey.Add();
+			I.LabKey.Add();
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
 			Audio.Play("drawer_close");

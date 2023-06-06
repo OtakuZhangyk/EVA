@@ -68,14 +68,14 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 	{
 		yield return C.WalkToClicked();
 		if (!bLabOpen) {
-			if (I.SecretLabKey.Active) {
+			if (I.LabKey.Active) {
 				bLabOpen = true;
 				Audio.Play("lock");
 			   yield return E.WaitSkip();
 				Audio.Play("door_open1");
 				E.ChangeRoomBG(R.Lab);
-				I.SecretLabKey.Active = false;
-				I.SecretLabKey.Remove();
+				I.LabKey.Active = false;
+				I.LabKey.Remove();
 		
 			} else if (I.Admin_Key.Active) {
 				Audio.Play("lock");

@@ -4,7 +4,7 @@ using PowerTools.Quest;
 using PowerScript;
 using static GlobalScript;
 
-public class InventorySecretLabKey : InventoryScript<InventorySecretLabKey>
+public class InventoryLabKey : InventoryScript<InventoryLabKey>
 {
 
 

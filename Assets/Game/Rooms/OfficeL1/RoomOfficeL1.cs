@@ -55,7 +55,7 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Dr. Newman: Groundbreaking Contribution to Neuroscience or Unethical Human Experimentation?");
 		yield return E.WaitSkip();
-		I.SecretLabKey.Add();
+		I.LabKey.Add();
 		Audio.Play("drawer_close");
 	}
 
