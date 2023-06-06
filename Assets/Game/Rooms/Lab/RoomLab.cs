@@ -37,4 +37,10 @@ public class RoomLab : RoomScript<RoomLab>
 		yield return C.Me.Say("Eva...");
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteractPropEVA( IProp prop )
+	{
+
+		yield return E.Break;
+	}
 }

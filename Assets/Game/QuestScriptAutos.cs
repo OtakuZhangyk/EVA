@@ -69,6 +69,7 @@ namespace PowerScript
 		public static IRoom Safe           { get { return PowerQuest.Get.GetRoom("Safe"); } }
 		public static IRoom PCScreen       { get { return PowerQuest.Get.GetRoom("PCScreen"); } }
 		public static IRoom PCScreen2      { get { return PowerQuest.Get.GetRoom("PCScreen2"); } }
+		public static IRoom Document       { get { return PowerQuest.Get.GetRoom("Document"); } }
 		// #ROOM# - Do not edit this line, it's used by the system to insert rooms for easy access
 	}
 
