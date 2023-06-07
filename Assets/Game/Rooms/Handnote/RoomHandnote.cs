@@ -7,7 +7,16 @@ using static GlobalScript;
 public class RoomHandnote : RoomScript<RoomHandnote>
 {
 	int page = 1;
-	public void OnEnterRoom()
+	static int MAX_PAGE = 3;
+	string textPage1 = "Memo #5\nTo let Eva out, the main power \nsupply has to be turned off \nfirst."+
+		"\nAfterward, you need to turn \noff three backup power supplies, \nor else it'll still be restrained."+
+		"\nThen it's going to the cryogenic \nchamber, injecting the drug, I \nhave to remember to bring the \nsyringe.";
+
+	string textPage2 = "Lastly, open up those restraints, \nlet Eva be free.";
+    string textPage3 = "";
+	string textPage5 = "2023";
+
+    public void OnEnterRoom()
 	{
 		
 		// Hide the inventory in the title scene
@@ -28,14 +37,35 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 
 	IEnumerator OnInteractPropTurnL( IProp prop )
 	{
-
-		yield return E.Break;
+		TextMesh m_textL = ((PropComponent)Prop("TextL").Instance).GetComponent<TextMesh>();
+		TextMesh m_textR = ((PropComponent)Prop("TextR").Instance).GetComponent<TextMesh>();
+		page -= 1;
+		Audio.Play("book_flip");
+		if (page <= 1) {
+			prop.Disable();
+		}
+		if (page < MAX_PAGE) {
+			Prop("TurnR").Enable();
+		}
+		if (page == 2)
+		{
+			m_textL.text = textPage3;
+			m_textR.text = textPage3;
+		
+		}
+		else if (page == 1)
+		{
+			m_textL.text = textPage1;
+			m_textR.text = textPage2;
+		}
+		yield return E.ConsumeEvent;
 	}
 
 
 	IEnumerator OnInteractPropClose( IProp prop )
 	{
-		E.ChangeRoomBG(C.Me.LastRoom);
+		if (R.Previous != null)
+			E.ChangeRoomBG(C.Me.LastRoom);
 		G.InventoryBar.Show();
 		
 		yield return E.Break;
@@ -43,10 +73,28 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 
 	IEnumerator OnInteractPropTurnR( IProp prop )
 	{
-		((PropComponent)Prop("TextR").Instance).GetComponent<TextMesh>().text = "hello";
-		page += 2;
+		TextMesh m_textL = ((PropComponent)Prop("TextL").Instance).GetComponent<TextMesh>();
+		TextMesh m_textR = ((PropComponent)Prop("TextR").Instance).GetComponent<TextMesh>();
+		page += 1;
 		Audio.Play("book_flip");
-		yield return E.Break;
+		if (page >= MAX_PAGE) {
+			prop.Disable();
+		}
+		if (page > 1) {
+			Prop("TurnL").Enable();
+		}
+		if (page == 2)
+		{
+			m_textL.text = textPage3;
+			m_textR.text = textPage3;
+		
+		} else if (page == 3)
+		{
+			m_textL.text = textPage5;
+			m_textR.text = textPage3;
+		}
+		
+		yield return E.ConsumeEvent;
 	}
 
 	IEnumerator OnUseInvPropClose( IProp prop, IInventory item )
