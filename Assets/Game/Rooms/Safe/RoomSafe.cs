@@ -40,8 +40,12 @@ public class RoomSafe : RoomScript<RoomSafe>
 			yield return Prop("Background").PlayAnimation("Opensafe");
 			Hotspot("Handle").Disable();
 			Hotspot("Numpad").Disable();
-			Prop("Notebook").Enable();
-			Prop("LabeledBottle").Enable();
+			if (!I.SecretNotebook.EverCollected) {
+				Prop("Notebook").Enable();
+			}
+			if (!I.LabeledBottle.EverCollected) {
+				Prop("LabeledBottle").Enable();
+			}
 		} else {
 			yield return C.Display("The safe is locked.");
 		}
