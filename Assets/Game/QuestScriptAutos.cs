@@ -72,6 +72,7 @@ namespace PowerScript
 		public static IRoom PCScreen       { get { return PowerQuest.Get.GetRoom("PCScreen"); } }
 		public static IRoom PCScreen2      { get { return PowerQuest.Get.GetRoom("PCScreen2"); } }
 		public static IRoom Document       { get { return PowerQuest.Get.GetRoom("Document"); } }
+		public static IRoom Mind           { get { return PowerQuest.Get.GetRoom("Mind"); } }
 		// #ROOM# - Do not edit this line, it's used by the system to insert rooms for easy access
 	}
 
@@ -80,6 +81,7 @@ namespace PowerScript
 	{
 		// Access to specific dialog trees (Auto-generated)
 		public static IDialogTree ChatWithBarney       { get { return PowerQuest.Get.GetDialogTree("ChatWithBarney"); } }
+		public static IDialogTree ChatwithEva          { get { return PowerQuest.Get.GetDialogTree("ChatwithEva"); } }
 		// #DIALOG# - Do not edit this line, it's used by the system to insert rooms for easy access	    	    
 	}
 

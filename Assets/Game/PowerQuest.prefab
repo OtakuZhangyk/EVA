@@ -109,10 +109,12 @@ MonoBehaviour:
   - {fileID: 5760880097823904990, guid: 149a49375512dba46a469c2510d87db8, type: 3}
   - {fileID: 7895502135343761904, guid: 7a8d02328b60ea944ad8f08e9c45baf1, type: 3}
   - {fileID: 8979033200361757298, guid: eb31cf95fd395d9489e499f858c493a3, type: 3}
+  - {fileID: 2475202859051106756, guid: 4fdc0f6a00de7f84d8d877ddda0d0070, type: 3}
   m_characterPrefabs:
   - {fileID: 7990730183525651140, guid: 023fdd18e2c5dee4f94b3c46e2eaf3e0, type: 3}
   - {fileID: 114953134120639602, guid: b4910caf4195aeb45895069ad277b9fd, type: 3}
   - {fileID: 114894982771319608, guid: 65de018bf92bf6a4088d8c3f977119e7, type: 3}
+  - {fileID: 7463221183472270983, guid: 7f895fb8c6e76fe4a9d305e883891d4a, type: 3}
   m_guiPrefabs:
   - {fileID: 114997530584156344, guid: 411a5d13109ce024888cfebc375721e4, type: 3}
   - {fileID: 8056484958200454590, guid: 008d06288a0a6bf40a1f91be9220b969, type: 3}
@@ -125,6 +127,7 @@ MonoBehaviour:
   - {fileID: 5183830718263160604, guid: 9795157985253a44d8fa296584da06e9, type: 3}
   m_dialogTreePrefabs:
   - {fileID: 114281990419900940, guid: be73794dfb294f14982196647fe6e96b, type: 3}
+  - {fileID: 9006897101994041346, guid: 483104042c15c8c44996e257adfe5382, type: 3}
   m_inventoryPrefabs:
   - {fileID: 114497078864246608, guid: 7a896bee3c107ce49b5aebeb3b5d1b31, type: 3}
   - {fileID: 1395043092278114225, guid: 9b90c4738028c3c4b97bc8746f62d988, type: 3}
