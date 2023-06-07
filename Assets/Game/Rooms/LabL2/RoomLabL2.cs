@@ -56,4 +56,13 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 		prop.Clickable = false;
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteractPropMemo( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("book_flip");
+		E.ChangeRoomBG(R.Document);
+		yield return E.Break;
+	}
 }
