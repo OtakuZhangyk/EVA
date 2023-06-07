@@ -19,7 +19,6 @@ public class RoomSafe : RoomScript<RoomSafe>
 		C.Plr.Disable();
 		G.InventoryBar.Visible = false;
 		Hotspot("Handle").Enable();
-		
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -53,6 +52,12 @@ public class RoomSafe : RoomScript<RoomSafe>
 	IEnumerator OnInteractPropExitButton( IProp prop )
 	{
 		yield return E.ChangeRoom(R.Admin);
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropMemo( IProp prop )
+	{
+		E.ChangeRoomBG(R.Document);
 		yield return E.Break;
 	}
 }
