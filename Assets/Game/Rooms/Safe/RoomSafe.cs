@@ -21,6 +21,7 @@ public class RoomSafe : RoomScript<RoomSafe>
 		Hotspot("Handle").Enable();
 		Prop("Notebook").Disable();
 		Prop("LabeledBottle").Disable();
+
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -66,7 +67,7 @@ public class RoomSafe : RoomScript<RoomSafe>
 		yield return E.ConsumeEvent;
 	}
 
-	IEnumerator OnInteractPropNotebook( IProp prop )
+	IEnumerator OnInteractPropNotebook(IProp prop)
 	{
 		Prop("Notebook").Disable();
 		I.SecretNotebook.Add();
