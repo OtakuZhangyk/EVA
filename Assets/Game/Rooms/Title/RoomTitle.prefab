@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028447151895272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 94.5, y: 20.6, z: 0}
+  m_LocalPosition: {x: 87, y: 20.6, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -194,7 +194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054258763424342}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 102.9, y: -48.5, z: 0}
+  m_LocalPosition: {x: 91, y: -48.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_outline:
     m_directions: 33
     m_width: 1
-    m_color: {r: 0, g: 0, b: 0, a: 1}
+    m_color: {r: 0.32156864, g: 0.5019608, b: 0.52156866, a: 1}
   m_unlocalizedText: CONTINUE
   m_outlineMeshes:
   - {fileID: 0}
@@ -448,7 +448,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 671
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!102 &102922345853747222
 TextMesh:
@@ -471,7 +471,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 153cf283d6d92154ca4d7298e15653a6, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294941539
+    rgba: 4294045130
 --- !u!1 &1580520883078626
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,8 +574,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679418058519408}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -57.6, y: -33.6, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: -28, z: 0}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 4673188962728300}
@@ -598,7 +598,7 @@ MonoBehaviour:
     m_cursor: 
     m_visible: 1
     m_clickable: 0
-    m_animation: EVAcover
+    m_animation: EVAcover1
     m_alpha: 1
     m_position: {x: 0, y: 0}
     m_baseline: 101
@@ -682,8 +682,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -674
-  m_Sprite: {fileID: 21300000, guid: 8e76d4e3470091a40bdcb9eb149d78fc, type: 3}
+  m_SortingOrder: -730
+  m_Sprite: {fileID: 21300000, guid: b39a440b9c9c5b740a6542e779a2f507, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -775,6 +775,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1a2ab3fd5685b10489336fb75330da0a, type: 3}
   - {fileID: 21300000, guid: a40f16321b41a5d438144ad27c3e83f7, type: 3}
   - {fileID: 21300000, guid: 8e76d4e3470091a40bdcb9eb149d78fc, type: 3}
+  - {fileID: 21300000, guid: b39a440b9c9c5b740a6542e779a2f507, type: 3}
   - {fileID: 21300000, guid: 98124aa2a49cb1f4fbcd460bc5b65091, type: 3}
 --- !u!1 &1900612664772818
 GameObject:
@@ -835,7 +836,7 @@ MonoBehaviour:
   m_outline:
     m_directions: 32
     m_width: 1
-    m_color: {r: 0, g: 0, b: 0, a: 1}
+    m_color: {r: 0.32062122, g: 0.49853492, b: 0.5188679, a: 1}
   m_unlocalizedText: NEW GAME
   m_outlineMeshes:
   - {fileID: 0}
@@ -879,7 +880,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 485
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!102 &102839267374336748
 TextMesh:
@@ -902,7 +903,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 153cf283d6d92154ca4d7298e15653a6, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294941539
+    rgba: 4294045130
 --- !u!1 &1939486641130840
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +933,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939486641130840}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 102, y: -67.1, z: 0}
+  m_LocalPosition: {x: 92, y: -67.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
