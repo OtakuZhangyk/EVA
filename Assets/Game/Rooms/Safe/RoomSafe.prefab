@@ -219,7 +219,7 @@ MonoBehaviour:
     m_animation: Bakcground
     m_alpha: 1
     m_position: {x: 0, y: 0}
-    m_baseline: 0
+    m_baseline: 96
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
@@ -300,7 +300,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -960
   m_Sprite: {fileID: 21300000, guid: 7427c23708964054786fec02a064c91a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

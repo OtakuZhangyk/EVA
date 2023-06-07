@@ -15,6 +15,12 @@ public class RoomDocument : RoomScript<RoomDocument>
 		Prop("Prev").Disable();
 		if (C.Me.LastRoom == R.Admin)
 		{
+			Prop("Stud").Visible = false;
+			Prop("Next").Enable();
+			Prop("Title").SetPosition(-52f, 99f);
+			Prop("Text").SetPosition(-116.6f, 60.7f);
+			((PropComponent)Prop("Title").Instance).GetComponent<TextMesh>().text = "Project Eva";
+			documents.Clear();
 			documents.Add(@"Objective: Reconstructing functionalities of an inactive brain
 Subject: 18 yrs old full female body with all systems functioning
 	except brain dead
@@ -55,6 +61,8 @@ Log 5: One month in, EVA has gained most of her brain functions
 			((PropComponent)Prop("Title").Instance).GetComponent<TextMesh>().text = "Laboratory Code";
 			Prop("Title").SetPosition(-80f, 70f);
 			Prop("Text").SetPosition(-116f, 24f);
+			Prop("Stud").Visible = true;
+			documents.Clear();
 			documents.Add(@"1. Protective clothing must be worn before entering the
 	laboratory and valuables placed in protective clothing
 	pockets and zipped up.

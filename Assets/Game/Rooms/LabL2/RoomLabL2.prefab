@@ -52,7 +52,7 @@ MonoBehaviour:
     m_description: Table
     m_cursor: 
     m_visible: 1
-    m_clickable: 1
+    m_clickable: 0
     m_animation: Table
     m_alpha: 1
     m_position: {x: 0, y: 0}
