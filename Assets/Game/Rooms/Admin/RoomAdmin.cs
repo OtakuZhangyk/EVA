@@ -55,10 +55,15 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 	IEnumerator OnInteractPropPhoto( IProp prop )
 	{
 		yield return C.WalkToClicked();
+		Audio.Play("pickup_paint");
 		yield return E.FadeOut(0.2f);
+		yield return E.WaitSkip();
 		Prop("Photo").Disable();
 		Prop("Photo_down").Visible = true;
 		Region("Block_by_photo").Walkable = false;
+		yield return E.WaitSkip();
+		Audio.Play("drop_paint");
+		yield return E.WaitSkip();
 		yield return E.FadeIn(0.2f);
 		yield return E.Break;
 	}
@@ -114,13 +119,20 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 			Audio.Play("drawer_close");
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
+			prop.Clickable = false;
 		}
-		Audio.Play("drawer_open");
-		yield return E.WaitSkip();
-		yield return E.WaitSkip();
+		
+		
+	}
+
+	IEnumerator OnInteractPropPc( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("button_click");
 		yield return E.WaitSkip();
 		yield return C.Me.Say("Some documents about Project Eva");
 		E.ChangeRoomBG(R.Document);
-		
+		yield return E.ConsumeEvent;
 	}
 }

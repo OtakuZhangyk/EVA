@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Leave
+    m_description: Next
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -691,7 +691,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5346151252798754763}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -116.6, y: 55.5, z: 0}
+  m_LocalPosition: {x: -116.6, y: 60.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -799,7 +799,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -555
+  m_SortingOrder: -607
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!102 &2943939113449140452
 TextMesh:
@@ -817,7 +817,7 @@ TextMesh:
   m_Alignment: 0
   m_TabSize: 4
   m_FontSize: 150
-  m_FontStyle: 0
+  m_FontStyle: 1
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: 153cf283d6d92154ca4d7298e15653a6, type: 3}
   m_Color:
@@ -852,7 +852,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6517987521778841276}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -52.1, y: 96.8, z: 0}
+  m_LocalPosition: {x: -52.1, y: 99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -960,7 +960,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -758
+  m_SortingOrder: -780
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!102 &7667121927869134216
 TextMesh:

@@ -10,6 +10,7 @@ public class RoomPCScreen : RoomScript<RoomPCScreen>
 
 	IEnumerator OnInteractPropExitButton( IProp prop )
 	{
+		Audio.Play("button_click");
 		E.ChangeRoomBG(R.OfficeL1);
 		yield return E.Break;
 	}

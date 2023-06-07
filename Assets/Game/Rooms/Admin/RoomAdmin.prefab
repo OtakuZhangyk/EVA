@@ -787,13 +787,13 @@ MonoBehaviour:
     m_description: PC
     m_cursor: 
     m_visible: 1
-    m_clickable: 0
+    m_clickable: 1
     m_animation: Pc
     m_alpha: 1
     m_position: {x: 0, y: 0}
     m_baseline: -37
     m_baselineFixed: 0
-    m_walkToPoint: {x: 0, y: -38}
+    m_walkToPoint: {x: -12, y: -18}
     m_lookAtPoint: {x: 0, y: 0}
     m_scriptName: Pc
   m_parallaxDepth: 0
