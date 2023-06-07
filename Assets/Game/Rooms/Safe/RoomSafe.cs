@@ -19,7 +19,8 @@ public class RoomSafe : RoomScript<RoomSafe>
 		C.Plr.Disable();
 		G.InventoryBar.Visible = false;
 		Hotspot("Handle").Enable();
-		
+		Prop("Notebook").Disable();
+		Prop("LabeledBottle").Disable();
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -38,6 +39,8 @@ public class RoomSafe : RoomScript<RoomSafe>
 			yield return Prop("Background").PlayAnimation("Opensafe");
 			Hotspot("Handle").Disable();
 			Hotspot("Numpad").Disable();
+			Prop("Notebook").Enable();
+			Prop("LabeledBottle").Enable();
 		} else {
 			yield return C.Display("The safe is locked.");
 		}
@@ -54,5 +57,19 @@ public class RoomSafe : RoomScript<RoomSafe>
 	{
 		yield return E.ChangeRoom(R.Admin);
 		yield return E.Break;
+	}
+
+	IEnumerator OnInteractPropLabeledBottle( IProp prop )
+	{
+		Prop("LabeledBottle").Disable();
+		I.LabeledBottle.Add();
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnInteractPropNotebook( IProp prop )
+	{
+		Prop("Notebook").Disable();
+		I.SecretNotebook.Add();
+		yield return E.ConsumeEvent;
 	}
 }
