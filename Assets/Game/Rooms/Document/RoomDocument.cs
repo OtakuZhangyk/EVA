@@ -10,6 +10,7 @@ public class RoomDocument : RoomScript<RoomDocument>
 	void OnEnterRoom()
 	{
 		//Audio.Play("page");
+		page = 0;
 		C.Me.Disable();
 		G.InventoryBar.Hide();
 		Prop("Prev").Disable();
