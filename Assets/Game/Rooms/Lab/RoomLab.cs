@@ -58,4 +58,11 @@ public class RoomLab : RoomScript<RoomLab>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropUndergroundHallway( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Door to the hallway");
+	}
 }

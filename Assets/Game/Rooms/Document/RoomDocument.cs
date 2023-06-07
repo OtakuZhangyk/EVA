@@ -112,4 +112,19 @@ Log 5: One month in, EVA has gained most of her brain functions
 			Prop("Prev").Disable();
 		yield return E.ConsumeEvent;
 	}
+
+	IEnumerator OnLookAtPropExit( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropPrev( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropNext( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
 }

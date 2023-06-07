@@ -33,4 +33,9 @@ public class RoomPCScreen : RoomScript<RoomPCScreen>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropExitButton( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
 }

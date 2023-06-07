@@ -65,4 +65,27 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 		E.ChangeRoomBG(R.Document);
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropDoor( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It's the door to the hallway");
+	}
+
+	IEnumerator OnLookAtPropProtect_suit( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("A set of protect suit");
+	}
+
+	IEnumerator OnLookAtPropMemo( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("book_flip");
+		E.ChangeRoomBG(R.Document);
+		yield return E.Break;
+	}
 }

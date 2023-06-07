@@ -31,8 +31,7 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 
 	IEnumerator OnLookAtPropTurnL( IProp prop )
 	{
-
-		yield return E.Break;
+		yield return E.ConsumeEvent;
 	}
 
 	IEnumerator OnInteractPropTurnL( IProp prop )
@@ -118,5 +117,15 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 	{
 
 		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropTurnR( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropClose( IProp prop )
+	{
+		yield return E.ConsumeEvent;
 	}
 }

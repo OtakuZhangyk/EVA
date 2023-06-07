@@ -77,4 +77,33 @@ public class RoomSafe : RoomScript<RoomSafe>
 		I.SecretNotebook.Add();
 		yield return E.ConsumeEvent;
 	}
+
+	IEnumerator OnLookAtPropExitButton( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropNotebook( IProp prop )
+	{
+		Prop("Notebook").Disable();
+		I.SecretNotebook.Add();
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropLabeledBottle( IProp prop )
+	{
+		Prop("LabeledBottle").Disable();
+		I.LabeledBottle.Add();
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtHotspotHandle( IHotspot hotspot )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtHotspotNumpad( IHotspot hotspot )
+	{
+		yield return E.ConsumeEvent;
+	}
 }

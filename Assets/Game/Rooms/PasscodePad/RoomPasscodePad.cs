@@ -173,4 +173,75 @@ public class RoomPasscodePad : RoomScript<RoomPasscodePad>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropB1( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropB2( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropB3( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropB4( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropB5( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropB6( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropB7( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropB8( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropB9( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropB0( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropDelete( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropEnter( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropExitButton( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropScreen( IProp prop )
+	{
+
+		yield return E.Break;
+	}
 }

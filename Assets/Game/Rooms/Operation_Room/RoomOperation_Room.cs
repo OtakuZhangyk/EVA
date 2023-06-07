@@ -181,6 +181,7 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	IEnumerator OnLookAtPropTrash( IProp prop )
 	{
+		yield return C.FaceClicked();
 		yield return E.WaitSkip();
 		yield return C.Me.Say("It's a trashcan.");
 		yield return E.Break;
@@ -188,8 +189,9 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	IEnumerator OnLookAtPropNeedle( IProp prop )
 	{
+		yield return C.FaceClicked();
 		yield return E.WaitSkip();
-		yield return C.Me.Say("Who left the injecto here?");
+		yield return C.Me.Say("Who left the injector here?");
 		yield return E.Break;
 	}
 

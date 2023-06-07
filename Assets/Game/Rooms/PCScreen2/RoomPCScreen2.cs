@@ -27,4 +27,9 @@ public class RoomPCScreen2 : RoomScript<RoomPCScreen2>
 		E.ChangeRoomBG(R.OfficeL1);
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropExit( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
 }

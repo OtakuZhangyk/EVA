@@ -16,8 +16,9 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 
 	IEnumerator OnLookAtPropDoor( IProp prop )
 	{
-
-		yield return E.Break;
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Door to the hallway");
 	}
 
 	IEnumerator OnInteractPropDoor( IProp prop )
@@ -153,7 +154,44 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 
 	IEnumerator OnLookAtPropDrawers( IProp prop )
 	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Filing cabinets");
+		yield return C.Me.Say("I may find some documents in it");
+	}
 
+	IEnumerator OnLookAtPropDesks( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("page");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("A magazine");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("From Acclaimed Neurologist to Pariah: The Shocking Fall of Victor Newman");
+	}
+
+	IEnumerator OnLookAtPropTrash( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It's a trashcan.");
 		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropPc1( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It displays an online article snippet");
+	}
+
+	IEnumerator OnLookAtPropPc2( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It displays an online video");
+		
 	}
 }

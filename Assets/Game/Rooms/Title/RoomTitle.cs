@@ -116,7 +116,20 @@ public class RoomTitle : RoomScript<RoomTitle>
 
 	IEnumerator OnLookAtPropNew( IProp prop )
 	{
+		Audio.Play("button_click");
+		// Turn on the inventory and info bar now that we're starting a game
+		G.InventoryBar.Show();
+		
+		// Move the player to the room
+		E.ChangeRoomBG(R.Operation_Room);
+		yield return E.ConsumeEvent;
+	}
 
-		yield return E.Break;
+	IEnumerator OnLookAtPropContinue( IProp prop )
+	{
+		Audio.Play("button_click");
+		// Restore most recent save game
+		E.RestoreLastSave();
+		yield return E.ConsumeEvent;
 	}
 }

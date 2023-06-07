@@ -103,23 +103,17 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 	{
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
-		if (prop.FirstUse)
-		{
-			Audio.Play("drawer_open");
-			yield return E.WaitSkip();
-			yield return E.WaitSkip();
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Another key. I wonder what this one unlocks.");
-			Audio.Play("pickup_keys");
-			I.LabKey.Add();
-			yield return E.WaitSkip();
-			yield return E.WaitSkip();
-			Audio.Play("drawer_close");
-			yield return E.WaitSkip();
-			yield return E.WaitSkip();
-			prop.Clickable = false;
-		}
-		
+		Audio.Play("drawer_open");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Another key. I wonder what this one unlocks.");
+		Audio.Play("pickup_keys");
+		I.LabKey.Add();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		Audio.Play("drawer_close");
+		prop.Clickable = false;
 		
 	}
 
@@ -132,5 +126,62 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 		yield return C.Me.Say("Some documents about Project Eva");
 		E.ChangeRoomBG(R.Document);
 		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropEnter( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Door to the hallway");
+	}
+
+	IEnumerator OnLookAtPropPc( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("button_click");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Some documents about Project Eva");
+		E.ChangeRoomBG(R.Document);
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropPhoto( IProp prop )
+	{
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtPropSafe( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("A hidden safe? Interesting");
+	}
+
+	IEnumerator OnLookAtPropDrawers( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		Audio.Play("drawer_open");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Another key. I wonder what this one unlocks.");
+		Audio.Play("pickup_keys");
+		I.LabKey.Add();
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		Audio.Play("drawer_close");
+		yield return E.WaitSkip();
+		yield return E.WaitSkip();
+		prop.Clickable = false;
+	}
+
+	IEnumerator OnLookAtPropTrashF( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It's a trashcan.");
+		yield return E.Break;
 	}
 }

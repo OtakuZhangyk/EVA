@@ -119,4 +119,38 @@ public class RoomHallwayL2 : RoomScript<RoomHallwayL2>
 		yield return C.Me.Say("There is also a basement");
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropStairs_down( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("I can go down to L1 here");
+	}
+
+	IEnumerator OnLookAtPropAdmin_door( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It's the hospital director's room");
+	}
+
+	IEnumerator OnLookAtPropLab_door( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It's a lab");
+	}
+
+	IEnumerator OnLookAtPropMap( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("This floor has a lab and a hospital director's room");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("The floor below has an office and an operation room");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("There is also a basement");
+		yield return E.Break;
+	}
 }

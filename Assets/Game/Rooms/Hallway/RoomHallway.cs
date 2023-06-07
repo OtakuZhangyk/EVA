@@ -92,20 +92,30 @@ public class RoomHallway : RoomScript<RoomHallway>
 
 	IEnumerator OnLookAtPropOperationRoom( IProp prop )
 	{
-
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It's operation room");
 		yield return E.Break;
 	}
 
 	IEnumerator OnLookAtPropMap( IProp prop )
 	{
-
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("This floor has an office and an operation room");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("The floor above has a lab and a hospital director's room");
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It shows the hospital also has a basement");
 		yield return E.Break;
 	}
 
 	IEnumerator OnLookAtPropBoard( IProp prop )
 	{
-
-		yield return E.Break;
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Just some posters, nothing special");
 	}
 
 	IEnumerator OnInteractPropMap( IProp prop )
@@ -119,5 +129,26 @@ public class RoomHallway : RoomScript<RoomHallway>
 		yield return E.WaitSkip();
 		yield return C.Me.Say("It shows the hospital also has a basement");
 		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropStair_down( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It goes to the basement");
+	}
+
+	IEnumerator OnLookAtPropStair_up( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("I can go to L2 here");
+	}
+
+	IEnumerator OnLookAtPropOffice_door( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It's an office");
 	}
 }

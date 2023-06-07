@@ -35,8 +35,9 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 
 	IEnumerator OnLookAtPropStairsUp( IProp prop )
 	{
-
-		yield return E.Break;
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("I can go up to L1 here");
 	}
 
 	IEnumerator OnInteractPropStairsUp( IProp prop )
@@ -88,5 +89,12 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 			E.ChangeRoomBG(R.Lab);
 		}
 		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropSteelDoor( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It's a heavy steel door");
 	}
 }

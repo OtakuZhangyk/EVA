@@ -36,4 +36,9 @@ public class RoomMind : RoomScript<RoomMind>
 		
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtCharacterEva( ICharacter character )
+	{
+		yield return E.ConsumeEvent;
+	}
 }
