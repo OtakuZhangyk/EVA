@@ -219,7 +219,7 @@ public class RoomForest : RoomScript<RoomForest>
 		// In that room, clicking the character will call the room script first
 		// If the room script doesn't do anything, it will fall back to the Charcter Script
 		
-		// In this case m_thingsDone is not 'EatenSandwich', so nothing happens here, 
+		// In this case m_thingsDone is not 'EatenSandwich', so nothing happens here,
 		// and the OnInteract function in Barney's main script will be called instead
 		if ( m_thingsDone == eThingsYouveDone.EatenSandwich )
 		{

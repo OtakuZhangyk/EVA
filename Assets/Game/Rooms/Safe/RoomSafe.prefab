@@ -471,6 +471,7 @@ MonoBehaviour:
   m_animations: []
   m_sprites:
   - {fileID: 21300000, guid: 0aec0719b7e877d4fa8cd9d0f244092f, type: 3}
+  - {fileID: 21300000, guid: 1d83e8f6287ac1f498b4162ee65de3c0, type: 3}
   - {fileID: 21300000, guid: 62c2b7e84919ec24894ddf211a555702, type: 3}
   - {fileID: 21300000, guid: 7427c23708964054786fec02a064c91a, type: 3}
 --- !u!1 &7896071191099257022

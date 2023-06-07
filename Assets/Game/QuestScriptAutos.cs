@@ -81,6 +81,7 @@ namespace PowerScript
 	{
 		// Access to specific dialog trees (Auto-generated)
 		public static IDialogTree ChatWithBarney       { get { return PowerQuest.Get.GetDialogTree("ChatWithBarney"); } }
+		public static IDialogTree ChatwithEva          { get { return PowerQuest.Get.GetDialogTree("ChatwithEva"); } }
 		// #DIALOG# - Do not edit this line, it's used by the system to insert rooms for easy access	    	    
 	}
 

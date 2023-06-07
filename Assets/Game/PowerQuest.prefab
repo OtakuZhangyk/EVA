@@ -127,6 +127,7 @@ MonoBehaviour:
   - {fileID: 5183830718263160604, guid: 9795157985253a44d8fa296584da06e9, type: 3}
   m_dialogTreePrefabs:
   - {fileID: 114281990419900940, guid: be73794dfb294f14982196647fe6e96b, type: 3}
+  - {fileID: 9006897101994041346, guid: 483104042c15c8c44996e257adfe5382, type: 3}
   m_inventoryPrefabs:
   - {fileID: 114497078864246608, guid: 7a896bee3c107ce49b5aebeb3b5d1b31, type: 3}
   - {fileID: 1395043092278114225, guid: 9b90c4738028c3c4b97bc8746f62d988, type: 3}
