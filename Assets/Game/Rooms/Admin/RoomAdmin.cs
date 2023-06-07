@@ -57,11 +57,9 @@ public class RoomAdmin : RoomScript<RoomAdmin>
 		yield return C.WalkToClicked();
 		Audio.Play("pickup_paint");
 		yield return E.FadeOut(0.2f);
-		yield return E.WaitSkip();
 		Prop("Photo").Disable();
 		Prop("Photo_down").Visible = true;
 		Region("Block_by_photo").Walkable = false;
-		yield return E.WaitSkip();
 		Audio.Play("drop_paint");
 		yield return E.WaitSkip();
 		yield return E.FadeIn(0.2f);
