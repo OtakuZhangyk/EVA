@@ -43,4 +43,19 @@ public class RoomLab : RoomScript<RoomLab>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteractPropElectricHelm( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return E.WaitSkip();
+		prop.Disable();
+		I.HeadGear.Add();
+		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropElectricHelm( IProp prop )
+	{
+
+		yield return E.Break;
+	}
 }
