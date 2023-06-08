@@ -31,6 +31,8 @@ public class InventoryInjector : InventoryScript<InventoryInjector>
 			I.Injector.Remove();
 			I.Injector_HF.AddAsActive();
 		}
+		if (I.LabeledBottle.Active == true)
+			yield return C.Me.Say("I should load Compound-5 first");
 		if (I.Injector.Active == true)
 			I.Injector.Active = false;
 		yield return E.ConsumeEvent;
