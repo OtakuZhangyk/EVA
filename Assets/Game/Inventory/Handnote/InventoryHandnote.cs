@@ -10,6 +10,7 @@ public class InventoryHandnote : InventoryScript<InventoryHandnote>
 
 	IEnumerator OnLookAtInventory( IInventory thisItem )
 	{
+		Audio.Play("book_flip");
 		E.ChangeRoomBG(R.Handnote);
 		yield return E.Break;
 	}
@@ -17,6 +18,7 @@ public class InventoryHandnote : InventoryScript<InventoryHandnote>
 	IEnumerator OnUseInvInventory( IInventory thisItem, IInventory item )
 	{
 		if (I.Handnote.Active == true)
+			Audio.Play("book_flip");
 			E.ChangeRoomBG(R.Handnote);
 			I.Handnote.Active = false;
 		yield return E.Break;

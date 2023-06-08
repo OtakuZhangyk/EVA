@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Rooms/Mind/SceneRoomMind.unity
     guid: 1c253b94c7321d446b369cf71ace8d5d
+  - enabled: 1
+    path: Assets/Game/Rooms/SecretHandnote/SceneRoomSecretHandnote.unity
+    guid: b5874cd6dfcd6884f95356760a87f92f
   m_configObjects: {}
