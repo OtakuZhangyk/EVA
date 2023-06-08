@@ -11,11 +11,12 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 	string textPage1 = "Memo #5\nTo let Eva out, the main power \nsupply has to be turned off \nfirst."+
 		"\nAfterward, you need to turn \noff three backup power supplies, \nor else it'll still be restrained."+
 		"\nThen it's going to the cryogenic \nchamber, injecting the drug, I \nhave to remember to bring the \nsyringe.";
-
+	
 	string textPage2 = "Lastly, open up those restraints, \nlet Eva be free.";
-    string textPage3 = "";
+	string textPage3 = "";
 	string textPage5 = "2023";
-
+	
+	
     public void OnEnterRoom()
 	{
 		
