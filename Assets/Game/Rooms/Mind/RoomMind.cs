@@ -14,18 +14,22 @@ public class RoomMind : RoomScript<RoomMind>
 		C.Plr.Instance.GetComponent<SpriteRenderer>().color = new Color(0.3f,0.3f,0.5f,1);
 		C.Eva.Instance.GetComponent<SpriteRenderer>().color = new Color(0.3f,0.3f,0.5f,1);
 		C.Plr.Data.FootstepSound = null;
+		G.InventoryBar.Visible = false;
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
 	{
 		C.Plr.Data.FootstepSound = "step";
 		C.Plr.Instance.GetComponent<SpriteRenderer>().color = new Color(1,1,1,0);
+		G.InventoryBar.Visible = true;
 		yield return E.Break;
 	}
 
 	IEnumerator OnInteractCharacterEva( ICharacter character )
 	{
-		
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
 		D.ChatwithEva.Start();
 		yield return E.Break;
 	}

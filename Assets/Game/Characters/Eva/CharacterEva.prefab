@@ -53,7 +53,7 @@ MonoBehaviour:
     m_description: Eva
     m_cursor: 
     m_room: Mind
-    m_position: {x: 0, y: 43}
+    m_position: {x: 0, y: 40}
     m_faceDirection: 2
     m_clickable: 1
     m_visible: 1

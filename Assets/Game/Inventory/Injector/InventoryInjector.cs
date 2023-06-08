@@ -13,4 +13,16 @@ public class InventoryInjector : InventoryScript<InventoryInjector>
 		yield return C.Me.Say("It's a needle... with glowing solution remaining inside.");
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteractInventory( IInventory thisItem )
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnUseInvInventory( IInventory thisItem, IInventory item )
+	{
+
+		yield return E.Break;
+	}
 }

@@ -86,7 +86,7 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 		yield return E.Break;
 	}
 
-	IEnumerator OnInteractPropNeedle( IProp prop )
+	IEnumerator OnInteractPropInjector( IProp prop )
 	{
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
@@ -187,7 +187,7 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 		yield return E.Break;
 	}
 
-	IEnumerator OnLookAtPropNeedle( IProp prop )
+	IEnumerator OnLookAtPropInjector( IProp prop )
 	{
 		yield return C.FaceClicked();
 		yield return E.WaitSkip();

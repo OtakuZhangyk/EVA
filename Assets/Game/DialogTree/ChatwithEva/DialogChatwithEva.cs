@@ -14,6 +14,7 @@ public class DialogChatwithEva : DialogTreeScript<DialogChatwithEva>
 	public IEnumerator OnStop()
 	{
 		yield return E.ChangeRoom(R.UndergroundHallway);
+		C.Plr.SetPosition(R.UndergroundHallway.GetPoint("LabEntryWalk"));
 		yield return E.Break;
 	}
 
@@ -21,7 +22,7 @@ public class DialogChatwithEva : DialogTreeScript<DialogChatwithEva>
 	{
 		yield return C.Eva.Say("Yes, I'm glad you still remember me.");
 		OptionOff(1, 2);
-		OptionOff(3,4);
+		OptionOn(3,4,5);
 		yield return E.Break;
 	}
 
@@ -29,7 +30,7 @@ public class DialogChatwithEva : DialogTreeScript<DialogChatwithEva>
 	{
 		yield return C.Eva.Say("I'm Eva. You probably learned about me from the archives.");
 		OptionOff(1,2);
-		OptionOn(3,4);
+		OptionOn(3,4,5);
 		yield return E.Break;
 	}
 
