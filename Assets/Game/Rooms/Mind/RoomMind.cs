@@ -11,10 +11,16 @@ public class RoomMind : RoomScript<RoomMind>
 	void OnEnterRoom()
 	{
 		C.Plr.SetPosition(0,-75);
-		C.Plr.Instance.GetComponent<SpriteRenderer>().color = new Color(0.3f,0.3f,0.5f,1);
-		C.Eva.Instance.GetComponent<SpriteRenderer>().color = new Color(0.3f,0.3f,0.5f,1);
-		C.Plr.Data.FootstepSound = null;
 		G.InventoryBar.Visible = false;
+		if (FirstTimeVisited) {
+			C.Plr.Instance.GetComponent<SpriteRenderer>().color = new Color(0.3f,0.3f,0.5f,1);
+			C.Eva.Instance.GetComponent<SpriteRenderer>().color = new Color(0.3f,0.3f,0.5f,1);
+			C.Plr.Data.FootstepSound = null;
+		} else {
+			C.Plr.SetPosition(0,-75);
+			C.Plr.Disable();
+			C.Eva.Disable();
+		}
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -36,8 +42,23 @@ public class RoomMind : RoomScript<RoomMind>
 
 	IEnumerator OnEnterRoomAfterFade()
 	{
-		yield return C.Eva.Say("So you have come. I was expecting you.");
+		if (FirstTimeVisited)
+			yield return C.Eva.Say("So you have come. I was expecting you.");
+		else {
+			yield return C.Me.Say(" E..Eva?");
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Hello?");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return C.Eva.Say("Thank you, Doctor. Your job is done.");
+			yield return C.Me.Say("Thank you, Doctor. Your job is done.");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return C.Me.Say("I am free.");
+			yield return C.Eva.Say("Wait...");
+			yield return E.WaitSkip();
 		
+		}
 		yield return E.Break;
 	}
 
