@@ -11,9 +11,14 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 	IEnumerator OnInteractPropDoor( IProp prop )
 	{
 		yield return C.WalkToClicked();
-		Audio.Play("door_open");
-		yield return E.WaitSkip();
-		E.ChangeRoomBG(R.HallwayL2);
+		if (!I.Compound_5.Owned)
+		{
+			Audio.Play("door_open");
+			yield return E.WaitSkip();
+			E.ChangeRoomBG(R.HallwayL2);
+		}
+		else
+			yield return C.Me.Say("I shouldn't take laboratory containers out of the laboratory");
 		yield return E.ConsumeEvent;
 	}
 
@@ -87,5 +92,25 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 		Audio.Play("book_flip");
 		E.ChangeRoomBG(R.Document);
 		yield return E.Break;
+	}
+
+	IEnumerator OnLookAtPropTable( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("A bottle of red solution. The label says 'Compound-5'");
+		prop.Description = "Compound-5";
+	}
+
+	IEnumerator OnInteractPropTable( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		yield return C.Me.Say("A bottle of red potion. The label says 'Compound-5'");
+		prop.Description = "Compound-5";
+		Audio.Play("pickup_glass");
+		prop.Clickable = false;
+		I.Compound_5.Add();
 	}
 }

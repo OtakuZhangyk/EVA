@@ -66,6 +66,7 @@ public class RoomSafe : RoomScript<RoomSafe>
 
 	IEnumerator OnInteractPropLabeledBottle( IProp prop )
 	{
+		Audio.Play("pickup_glass");
 		Prop("LabeledBottle").Disable();
 		I.LabeledBottle.Add();
 		yield return E.ConsumeEvent;
@@ -73,6 +74,7 @@ public class RoomSafe : RoomScript<RoomSafe>
 
 	IEnumerator OnInteractPropNotebook(IProp prop)
 	{
+		Audio.Play("book_flip");
 		Prop("Notebook").Disable();
 		I.SecretNotebook.Add();
 		yield return E.ConsumeEvent;

@@ -25,11 +25,10 @@ public class RoomSecretHandnote : RoomScript<RoomSecretHandnote>
 		"\namplifies the termination agent's" +
 		"\nefficacy and must be combined in" +
 		"\nthe injector prior to injection." +
-		"\n3. Follow the pre-set ratios to" +
-		"\nmix the substances in the syringe:" +
-		"\n3 parts Protocol-T, 1 part" +
-		"\nCompound-5. Ensure the mixture" +
-		"\nis homogenous before proceeding.";
+		"\n3. First, load the injector with" + 
+		"\nCompound-5. Then, add Protocol-T." + 
+		"\nEnsure the substances are in the" + 
+		"\ncorrect order before proceeding.";
 	string textPage3 = "4. Inject the mixture through" +
 		"\nthe injection device into Eva's" +
 		"\ncontainment unit. " +
