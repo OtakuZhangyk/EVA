@@ -44,6 +44,7 @@ public class RoomLab : RoomScript<RoomLab>
 		yield return C.Display("Free me.");
 		yield return E.WaitSkip();
 		yield return E.FadeIn();
+		G.Timer.Show();
 		yield return E.Break;
 	}
 
