@@ -49,17 +49,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Table
+    m_description: Solution
     m_cursor: 
     m_visible: 1
-    m_clickable: 0
+    m_clickable: 1
     m_animation: Table
     m_alpha: 1
     m_position: {x: 0, y: 0}
     m_baseline: -22
     m_baselineFixed: 0
-    m_walkToPoint: {x: 16, y: -26}
-    m_lookAtPoint: {x: 0, y: 0}
+    m_walkToPoint: {x: -35, y: -27}
+    m_lookAtPoint: {x: -27, y: 3}
     m_scriptName: Table
   m_parallaxDepth: 0
   m_parallaxAlignment: {x: 0, y: 0}
@@ -88,15 +88,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.91823006, y: -1.9604015}
-      - {x: 2.5060463, y: 10.744407}
-      - {x: 17.295193, y: 11.488814}
-      - {x: 37.176235, y: 11.738638}
-      - {x: 36.529507, y: 2.835699}
-      - {x: 29.129574, y: 3.2629004}
-      - {x: 30.037472, y: 11.589623}
-      - {x: 16.705772, y: 11.330521}
-      - {x: 17.444077, y: -2.2581635}
+    - - {x: -11.029179, y: 6.165756}
+      - {x: -11.25795, y: -1.3439608}
+      - {x: -16.010757, y: -1.4740496}
+      - {x: -15.938797, y: 6.156065}
 --- !u!95 &9141792184464795860
 Animator:
   serializedVersion: 5
