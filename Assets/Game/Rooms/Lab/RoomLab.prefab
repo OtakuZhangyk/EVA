@@ -1767,7 +1767,9 @@ MonoBehaviour:
   - {fileID: 2067062941835992139}
   m_animations:
   - {fileID: 7400000, guid: c95ec3e274ec5c2419c8fba140a2d907, type: 2}
+  - {fileID: 7400000, guid: 0525c6175bf260a44b270a67be5917eb, type: 2}
   m_sprites:
+  - {fileID: 21300000, guid: eafa2ec8e636bd142b443acf049a8d89, type: 3}
   - {fileID: 21300000, guid: 5c03f8cb1b7ef724ba18f1b2d0672511, type: 3}
   - {fileID: 21300000, guid: 2988a9dd0ae2e444d9aebca4dcfc44eb, type: 3}
   - {fileID: 21300000, guid: 94298f2530f07c449b12b98bedc5f0f0, type: 3}

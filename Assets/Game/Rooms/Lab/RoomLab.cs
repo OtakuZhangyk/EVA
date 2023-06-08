@@ -6,7 +6,7 @@ using static GlobalScript;
 
 public class RoomLab : RoomScript<RoomLab>
 {
-	
+	public bool monitorOff = false;
 	
 	IEnumerator OnInteractPropUndergroundHallway( IProp prop )
 	{
@@ -92,6 +92,15 @@ public class RoomLab : RoomScript<RoomLab>
 
 	IEnumerator OnInteractPropLabMonitor( IProp prop )
 	{
+		yield return C.WalkToClicked();
+		if (!monitorOff) {
+			prop.PlayAnimationBG("monitorOff");
+			monitorOff = true;
+		}
+		else {
+			prop.PlayAnimationBG("monitorAnim");
+			monitorOff = false;
+		}
 		yield return E.Break;
 	}
 

@@ -17,4 +17,10 @@ public class InventoryHeadGear : InventoryScript<InventoryHeadGear>
 		}
 		yield return E.Break;
 	}
+
+	IEnumerator OnInteractInventory( IInventory thisItem )
+	{
+
+		yield return E.Break;
+	}
 }
