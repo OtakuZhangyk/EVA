@@ -76,7 +76,7 @@ public class RoomSecretHandnote : RoomScript<RoomSecretHandnote>
 		
 		page = 1;
 		Prop("Prev").Disable();
-
+		Prop("Next").Enable();
 		((PropComponent)Prop("TextL").Instance).GetComponent<TextMesh>().text = textPage1;
 		((PropComponent)Prop("TextR").Instance).GetComponent<TextMesh>().text = textPage2;
 	}
