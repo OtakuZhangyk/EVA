@@ -47,8 +47,10 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 		G.InventoryBar.Hide();
 		G.Toolbar.Hide();
 		C.Plr.Disable();
+		Audio.StopMusic();
+		Audio.PlayMusic("end_bgm");
 		//if end1
-		if (true || R.Previous == R.Ending)
+		if (R.Previous == R.Ending)
 		{
 			Prop("Title").SetPosition(-33.7f, 23.0f);
 			Prop("Text").SetPosition(21.3f, 34.5f);
@@ -63,15 +65,6 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 			((PropComponent)Prop("Title").Instance).GetComponent<TextMesh>().text = titleEnd2;
 			((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = textI;
 		}
-		//if credit
-		if (!true)
-		{
-			Prop("Title").SetPosition(28.8f, 72.4f);
-			Prop("Text").SetPosition(-42.2f, 50.2f);
-			Prop("Back").SetPosition(-0.7f, -28.0f);
-			((PropComponent)Prop("Title").Instance).GetComponent<TextMesh>().text = titleCredit;
-			((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = textCredit;
-		}
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -79,6 +72,37 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 		G.InventoryBar.Show();
 		G.Toolbar.Show();
 		C.Plr.Enable();
+		Audio.StopMusic();
 		yield return E.Break;
+	}
+
+	IEnumerator OnEnterRoomAfterFade()
+	{
+
+		yield return E.Break;
+	}
+
+	IEnumerator OnInteractHotspotFull_screen( IHotspot hotspot )
+	{
+		if (hotspot.FirstUse)
+		{
+			hotspot.Clickable = false;
+			yield return E.FadeOut(1.5f);
+			Prop("Title").SetPosition(28.8f, 72.4f);
+			Prop("Text").SetPosition(-42.2f, 50.2f);
+			Prop("Back").SetPosition(-0.7f, -28.0f);
+			((PropComponent)Prop("Title").Instance).GetComponent<TextMesh>().text = titleCredit;
+			((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = textCredit;
+			yield return E.FadeIn(1.5f);
+			hotspot.Clickable = true;
+		}
+		else
+			yield return E.ChangeRoom(R.Title);
+		yield return E.ConsumeEvent;
+	}
+
+	IEnumerator OnLookAtHotspotFull_screen( IHotspot hotspot )
+	{
+		yield return E.ConsumeEvent;
 	}
 }
