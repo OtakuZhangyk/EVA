@@ -19,9 +19,12 @@ public class RoomLab : RoomScript<RoomLab>
 
 	void OnEnterRoom()
 	{
-		C.Me.SetPosition(-150,-50);
-		C.Me.Face(0,0);
-		Audio.Play("door_close1");
+		if (C.Me.LastRoom == R.UndergroundHallway)
+		{
+			C.Me.SetPosition(-150,-50);
+			C.Me.Face(0,0);
+			Audio.Play("door_close1");
+		}
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -44,7 +47,7 @@ public class RoomLab : RoomScript<RoomLab>
 		yield return C.Display("Free me.");
 		yield return E.WaitSkip();
 		yield return E.FadeIn();
-		G.Timer.Show();
+		//G.Timer.Show();
 		yield return E.Break;
 	}
 
@@ -65,7 +68,7 @@ public class RoomLab : RoomScript<RoomLab>
 	IEnumerator OnLookAtPropElectricHelm( IProp prop )
 	{
 		yield return C.FaceClicked();
-		yield return C.Me.Say(" That must the amplifier head gear.");
+		yield return C.Me.Say(" That must be the electrode helmet.");
 		yield return E.Break;
 	}
 
@@ -78,7 +81,48 @@ public class RoomLab : RoomScript<RoomLab>
 
 	IEnumerator OnUseInvPropInjectionDevice( IProp prop, IInventory item )
 	{
-		
+		yield return C.WalkToClicked();
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		if (I.Injector.Active)
+		{
+			Audio.Play("drawer_open");
+			I.Injector.Active = false;
+			yield return C.Me.Say("What should i inject?");
+			Audio.Play("drawer_close");
+		}
+		else if (I.Injector_HF.Active)
+		{
+			Audio.Play("drawer_open");
+			I.Injector_HF.Active = false;
+			I.Injector_HF.Remove();
+			Globals.injected = 1;
+			yield return C.Me.Say("Alright, then the helmet");
+			Audio.Play("drawer_close");
+		}
+		else if (I.Injector_F.Active)
+		{
+			Audio.Play("drawer_open");
+			I.Injector_F.Active = false;
+			I.Injector_F.Remove();
+			Globals.injected = 2;
+			yield return C.Me.Say("Goodbye Eva, goodbye");
+			Audio.Play("drawer_close");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			Camera.Shake(3.0f, 0.5f, 0.5f);
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return C.Me.Say("What happened?");
+			yield return E.WaitSkip();
+			Camera.Shake(3.0f, 1.0f, 0.5f);
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Run!!!");
+			yield return E.WaitSkip();
+			E.Save(1,"Autosave");
+			Camera.Shake(3.0f, 30.0f, 0.5f);
+			G.Timer.Show();
+		}
 		yield return E.Break;
 	}
 
@@ -138,5 +182,11 @@ public class RoomLab : RoomScript<RoomLab>
 		yield return C.FaceClicked();
 		yield return E.WaitSkip();
 		yield return C.Me.Say("No abonormal behaviors logged. Seems normal.");
+	}
+
+	IEnumerator OnUseInvPropEVA( IProp prop, IInventory item )
+	{
+
+		yield return E.Break;
 	}
 }

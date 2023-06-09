@@ -21,7 +21,7 @@ public class RoomSecretHandnote : RoomScript<RoomSecretHandnote>
 		"\nsafe in director's room. ";
 	string textPage2 = "2. After securing Protocol-T," +
 		"\nacquire Compound-5 from the" +
-		"\nCold Storage unit. This substance" +
+		"\nlaboratory. This substance" +
 		"\namplifies the termination agent's" +
 		"\nefficacy and must be combined in" +
 		"\nthe injector prior to injection." +

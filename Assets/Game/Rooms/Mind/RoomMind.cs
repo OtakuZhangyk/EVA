@@ -21,6 +21,7 @@ public class RoomMind : RoomScript<RoomMind>
 			C.Plr.Disable();
 			C.Eva.Disable();
 		}
+		Audio.Pause("hospital_bgm");
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -28,6 +29,8 @@ public class RoomMind : RoomScript<RoomMind>
 		C.Plr.Data.FootstepSound = "step";
 		C.Plr.Instance.GetComponent<SpriteRenderer>().color = new Color(1,1,1,0);
 		G.InventoryBar.Visible = true;
+		C.Plr.Enable();
+		Audio.UnPause("hospital_bgm");
 		yield return E.Break;
 	}
 
@@ -57,7 +60,7 @@ public class RoomMind : RoomScript<RoomMind>
 			yield return C.Me.Say("I am free.");
 			yield return C.Eva.Say("Wait...");
 			yield return E.WaitSkip();
-		
+			E.ChangeRoomBG(R.Ending);
 		}
 		yield return E.Break;
 	}

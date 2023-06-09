@@ -76,7 +76,8 @@ MonoBehaviour:
   m_customKbShortcuts: 0
   m_transitionFadeTime: 0.3
   m_menuManager:
-    m_prefabEffectMenuFadeOut: {fileID: 212000010572677458, guid: 8586ef0cf80cdcb429678b9dd0b8180f, type: 3}
+    m_prefabEffectMenuFadeOut: {fileID: 212000010572677458, guid: 8586ef0cf80cdcb429678b9dd0b8180f,
+      type: 3}
     m_fadeColour: {r: 0, g: 0, b: 0, a: 1}
     m_customFade: 0
   m_spawnablePrefabs:
@@ -112,6 +113,7 @@ MonoBehaviour:
   - {fileID: 2475202859051106756, guid: 4fdc0f6a00de7f84d8d877ddda0d0070, type: 3}
   - {fileID: 3248622025714027808, guid: 735b6ce3d0f06b54488d814cf60921f6, type: 3}
   - {fileID: 4859009760887640077, guid: 7a5a7b7490f78694383f2689c1f50104, type: 3}
+  - {fileID: 4400515891425704487, guid: 9be23682be882284fb60794f410a6e29, type: 3}
   - {fileID: 5872200747672987419, guid: 3beb9fc68c9ce044791a36704cf23eb7, type: 3}
   m_characterPrefabs:
   - {fileID: 7990730183525651140, guid: 023fdd18e2c5dee4f94b3c46e2eaf3e0, type: 3}

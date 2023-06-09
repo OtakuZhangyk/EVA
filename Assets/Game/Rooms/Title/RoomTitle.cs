@@ -13,6 +13,7 @@ public class RoomTitle : RoomScript<RoomTitle>
 		G.InventoryBar.Hide();
 		
 		Audio.PlayMusic("title_bgm");
+		E.SetPlayer(C.Me);
 		
 		// Later we could start some music here
 		//SystemAudio.PlayMusic("MusicSlowStrings", 1);
