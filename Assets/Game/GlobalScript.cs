@@ -48,7 +48,7 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	public int b_knowhimself = 0;
 	
 	public eProgress gamePhase = eProgress.None;
-
+	
 	// 0 not injected, 1 Compound-5 ==> End1, 2 C-5+Protocol-T ==> End2
 	// 3 visited secret handnote and tried to put on helmet
 	public int injected = 0;
