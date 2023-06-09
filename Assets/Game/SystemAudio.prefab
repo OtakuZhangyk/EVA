@@ -65,6 +65,7 @@ MonoBehaviour:
   m_autoAddCues: 1
   m_audioCues:
   - {fileID: 2001330241942145919, guid: 47f1e460e5a06b04994b7fd8580a2fdb, type: 3}
+  - {fileID: 1785429565890531085, guid: c991f97285b6f4f4ea9eac5639ed5947, type: 3}
   - {fileID: -8951029254524292583, guid: be788ec134aacac43bb033d390f7f29b, type: 3}
   - {fileID: 11426600, guid: 2c643cf6d170a1845bd86209b6ca496a, type: 3}
   - {fileID: 5268487651870540120, guid: 0ae921d7b355343428d817301a944309, type: 3}
@@ -84,6 +85,7 @@ MonoBehaviour:
   - {fileID: -987312296479898635, guid: e11e4247fecb6624ca7bc4af8c27cfb4, type: 3}
   - {fileID: 6797902715574624280, guid: becb86747c4457e479da34ed3316f18d, type: 3}
   - {fileID: 11426600, guid: 7a3ac0fc4933a4c438c3fa967a310509, type: 3}
+  - {fileID: -8692336284811216249, guid: fbd69d92196350b4aa9a706d5d758f96, type: 3}
   - {fileID: 11426600, guid: 6ace69fdf6921d04aa1a3ae9616a6822, type: 3}
   - {fileID: 11426600, guid: 08c56f42496582a49a839f7213be6ad0, type: 3}
   - {fileID: 94436756856729343, guid: 231665361a57e76489f0bb22f8a8b7a5, type: 3}
