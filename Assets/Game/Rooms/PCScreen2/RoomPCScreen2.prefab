@@ -724,7 +724,7 @@ GameObject:
   - component: {fileID: 39621263211175578}
   - component: {fileID: 5250055286267911994}
   m_Layer: 0
-  m_Name: PropViedoTitle
+  m_Name: PropVideoTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -769,7 +769,7 @@ MonoBehaviour:
     m_baselineFixed: 0
     m_walkToPoint: {x: 0, y: 0}
     m_lookAtPoint: {x: 0, y: 0}
-    m_scriptName: ViedoTitle
+    m_scriptName: VideoTitle
   m_parallaxDepth: 0
   m_parallaxAlignment: {x: 0, y: 0}
 --- !u!95 &354573654729098039
@@ -856,7 +856,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6891076958073094352}
-  m_Text: Mad Scientist?
+  m_Text: 'Virctor Newman: Genius or Mad Scientist?'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1

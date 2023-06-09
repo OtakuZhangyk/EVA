@@ -49,8 +49,14 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2212cf11254e54a48a270407d3caa21a, type: 3}
+  - {fileID: 21300000, guid: ff2aab478e99c5e448b87acdaa7cf5ce, type: 3}
+  - {fileID: 21300000, guid: 287c12bf6afcd6544aa8c90b8ac81e90, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Openbook
+  - arrowL
+  - Cross
   m_RenderDataMap: {}
   m_Tag: RoomHandnoteAtlas
   m_IsVariant: 0

@@ -49,8 +49,24 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 57eb8d6256cf6294c92b5095ca6b0f96, type: 3}
+  - {fileID: 21300000, guid: 01a184926858a4b44a2177280a50c04a, type: 3}
+  - {fileID: 21300000, guid: 4ca396f6a94fb2a4bbab3f6f0bab5391, type: 3}
+  - {fileID: 21300000, guid: 2ba254d94f09c66459347ab13d683953, type: 3}
+  - {fileID: 21300000, guid: 9778f31a677393441bc25d3f1bc154f0, type: 3}
+  - {fileID: 21300000, guid: 04fd7aaa1ecd3f8469bf791a8ae07c0b, type: 3}
+  - {fileID: 21300000, guid: a52f3a8b57849ea478e9f59eae3636c8, type: 3}
+  - {fileID: 21300000, guid: fc4f42cb38df04843b8cd508d486a9a6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icons0
+  - lab_table
+  - memo_page1
+  - prot_suitF
+  - back3
+  - protect_suit
+  - lab_door
+  - no_potion
   m_RenderDataMap: {}
   m_Tag: RoomLabL2Atlas
   m_IsVariant: 0

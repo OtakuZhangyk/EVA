@@ -49,8 +49,62 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3c85c9314aea1a54882e8e4f0a7cedaf, type: 3}
+  - {fileID: 21300000, guid: eb8e7332afcd501438a6d1c76ac75e6b, type: 3}
+  - {fileID: 21300000, guid: f17a5aa2f5e0129418c7e949f9479396, type: 3}
+  - {fileID: 21300000, guid: 3f1f0f739dc8d3442a428e4a2f80bd0d, type: 3}
+  - {fileID: 21300000, guid: 1295caa464acf194fa8660eaf23d2d73, type: 3}
+  - {fileID: 21300000, guid: 543545163c191214d94a8c3bef1b8e3b, type: 3}
+  - {fileID: 21300000, guid: adadfa460a346084b948281d4680bfb9, type: 3}
+  - {fileID: 21300000, guid: 82e173d7d012b8e41b880433d8d65265, type: 3}
+  - {fileID: 21300000, guid: 0a60e7f7a16bdaa4e97a97e898195688, type: 3}
+  - {fileID: 21300000, guid: 30d47e6885c6d584c9e3c65bab1bd843, type: 3}
+  - {fileID: 21300000, guid: d43f91c9257da194e8bc3287f04afd6b, type: 3}
+  - {fileID: 21300000, guid: 83875a1ae44858c45867db90beb79493, type: 3}
+  - {fileID: 21300000, guid: dcb87a1a75d14dc4499562cb9faac5a8, type: 3}
+  - {fileID: 21300000, guid: 64f905ca8b32971418f3baf47f04c5c6, type: 3}
+  - {fileID: 21300000, guid: 2177879b643a56d41a2fee8f70e34a0f, type: 3}
+  - {fileID: 21300000, guid: 7b5fb95ce5a94244ebc91da2a47e638c, type: 3}
+  - {fileID: 21300000, guid: 0bd06a4deefc01f4e86973c7464697f2, type: 3}
+  - {fileID: 21300000, guid: 297b267daff49a644ac2d31f20d73121, type: 3}
+  - {fileID: 21300000, guid: bc5592cd5ec7b854a9e19290bd748c21, type: 3}
+  - {fileID: 21300000, guid: f9ebef0e516aab749a1f92fe84544ae2, type: 3}
+  - {fileID: 21300000, guid: 2d90be1e0d9c3974f933b1140b0c298b, type: 3}
+  - {fileID: 21300000, guid: 36491b5ee4160e544b069e200850f967, type: 3}
+  - {fileID: 21300000, guid: dcd3476e373540845a146116ad295668, type: 3}
+  - {fileID: 21300000, guid: 035486fe40a271b42a319ada6b84b4ce, type: 3}
+  - {fileID: 21300000, guid: 8e96a11ff12a5f14b9d17cf6307170c8, type: 3}
+  - {fileID: 21300000, guid: 312c692f771a2c540b66b23500b52f4a, type: 3}
+  - {fileID: 21300000, guid: aa4d557f3a8b62745a0ee310d99cdbc6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - chairs
+  - vent
+  - memo_page
+  - roadblockV
+  - roadblockH
+  - back3
+  - back2
+  - calender
+  - post2
+  - memo_page1
+  - post3
+  - stair_down1
+  - camera
+  - stair_up
+  - vent 1
+  - extinguisher
+  - stairs_sign
+  - operation_door
+  - light
+  - stair_down
+  - plant
+  - bulletin_board
+  - map
+  - stair_down2
+  - signR
+  - office_door
+  - post1
   m_RenderDataMap: {}
   m_Tag: RoomHallwayAtlas
   m_IsVariant: 0

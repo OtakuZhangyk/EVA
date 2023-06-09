@@ -49,8 +49,48 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8fdab6212c2d0534ab688ac22edff738, type: 3}
+  - {fileID: 21300000, guid: bf069e410c6aad643a76095eef94d483, type: 3}
+  - {fileID: 21300000, guid: c4abfcc2015eb4b4386a1ec44e70e255, type: 3}
+  - {fileID: 21300000, guid: 82821bb30597df3499ce0c9895d2db6a, type: 3}
+  - {fileID: 21300000, guid: 3c3a0ad3267ecde4680f1c14ee96a959, type: 3}
+  - {fileID: 21300000, guid: 5896bd140d84db4499989068b880cfc8, type: 3}
+  - {fileID: 21300000, guid: 65d75af5ced3c214497e9a81cdce67c2, type: 3}
+  - {fileID: 21300000, guid: 7df86eb649ab06344b2fd55f2031a152, type: 3}
+  - {fileID: 21300000, guid: 386ebec682ddce04b8fe47be821ad736, type: 3}
+  - {fileID: 21300000, guid: f996c2f799d7eeb49a0db46287a117ce, type: 3}
+  - {fileID: 21300000, guid: d0da8048cb0590e4e9af7edb6301ef71, type: 3}
+  - {fileID: 21300000, guid: 8a37be896747b0f4d9c8197448843028, type: 3}
+  - {fileID: 21300000, guid: 6d27956a936be7845a297f18dcdb8324, type: 3}
+  - {fileID: 21300000, guid: 5e12cdba0694c7d4297731c1b0d345d6, type: 3}
+  - {fileID: 21300000, guid: 80436e1bdba8ca4478e1334368974f3b, type: 3}
+  - {fileID: 21300000, guid: 6a0cd2fbd01b3934996439396c8532bb, type: 3}
+  - {fileID: 21300000, guid: b980ee6d67e25f440a2a760706458d4c, type: 3}
+  - {fileID: 21300000, guid: 96e549cd31f20dd419e0ceb486d4a6d5, type: 3}
+  - {fileID: 21300000, guid: f08b69dd1da34604eaadf305808b1b0b, type: 3}
+  - {fileID: 21300000, guid: 52c9b1ce33c035e4e9fe7aa0ba43c594, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - bookshelf
+  - office_desks
+  - hanger2
+  - light
+  - office_pc2
+  - trash
+  - office_desks2
+  - office_desks_chair
+  - trash_flip
+  - shelf
+  - flowerpot_flip
+  - office_pc1
+  - drawers
+  - open_drawer
+  - plant
+  - office_door
+  - vent
+  - office_back
+  - hanger
+  - open_drawer2
   m_RenderDataMap: {}
   m_Tag: RoomOfficeL1Atlas
   m_IsVariant: 0

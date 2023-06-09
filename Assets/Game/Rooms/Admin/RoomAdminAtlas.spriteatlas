@@ -49,8 +49,30 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2bcc9da03ad198343868746dfb4f5bd4, type: 3}
+  - {fileID: 21300000, guid: c87b6cf2fb8b1204898414d544866add, type: 3}
+  - {fileID: 21300000, guid: ad65e6632b9fe59489375f12ec629c70, type: 3}
+  - {fileID: 21300000, guid: 319f01677b0a0a5408ff66a58e763a08, type: 3}
+  - {fileID: 21300000, guid: cfd03d88c4d5fdb499eef892977dfccb, type: 3}
+  - {fileID: 21300000, guid: 52feb36b06d0edd449abf2ab96186e1d, type: 3}
+  - {fileID: 21300000, guid: 354a00fb018dd554da19c5c2c54b1661, type: 3}
+  - {fileID: 21300000, guid: 539d537c76fc95444bc516e6d52b4d2c, type: 3}
+  - {fileID: 21300000, guid: 02aaa76d3b311454495df065844b164c, type: 3}
+  - {fileID: 21300000, guid: d28ecccf970aea1469abb1425bc75690, type: 3}
+  - {fileID: 21300000, guid: e7301fef29783ff48afebf6108c90ee4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - pc_back
+  - hanger2
+  - arrow_down1
+  - bookshelf
+  - admin_desk
+  - trash_flip
+  - photo
+  - safe
+  - drawers
+  - arrow_down
+  - office_back
   m_RenderDataMap: {}
   m_Tag: RoomAdminAtlas
   m_IsVariant: 0

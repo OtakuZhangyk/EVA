@@ -76,8 +76,7 @@ MonoBehaviour:
   m_customKbShortcuts: 0
   m_transitionFadeTime: 0.3
   m_menuManager:
-    m_prefabEffectMenuFadeOut: {fileID: 212000010572677458, guid: 8586ef0cf80cdcb429678b9dd0b8180f,
-      type: 3}
+    m_prefabEffectMenuFadeOut: {fileID: 212000010572677458, guid: 8586ef0cf80cdcb429678b9dd0b8180f, type: 3}
     m_fadeColour: {r: 0, g: 0, b: 0, a: 1}
     m_customFade: 0
   m_spawnablePrefabs:
@@ -95,7 +94,6 @@ MonoBehaviour:
   m_cameraPrefab: {fileID: 11462848, guid: b254fcd8f583c324ba3da9904a492986, type: 3}
   m_roomPrefabs:
   - {fileID: 114788632828080210, guid: 908a928d57ccea1418803714fc2b24b8, type: 3}
-  - {fileID: 114107578643181592, guid: 815776d2d5a9623498c61578ffc4c1cc, type: 3}
   - {fileID: 6161776716226621253, guid: ac8446868f1988a4a95e0df0c988d127, type: 3}
   - {fileID: 567388165851970561, guid: 51e2ee71686f76744961e874d93788d7, type: 3}
   - {fileID: 8226987627652362612, guid: a64c82daa7c708f459323e6c1645dd42, type: 3}
@@ -117,8 +115,6 @@ MonoBehaviour:
   - {fileID: 5872200747672987419, guid: 3beb9fc68c9ce044791a36704cf23eb7, type: 3}
   m_characterPrefabs:
   - {fileID: 7990730183525651140, guid: 023fdd18e2c5dee4f94b3c46e2eaf3e0, type: 3}
-  - {fileID: 114953134120639602, guid: b4910caf4195aeb45895069ad277b9fd, type: 3}
-  - {fileID: 114894982771319608, guid: 65de018bf92bf6a4088d8c3f977119e7, type: 3}
   - {fileID: 7463221183472270983, guid: 7f895fb8c6e76fe4a9d305e883891d4a, type: 3}
   m_guiPrefabs:
   - {fileID: 114997530584156344, guid: 411a5d13109ce024888cfebc375721e4, type: 3}
@@ -132,7 +128,6 @@ MonoBehaviour:
   - {fileID: 7957494829461505174, guid: 9505727088062df458a28aab89ea2810, type: 3}
   - {fileID: 5183830718263160604, guid: 9795157985253a44d8fa296584da06e9, type: 3}
   m_dialogTreePrefabs:
-  - {fileID: 114281990419900940, guid: be73794dfb294f14982196647fe6e96b, type: 3}
   - {fileID: 9006897101994041346, guid: 483104042c15c8c44996e257adfe5382, type: 3}
   m_inventoryPrefabs:
   - {fileID: 1395043092278114225, guid: 9b90c4738028c3c4b97bc8746f62d988, type: 3}

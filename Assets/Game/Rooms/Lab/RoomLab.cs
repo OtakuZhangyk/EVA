@@ -88,7 +88,7 @@ public class RoomLab : RoomScript<RoomLab>
 		{
 			Audio.Play("drawer_open");
 			I.Injector.Active = false;
-			yield return C.Me.Say("What should i inject?");
+			yield return C.Me.Say("What should I inject?");
 			Audio.Play("drawer_close");
 		}
 		else if (I.Injector_HF.Active)
@@ -97,7 +97,7 @@ public class RoomLab : RoomScript<RoomLab>
 			I.Injector_HF.Active = false;
 			I.Injector_HF.Remove();
 			Globals.injected = 1;
-			yield return C.Me.Say("Alright, then the helmet");
+			yield return C.Me.Say("Alright, then the helmet.");
 			Audio.Play("drawer_close");
 		
 		}
@@ -107,19 +107,25 @@ public class RoomLab : RoomScript<RoomLab>
 			I.Injector_F.Active = false;
 			I.Injector_F.Remove();
 			Globals.injected = 2;
-			yield return C.Me.Say("Goodbye Eva, goodbye");
+			yield return C.Me.Say("Farewell Eva.");
 			Audio.Play("drawer_close");
 			Audio.StopMusic();
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
 			Audio.Play("heartbeat");
 			Camera.Shake(3.0f, 0.5f, 0.5f);
+			yield return E.FadeOut();
+			yield return C.Display("What have you done to me?");
+			yield return E.FadeIn();
 			yield return E.WaitSkip();
 			yield return E.WaitSkip();
 			yield return C.Me.Say("What happened?");
 			yield return E.WaitSkip();
 			Audio.Play("heartbeat");
 			Camera.Shake(3.0f, 1.0f, 0.5f);
+			yield return E.FadeOut();
+			yield return C.Display("You will regret this!");
+			yield return E.FadeIn();
 			yield return E.WaitSkip();
 			yield return C.Me.Say("Run!!!");
 			yield return E.WaitSkip();

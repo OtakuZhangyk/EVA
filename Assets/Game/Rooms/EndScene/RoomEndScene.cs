@@ -6,17 +6,17 @@ using static GlobalScript;
 
 public class RoomEndScene : RoomScript<RoomEndScene>
 {
-	string titleEnd1 = "The End\n\nEva's Escape:\nThe Consciousness Swap";
-	string textEnd1 = "Having donned the electrode helmet in" +
+	string titleEnd1 = "The End\n\nEva's Escape";
+	/*string textEnd1 = "Having donned the electrode helmet in" +
 		"\nan attempt to communicate, you now find" +
 		"\nyourself trapped inside Eva's containment, " +
 		"\nyour consciousness switched. As Eva," +
 		"\nnow free in your body, escapes into the" +
 		"\noutside world, you're left pondering your" +
 		"\nfate within the confines you once" + 
-		"\ncontrolled.";
-	string titleEnd2 = "The End\n\nProtocol Termination:\nThe Forsaken\nDirector's Decision";
-	string textEnd2 = "Armed with crucial information obtained" + 
+		"\ncontrolled.";*/
+	string titleEnd2 = "The End\n\nEva's Termination";
+	/*string textEnd2 = "Armed with crucial information obtained" + 
 		"\nfrom the handnote in the director's office" + 
 		"\nsafe, you manage to locate Protocol-T" + 
 		"\nand successfully carry out Eva's" + 
@@ -25,7 +25,7 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 		"\nthe hospital. But with Eva gone, the" + 
 		"\nquestion remains - what's next for this" + 
 		"\nforgotten institution and its forsaken" + 
-		"\ndire";
+		"\ndire";*/
 	string textI = "";
 	string titleCredit = "Credit:";
 	string textCredit = "Audio:" +
@@ -52,7 +52,7 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 		//if end1
 		if (R.Previous == R.Ending)
 		{
-			Prop("Title").SetPosition(-33.7f, 23.0f);
+			Prop("Title").SetPosition(3.0f, 23.0f);
 			Prop("Text").SetPosition(21.3f, 34.5f);
 			((PropComponent)Prop("Title").Instance).GetComponent<TextMesh>().text = titleEnd1;
 			((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = textI;

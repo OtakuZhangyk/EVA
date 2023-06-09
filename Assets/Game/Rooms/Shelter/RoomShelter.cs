@@ -41,6 +41,8 @@ public class RoomShelter : RoomScript<RoomShelter>
 	IEnumerator OnEnterRoomAfterFade()
 	{
 		yield return C.Plr.WalkTo(Point("EntryWalk"));
+		if (FirstTimeVisited)
+			yield return C.Me.Say("This room looks like a pretty good shelter.");
 		yield return E.Break;
 	}
 }

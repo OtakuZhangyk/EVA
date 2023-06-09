@@ -49,8 +49,12 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 44dcc602e56d9764395bcded00674fc9, type: 3}
+  - {fileID: 21300000, guid: 292620499b20bd44aa1c2fbcda953c6e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - door_open
+  - shelterdoor
   m_RenderDataMap: {}
   m_Tag: RoomShelterAtlas
   m_IsVariant: 0

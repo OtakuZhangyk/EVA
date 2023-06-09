@@ -49,8 +49,18 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0e178874acc9cb647877fc38d9ad028e, type: 3}
+  - {fileID: 21300000, guid: 40b188e4c5b32bd4ab4015444e5c9891, type: 3}
+  - {fileID: 21300000, guid: 7092e2968a2cfe741850b8ff01de9ea2, type: 3}
+  - {fileID: 21300000, guid: ca832f0985d6e6748aad873212345a12, type: 3}
+  - {fileID: 21300000, guid: a44ca43df78e6e0409551f61b03513dd, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - arrowL
+  - arrowL_w
+  - Cross
+  - stud
+  - blank
   m_RenderDataMap: {}
   m_Tag: RoomDocumentAtlas
   m_IsVariant: 0

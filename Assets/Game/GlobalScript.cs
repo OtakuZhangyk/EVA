@@ -21,25 +21,19 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	{
 		None,
 		LeaveLabL2,
-		GotWater,
-		EndGame,
-		WonGame
+		EndGame
 	};
 	public eProgress m_progressExample = eProgress.None;
 	
 	public enum memoCollect
 	{
 		None,
-		GotHandnote,
-		GotWater,
-		DrankWater,
-		WonGame
+		GotHandnote
 	};
 	public memoCollect memoCollectProgress = memoCollect.None;
 	
 	/// Just an example of using a global variable that can be accessed in any room with `Globals.m_spokeToBarney`.
 	/// All variables like this in Quest Scripts are automatically saved
-	public bool m_spokeToBarney = false;
 	
 	public bool m_FirstReadMemo = false;
 	
@@ -48,7 +42,7 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	public int b_knowhimself = 0;
 	
 	public eProgress gamePhase = eProgress.None;
-
+	
 	// 0 not injected, 1 Compound-5 ==> End1, 2 C-5+Protocol-T ==> End2
 	// 3 visited secret handnote and tried to put on helmet
 	public int injected = 0;

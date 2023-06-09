@@ -13,8 +13,6 @@ namespace PowerScript
 	public static partial class C
 	{
 		// Access to specific characters (Auto-generated)
-		public static ICharacter Dave           { get { return PowerQuest.Get.GetCharacter("Dave"); } }
-		public static ICharacter Barney         { get { return PowerQuest.Get.GetCharacter("Barney"); } }
 		public static ICharacter Me             { get { return PowerQuest.Get.GetCharacter("Me"); } }
 		public static ICharacter Eva            { get { return PowerQuest.Get.GetCharacter("Eva"); } }
 		// #CHARS# - Do not edit this line, it's used by the system to insert characters
@@ -57,7 +55,6 @@ namespace PowerScript
 	{
 		// Access to specific room (Auto-generated)
 		public static IRoom Title          { get { return PowerQuest.Get.GetRoom("Title"); } }
-		public static IRoom Forest         { get { return PowerQuest.Get.GetRoom("Forest"); } }
 		public static IRoom Operation_Room { get { return PowerQuest.Get.GetRoom("Operation_Room"); } }
 		public static IRoom Hallway        { get { return PowerQuest.Get.GetRoom("Hallway"); } }
 		public static IRoom Handnote       { get { return PowerQuest.Get.GetRoom("Handnote"); } }
@@ -90,7 +87,6 @@ namespace PowerScript
 	public static partial class D
 	{
 		// Access to specific dialog trees (Auto-generated)
-		public static IDialogTree ChatWithBarney       { get { return PowerQuest.Get.GetDialogTree("ChatWithBarney"); } }
 		public static IDialogTree ChatwithEva          { get { return PowerQuest.Get.GetDialogTree("ChatwithEva"); } }
 		// #DIALOG# - Do not edit this line, it's used by the system to insert rooms for easy access	    	    
 	}

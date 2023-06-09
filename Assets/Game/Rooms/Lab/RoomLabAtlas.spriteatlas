@@ -49,8 +49,58 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c172e9d04d70b3f42ab659476de38a29, type: 3}
+  - {fileID: 21300000, guid: e611a305d656d9a4cb8b81850106f79c, type: 3}
+  - {fileID: 21300000, guid: 94298f2530f07c449b12b98bedc5f0f0, type: 3}
+  - {fileID: 21300000, guid: f5d4b635154ff9945b25c6765a39e1ab, type: 3}
+  - {fileID: 21300000, guid: c4dbb175dbafb98498c1302999f485db, type: 3}
+  - {fileID: 21300000, guid: 5d2149b565cf11d4392cc74f0c8a5963, type: 3}
+  - {fileID: 21300000, guid: 431fd0f5990277946a96dd8fab66d6b8, type: 3}
+  - {fileID: 21300000, guid: 00b560f68ad39cc4c9be7606f976d8a1, type: 3}
+  - {fileID: 21300000, guid: b1e1ab077f02e8646a09689abda2dd70, type: 3}
+  - {fileID: 21300000, guid: 52de1b577943b6c40a828cda6bcb98e3, type: 3}
+  - {fileID: 21300000, guid: eafa2ec8e636bd142b443acf049a8d89, type: 3}
+  - {fileID: 21300000, guid: dba339098fd6a364abdce893644d6980, type: 3}
+  - {fileID: 21300000, guid: deee2679fc49f4442aaf86585c5135f9, type: 3}
+  - {fileID: 21300000, guid: 88fcbce91d5d4554884d909a6f207e5d, type: 3}
+  - {fileID: 21300000, guid: 93d74e5a3ef005742ab6c3947c531a13, type: 3}
+  - {fileID: 21300000, guid: df2657caaf9844149a663f19bbaeac4e, type: 3}
+  - {fileID: 21300000, guid: 58c6620bc2563264193a0086a06ea322, type: 3}
+  - {fileID: 21300000, guid: 0d132f0bfca56d34ab2c15f8d3b316b9, type: 3}
+  - {fileID: 21300000, guid: 69e0742bbceb33b4cb46e87f37a194cb, type: 3}
+  - {fileID: 21300000, guid: 5c03f8cb1b7ef724ba18f1b2d0672511, type: 3}
+  - {fileID: 21300000, guid: 60ff73db52998c642b1d3b66f66ef98e, type: 3}
+  - {fileID: 21300000, guid: 2d413cec34bfe264d86430fc0cb76b31, type: 3}
+  - {fileID: 21300000, guid: 24ab31cdfa8a12a4eb1d59b886db7844, type: 3}
+  - {fileID: 21300000, guid: 2988a9dd0ae2e444d9aebca4dcfc44eb, type: 3}
+  - {fileID: 21300000, guid: cfb4061e4c4d49f4685de4dcd18afe44, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - monitorAnim10
+  - monitorAnim02
+  - Helm
+  - Laptop
+  - monitorAnim04
+  - steelDoor
+  - monitorAnim07
+  - monitorAnim01
+  - injectionDevice
+  - table
+  - monitorOff
+  - monitorAnim11
+  - monitorAnim08
+  - monitorAnim03
+  - monitorAnim12
+  - monitorAnim09
+  - monitorAnim05
+  - Labprops
+  - Lifemonitor
+  - back
+  - LabBackground
+  - pc
+  - table1
+  - EVATank
+  - monitorAnim06
   m_RenderDataMap: {}
   m_Tag: RoomLabAtlas
   m_IsVariant: 0
