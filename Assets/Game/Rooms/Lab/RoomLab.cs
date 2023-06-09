@@ -108,6 +108,20 @@ public class RoomLab : RoomScript<RoomLab>
 			Globals.injected = 2;
 			yield return C.Me.Say("Goodbye Eva, goodbye");
 			Audio.Play("drawer_close");
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			Camera.Shake(3.0f, 0.5f, 0.5f);
+			yield return E.WaitSkip();
+			yield return E.WaitSkip();
+			yield return C.Me.Say("What happened?");
+			yield return E.WaitSkip();
+			Camera.Shake(3.0f, 1.0f, 0.5f);
+			yield return E.WaitSkip();
+			yield return C.Me.Say("Run!!!");
+			yield return E.WaitSkip();
+			E.Save(1,"Autosave");
+			Camera.Shake(3.0f, 30.0f, 0.5f);
+			G.Timer.Show();
 		}
 		yield return E.Break;
 	}
