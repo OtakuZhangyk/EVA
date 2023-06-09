@@ -192,4 +192,10 @@ public class RoomLab : RoomScript<RoomLab>
 
 		yield return E.Break;
 	}
+
+	IEnumerator OnUseInvPropLabMonitor( IProp prop, IInventory item )
+	{
+
+		yield return E.Break;
+	}
 }

@@ -390,7 +390,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6869981491293540149}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4840953610324824088
 MonoBehaviour:
@@ -618,7 +618,8 @@ MonoBehaviour:
   - {fileID: 2691916088294843853}
   - {fileID: 5818893001458924335}
   - {fileID: 4840953610324824088}
-  m_regionComponents: [{fileID: 405625328022394988}]
+  m_regionComponents:
+  - {fileID: 405625328022394988}
   m_walkableAreas:
   - {fileID: 3054291485767326584}
   m_animations: []

@@ -11,7 +11,7 @@ public class GuiTimer : GuiScript<GuiTimer>
 	void OnShow()
 	{
 		
-		E.SetTimer("escape",30.0f);
+		E.SetTimer("escape",20.0f);
 		G.Timer.GetControl("Timer").GetComponent<TextMesh>().text = E.GetTimer("escape").ToString();
 	}
 

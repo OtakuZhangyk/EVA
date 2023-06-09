@@ -64,7 +64,8 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 			((PropComponent)Prop("Title").Instance).GetComponent<TextMesh>().text = titleEnd2;
 			((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = textI;
 		}
-		E.FadeIn(0.5f);
+		
+		
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -78,7 +79,7 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 
 	IEnumerator OnEnterRoomAfterFade()
 	{
-
+		E.FadeInBG(1.5f);
 		yield return E.Break;
 	}
 

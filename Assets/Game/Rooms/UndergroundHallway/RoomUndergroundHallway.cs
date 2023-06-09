@@ -112,6 +112,7 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 	{
 		yield return C.WalkToClicked();
 		yield return E.WaitSkip();
+		Audio.Play("door_open1");
 		C.Plr.ChangeRoomBG(R.Shelter);
 		yield return E.Break;
 	}

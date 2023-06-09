@@ -104,12 +104,15 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	{
 		// Update keybaord/mouse shortcuts
 		UpdateInput();
-
+		
 		if (E.GetTimerExpired("Escape"))
-        {
+		{
 			G.Timer.Hide();
-			E.ChangeRoomBG(R.EndScene);
-        }
+			Audio.StopMusic();
+			if (C.Plr.Room != R.Shelter)
+				E.ChangeRoomBG(R.EndScene);
+		
+		}
 		// Add anything that should happen every frame here.
 	}	
 
