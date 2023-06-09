@@ -22,7 +22,7 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 		None,
 		LeaveLabL2,
 		GotWater,
-		DrankWater,
+		EndGame,
 		WonGame
 	};
 	public eProgress m_progressExample = eProgress.None;
@@ -47,6 +47,7 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	
 	public int b_knowhimself = 0;
 	
+	public eProgress gamePhase = eProgress.None;
 	////////////////////////////////////////////////////////////////////////////////////
 	// Global Game Functions
 	

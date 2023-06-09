@@ -31,6 +31,10 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 			Audio.Play("door_close1");
 			C.Me.SetPosition(Point("LabEntry"));
 		}
+		if (C.Me.LastRoom == R.Shelter) {
+			Audio.Play("door_close1");
+			C.Me.SetPosition(Point("ShelterEntry"));
+		}
 	}
 
 	IEnumerator OnLookAtPropStairsUp( IProp prop )
@@ -55,6 +59,10 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 		}
 		if (C.Me.LastRoom == R.Lab) {
 			C.Me.WalkToBG(Point("LabEntryWalk"));
+		}
+		if (C.Me.LastRoom == R.Shelter) {
+			Audio.Play("door_close1");
+			C.Me.SetPosition(Point("ShelterEntryWalk"));
 		}
 		yield return E.Break;
 	}
@@ -96,5 +104,13 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 		yield return C.FaceClicked();
 		yield return E.WaitSkip();
 		yield return C.Me.Say("It's a heavy steel door");
+	}
+
+	IEnumerator OnInteractPropShelterDoor( IProp prop )
+	{
+		yield return C.WalkToClicked();
+		yield return E.WaitSkip();
+		C.Plr.ChangeRoomBG(R.Shelter);
+		yield return E.Break;
 	}
 }
