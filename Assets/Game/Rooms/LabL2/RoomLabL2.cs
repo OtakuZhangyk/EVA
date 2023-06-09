@@ -18,7 +18,10 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 			E.ChangeRoomBG(R.HallwayL2);
 		}
 		else
+		{
+			yield return E.WaitSkip();
 			yield return C.Me.Say("I shouldn't take laboratory containers out of the laboratory");
+		}
 		yield return E.ConsumeEvent;
 	}
 
@@ -107,10 +110,37 @@ public class RoomLabL2 : RoomScript<RoomLabL2>
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
 		yield return E.WaitSkip();
-		yield return C.Me.Say("A bottle of red potion. The label says 'Compound-5'");
-		prop.Description = "Compound-5";
-		Audio.Play("pickup_glass");
-		prop.Clickable = false;
-		I.Compound_5.Add();
+		if (!I.Compound_5.Owned)
+		{
+			yield return C.Me.Say("A bottle of red potion. The label says 'Compound-5'");
+		
+			Audio.Play("pickup_glass");
+			Prop("No_potion").Visible = true;
+			prop.Description = "Place Compound-5 Back";
+			//prop.Clickable = false;
+			I.Compound_5.Add();
+		}
+		else
+		{
+			yield return C.Me.Say("Ok, I'll put it back");
+			prop.Description = "Compound-5";
+			Audio.Play("pickup_glass");
+			Prop("No_potion").Visible = false;
+			I.Compound_5.Remove();
+		}
+	}
+
+	IEnumerator OnUseInvPropTable( IProp prop, IInventory item )
+	{
+		if (I.Compound_5.Active == true)
+		{
+			yield return C.Me.Say("Ok, I'll put it back");
+			prop.Description = "Compound-5";
+			Audio.Play("pickup_glass");
+			Prop("No_potion").Visible = false;
+			I.Compound_5.Active = false;
+			I.Compound_5.Remove();
+		}
+		yield return E.ConsumeEvent;
 	}
 }

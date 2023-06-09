@@ -52,11 +52,12 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 
 	void OnEnterRoom()
 	{
+		E.SetPlayer(C.Me);
 		if (FirstTimeVisited) {
 			E.FadeIn(3);
-            C.Me.SetPosition(Point("Spawn"));
-            Audio.PlayMusic("hospital_bgm");
-        }
+			C.Me.SetPosition(Point("Spawn"));
+			Audio.PlayMusic("hospital_bgm");
+		}
 		
 		if (C.Me.LastRoom == R.Hallway)
 		{

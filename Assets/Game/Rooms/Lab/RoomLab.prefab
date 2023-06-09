@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Head gear
+    m_description: Electrode Helmet
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: 
+    m_description: Injection Device
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: UndergroundHallway
+    m_description: Door
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -1387,7 +1387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: LabMonitor
+    m_description: Lab Monitor
     m_cursor: 
     m_visible: 1
     m_clickable: 1

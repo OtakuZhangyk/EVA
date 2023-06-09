@@ -58,13 +58,14 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 			((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = textI;
 		}
 		//if end2
-		if (true)
+		if (!true)
 		{
 			Prop("Title").SetPosition(-15.6f, 20.8f);
 			Prop("Text").SetPosition(21.3f, 34.5f);
 			((PropComponent)Prop("Title").Instance).GetComponent<TextMesh>().text = titleEnd2;
 			((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = textI;
 		}
+		E.FadeIn(0.5f);
 	}
 
 	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
@@ -97,7 +98,7 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 			hotspot.Clickable = true;
 		}
 		else
-			yield return E.ChangeRoom(R.Title);
+			E.Restart();
 		yield return E.ConsumeEvent;
 	}
 

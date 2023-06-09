@@ -10,10 +10,11 @@ public class RoomEnding : RoomScript<RoomEnding>
 
 	void OnEnterRoom()
 	{
-		C.Eva.Room = R.Current;
+		C.Eva.Room = R.Ending;
 		C.Me.SetPosition(0,-65);
 		E.SetPlayer(C.Eva);
 		C.Eva.Disable();
+		Audio.Pause("hospital_bgm");
 	}
 
 	IEnumerator OnEnterRoomAfterFade()
@@ -34,6 +35,15 @@ public class RoomEnding : RoomScript<RoomEnding>
 		C.Me.Disable();
 		yield return E.WaitSkip();
 		Audio.Play("door_close1");
+		yield return E.Wait(4.0f);
+		yield return E.FadeOut(1.5f);
+		E.ChangeRoomBG(R.EndScene);
+		yield return E.Break;
+	}
+
+	IEnumerator OnExitRoom( IRoom oldRoom, IRoom newRoom )
+	{
+		E.SetPlayer(C.Me);
 		yield return E.Break;
 	}
 }

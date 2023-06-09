@@ -13,7 +13,26 @@ public class InventoryHeadGear : InventoryScript<InventoryHeadGear>
 		if (R.Current != R.Lab)
 			yield return C.Me.Say("I can't use that here..");
 		else {
-			yield return C.Me.Say("Let's do this.");
+			if (Globals.injected == 0)
+			{
+				yield return C.Me.Say("I must do the injection first");
+			}
+			else if (R.SecretHandnote.Visited && Globals.injected != 3)
+			{
+				Globals.injected = 3;
+				yield return C.Me.Say("Should I do this?");
+				yield return C.Me.Say("The secret handnote I found says they have banned anyone from using this helmet");
+			}
+			else if (Globals.injected == 1)
+			{
+				yield return C.Me.Say("Let's do this.");
+				E.ChangeRoomBG(R.Mind);
+			}
+			else if (Globals.injected == 3)
+			{
+				yield return C.Me.Say("I'll do it anyway");
+				E.ChangeRoomBG(R.Mind);
+			}
 		}
 		yield return E.Break;
 	}

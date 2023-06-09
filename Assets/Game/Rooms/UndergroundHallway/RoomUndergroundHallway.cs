@@ -73,6 +73,7 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 				bLabOpen = true;
 				Audio.Play("lock");
 			   yield return E.WaitSkip();
+			   yield return E.WaitSkip();
 				Audio.Play("door_open1");
 				E.ChangeRoomBG(R.Lab);
 				I.LabKey.Active = false;
@@ -96,5 +97,12 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 		yield return C.FaceClicked();
 		yield return E.WaitSkip();
 		yield return C.Me.Say("It's a heavy steel door");
+	}
+
+	IEnumerator OnEnterRegionEnter_Mind( IRegion region, ICharacter character )
+	{
+		yield return E.WaitSkip();
+		Region("Enter_Mind").Enabled = false;
+		E.ChangeRoomBG(R.Mind);
 	}
 }

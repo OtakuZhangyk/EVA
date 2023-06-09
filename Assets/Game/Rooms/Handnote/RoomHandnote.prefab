@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Prev Page
+    m_description: Prev
     m_cursor: 
     m_visible: 1
     m_clickable: 1
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Next Page
+    m_description: Next
     m_cursor: 
     m_visible: 1
     m_clickable: 1

@@ -64,6 +64,7 @@ MonoBehaviour:
   m_noDuplicateTime: 0.05
   m_autoAddCues: 1
   m_audioCues:
+  - {fileID: 2001330241942145919, guid: 47f1e460e5a06b04994b7fd8580a2fdb, type: 3}
   - {fileID: -8951029254524292583, guid: be788ec134aacac43bb033d390f7f29b, type: 3}
   - {fileID: 11426600, guid: 2c643cf6d170a1845bd86209b6ca496a, type: 3}
   - {fileID: 5268487651870540120, guid: 0ae921d7b355343428d817301a944309, type: 3}

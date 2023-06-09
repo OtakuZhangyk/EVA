@@ -8,13 +8,29 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 {
 	int page = 1;
 	static int MAX_PAGE = 3;
-	string textPage1 = "Memo #5\nTo let Eva out, the main power \nsupply has to be turned off \nfirst."+
-		"\nAfterward, you need to turn \noff three backup power supplies, \nor else it'll still be restrained."+
-		"\nThen it's going to the cryogenic \nchamber, injecting the drug, I \nhave to remember to bring the \nsyringe.";
+	string textPage1 = "Communication with Eva" +
+		"\nTo establish a communication" + 
+		"\nlink with Eva, follow these" + 
+		"\ninstructions strictly: " +
+		"\n1. Retrieve Compound-5 from" +
+		"\nthe laboratory. " +
+		"\n2. Load the injector with" + 
+		"\nCompound-5. " +
+		"\n3. Inject the Compound-5 into" + 
+		"\nthe designated port on Eva's" + 
+		"\ncontainment unit. ";
 	
-	string textPage2 = "Lastly, open up those restraints, \nlet Eva be free.";
+	string textPage2 = "4. Locate the electrode helmet" +
+		"\n5. Place the electrode helmet" + 
+		"\nsecurely on your head" +
+		"\n6. Once the helmet is on, sit" + 
+		"\nin a relaxed position, clear your" + 
+		"\nmind, and let Eva's thoughts" +
+		"\ncome in. Do not resist or fight" +
+		"\nher psychic presence, as it may" +
+		"\ncause mental stress or harm.";
 	string textPage3 = "";
-	string textPage5 = "2023";
+	string textPage5 = "2023\nThe secret is right behind me";
 	
 	
     public void OnEnterRoom()
@@ -25,7 +41,11 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 		
 		Prop("TurnL").Disable();
 		C.Plr.Disable();
-		
+
+		page = 1;
+		((PropComponent)Prop("TextL").Instance).GetComponent<TextMesh>().text = textPage1;
+		((PropComponent)Prop("TextR").Instance).GetComponent<TextMesh>().text = textPage2;
+
 		// Later we could start some music here
 		//SystemAudio.PlayMusic("MusicSlowStrings", 1);
 	}

@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_data:
-    m_description: Electric head gear
+    m_description: Electrode Helmet
     m_animGui: elec_helm
     m_animCursor: elec_helm
     m_animCursorInactive: elec_helm
