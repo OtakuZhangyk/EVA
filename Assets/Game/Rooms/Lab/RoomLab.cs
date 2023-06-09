@@ -131,6 +131,7 @@ public class RoomLab : RoomScript<RoomLab>
 			yield return E.WaitSkip();
 			Audio.PlayMusic("escape_bgm");
 			G.InventoryBar.Hide();
+			G.Toolbar.Hide();
 			Camera.Shake(3.0f, 30.0f, 0.5f);
 			G.Timer.Show();
 			Globals.gamePhase = eProgress.EndGame;

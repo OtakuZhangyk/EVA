@@ -91,8 +91,10 @@ public class RoomOperation_Room : RoomScript<RoomOperation_Room>
 	{
 		yield return C.WalkToClicked();
 		yield return C.FaceClicked();
-		
+		yield return E.WaitSkip();
+		yield return C.Me.Say("Who left the injector here?");
 		prop.Disable();
+		Audio.Play("pickup_glass");
 		I.Injector.Add();
 		yield return E.WaitSkip();
 		yield return E.Break;
