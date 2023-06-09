@@ -63,16 +63,16 @@ public class RoomOfficeL1 : RoomScript<RoomOfficeL1>
 	{
 		if ((C.Me.LastRoom == R.PCScreen || C.Me.LastRoom == R.PCScreen2) && Globals.b_knowhimself == 1)
 		{
+			//...
+			//Me: Here is a photo of Dr. Newman
 			yield return E.WaitSkip();
-			yield return C.Me.Say("Here is a photo of Dr. Newman");
-			yield return E.WaitSkip();
-			yield return C.Me.Say("Wait, it's me");
+			yield return C.Me.Say("Wait, it's me!");
 			yield return E.WaitSkip();
 			yield return C.Me.Say("So I'm Dr. Newman?");
 			yield return E.WaitSkip();
 			yield return C.Me.Say("Then why did I lost my memory?");
 			yield return E.WaitSkip();
-			yield return C.Me.Say("Does it have some kind of connection with the human experimentation?");
+			//Me: Does it have some kind of connection with the human experimentation?
 			Globals.b_knowhimself = 2;
 		}
 	}

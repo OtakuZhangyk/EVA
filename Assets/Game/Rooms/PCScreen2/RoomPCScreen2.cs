@@ -32,4 +32,10 @@ public class RoomPCScreen2 : RoomScript<RoomPCScreen2>
 	{
 		yield return E.ConsumeEvent;
 	}
+
+	IEnumerator OnEnterRoomAfterFade()
+	{
+
+		yield return E.Break;
+	}
 }

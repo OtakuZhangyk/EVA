@@ -20,7 +20,8 @@ public class RoomShelter : RoomScript<RoomShelter>
 					Audio.Play("door_open1");
 					Prop("Door").PlayAnimationBG("doorOpen");
 				}
-		
+				yield return E.WaitSkip();
+				yield return C.Me.Say("Finally.");
 				yield return E.FadeOut(1.5f);
 				yield return E.ChangeRoom(R.EndScene);
 			}
@@ -41,8 +42,10 @@ public class RoomShelter : RoomScript<RoomShelter>
 	IEnumerator OnEnterRoomAfterFade()
 	{
 		yield return C.Plr.WalkTo(Point("EntryWalk"));
-		if (FirstTimeVisited)
+		yield return E.WaitSkip();
+		if (FirstTimeVisited) {
 			yield return C.Me.Say("This room looks like a pretty good shelter.");
+		}
 		yield return E.Break;
 	}
 
