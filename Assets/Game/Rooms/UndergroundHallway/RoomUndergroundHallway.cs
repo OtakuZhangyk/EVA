@@ -121,4 +121,10 @@ public class RoomUndergroundHallway : RoomScript<RoomUndergroundHallway>
 		Region("Enter_Mind").Enabled = false;
 		E.ChangeRoomBG(R.Mind);
 	}
+
+	IEnumerator OnLookAtPropShelterDoor( IProp prop )
+	{
+		yield return E.WaitSkip();
+		yield return C.Me.Say("It's a shelter");
+	}
 }
