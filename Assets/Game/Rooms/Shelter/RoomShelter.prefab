@@ -78,8 +78,10 @@ MonoBehaviour:
   - {fileID: 4269899835246512948}
   m_walkableAreas:
   - {fileID: 4492510530840892021}
-  m_animations: []
+  m_animations:
+  - {fileID: 7400000, guid: 41e03005884d1ac43b65542fef238d39, type: 2}
   m_sprites:
+  - {fileID: 21300000, guid: 44dcc602e56d9764395bcded00674fc9, type: 3}
   - {fileID: 21300000, guid: 292620499b20bd44aa1c2fbcda953c6e, type: 3}
 --- !u!1 &1542784133398596914
 GameObject:

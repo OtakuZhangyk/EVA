@@ -12,17 +12,29 @@ public class RoomShelter : RoomScript<RoomShelter>
 	{
 		yield return C.WalkToClicked();
 		yield return E.WaitSkip();
-		if (Globals.gamePhase == eProgress.EndGame) {
-			yield return E.ChangeRoom(R.EndScene);
-		}
-		else {
-			C.Plr.ChangeRoom(R.UndergroundHallway);
+		if (E.GetTimer("escape") != 0) {
+			yield return C.Me.Say("It's unsafe to go out now.");
+		} else {
+			if (Globals.gamePhase == eProgress.EndGame) {
+				if (!Prop("Door").Animating) {
+					Audio.Play("door_open1");
+					Prop("Door").PlayAnimationBG("doorOpen");
+				}
+		
+				yield return E.FadeOut(1.5f);
+				yield return E.ChangeRoom(R.EndScene);
+			}
+			else {
+				Audio.Play("door_open1");
+				C.Plr.ChangeRoom(R.UndergroundHallway);
+			}
 		}
 		yield return E.Break;
 	}
 
 	void OnEnterRoom()
 	{
+		Audio.Play("door_close1");
 		C.Plr.SetPosition(Point("Entry"));
 	}
 

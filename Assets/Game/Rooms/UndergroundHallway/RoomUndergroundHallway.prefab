@@ -618,8 +618,7 @@ MonoBehaviour:
   - {fileID: 2691916088294843853}
   - {fileID: 5818893001458924335}
   - {fileID: 4840953610324824088}
-  m_regionComponents:
-  - {fileID: 405625328022394988}
+  m_regionComponents: [{fileID: 405625328022394988}]
   m_walkableAreas:
   - {fileID: 3054291485767326584}
   m_animations: []
