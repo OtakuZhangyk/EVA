@@ -15,7 +15,7 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 		"\noutside world, you're left pondering your" +
 		"\nfate within the confines you once" + 
 		"\ncontrolled.";
-	string titleEnd2 = "The End\n\nSilent Termination:\nThe Forsaken\nDirector's Decision";
+	string titleEnd2 = "The End\n\nProtocol Termination:\nThe Forsaken\nDirector's Decision";
 	string textEnd2 = "Armed with crucial information obtained" + 
 		"\nfrom the handnote in the director's office" + 
 		"\nsafe, you manage to locate Protocol-T" + 
@@ -57,8 +57,7 @@ public class RoomEndScene : RoomScript<RoomEndScene>
 			((PropComponent)Prop("Title").Instance).GetComponent<TextMesh>().text = titleEnd1;
 			((PropComponent)Prop("Text").Instance).GetComponent<TextMesh>().text = textI;
 		}
-		//if end2
-		if (!true)
+		else
 		{
 			Prop("Title").SetPosition(-15.6f, 20.8f);
 			Prop("Text").SetPosition(21.3f, 34.5f);

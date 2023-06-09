@@ -119,9 +119,9 @@ public class RoomLab : RoomScript<RoomLab>
 			yield return E.WaitSkip();
 			yield return C.Me.Say("Run!!!");
 			yield return E.WaitSkip();
-			E.Save(1,"Autosave");
 			Camera.Shake(3.0f, 30.0f, 0.5f);
 			G.Timer.Show();
+			E.Save(1,"Autosave");
 		}
 		yield return E.Break;
 	}
