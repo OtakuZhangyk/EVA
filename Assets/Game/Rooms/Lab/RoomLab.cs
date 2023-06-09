@@ -99,6 +99,7 @@ public class RoomLab : RoomScript<RoomLab>
 			Globals.injected = 1;
 			yield return C.Me.Say("Alright, then the helmet");
 			Audio.Play("drawer_close");
+		
 		}
 		else if (I.Injector_F.Active)
 		{
@@ -121,7 +122,9 @@ public class RoomLab : RoomScript<RoomLab>
 			yield return E.WaitSkip();
 			Camera.Shake(3.0f, 30.0f, 0.5f);
 			G.Timer.Show();
+			Globals.gamePhase = eProgress.EndGame;
 			E.Save(1,"Autosave");
+		
 		}
 		yield return E.Break;
 	}

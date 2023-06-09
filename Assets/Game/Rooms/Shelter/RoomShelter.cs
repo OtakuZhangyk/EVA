@@ -13,11 +13,22 @@ public class RoomShelter : RoomScript<RoomShelter>
 		yield return C.WalkToClicked();
 		yield return E.WaitSkip();
 		if (Globals.gamePhase == eProgress.EndGame) {
-			//E.ChangeRoom(R.EndScene);
+			yield return E.ChangeRoom(R.EndScene);
 		}
 		else {
 			C.Plr.ChangeRoom(R.UndergroundHallway);
 		}
+		yield return E.Break;
+	}
+
+	void OnEnterRoom()
+	{
+		C.Plr.SetPosition(Point("Entry"));
+	}
+
+	IEnumerator OnEnterRoomAfterFade()
+	{
+		yield return C.Plr.WalkTo(Point("EntryWalk"));
 		yield return E.Break;
 	}
 }
