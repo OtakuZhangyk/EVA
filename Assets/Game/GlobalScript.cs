@@ -67,7 +67,10 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 	/// Blocking script called whenever you enter a room, before fading in. Non-blocking functions only
 	public void OnEnterRoom()
 	{
-		
+		if (G.Timer.Visible)
+        {
+			Camera.Shake(3.0f, E.GetTimer("Escape"), 0.0f);
+		}
 		
 	}
 
@@ -100,6 +103,11 @@ public partial class GlobalScript : GlobalScriptBase<GlobalScript>
 		// Update keybaord/mouse shortcuts
 		UpdateInput();
 
+		if (E.GetTimerExpired("Escape"))
+        {
+			G.Timer.Hide();
+			E.ChangeRoomBG(R.EndScene);
+        }
 		// Add anything that should happen every frame here.
 	}	
 
