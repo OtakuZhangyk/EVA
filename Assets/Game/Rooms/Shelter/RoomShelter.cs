@@ -45,4 +45,20 @@ public class RoomShelter : RoomScript<RoomShelter>
 			yield return C.Me.Say("This room looks like a pretty good shelter.");
 		yield return E.Break;
 	}
+
+	IEnumerator OnLookAtPropDoor( IProp prop )
+	{
+		yield return C.FaceClicked();
+		yield return E.WaitSkip();
+		if (E.GetTimer("escape") != 0) {
+			yield return C.Me.Say("It's unsafe to go out now.");
+		} else {
+			if (Globals.gamePhase == eProgress.EndGame) {
+				yield return C.Me.Say("I can go out now.");
+			}
+			else {
+				yield return C.Me.Say("Door to the hallway");
+			}
+		}
+	}
 }

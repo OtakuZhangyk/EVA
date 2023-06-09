@@ -35,7 +35,7 @@ public class RoomEnding : RoomScript<RoomEnding>
 		C.Me.Disable();
 		yield return E.WaitSkip();
 		Audio.Play("door_close1");
-		yield return E.Wait(4.0f);
+		yield return E.Wait(3.0f);
 		yield return E.FadeOut(1.5f);
 		E.ChangeRoomBG(R.EndScene);
 		yield return E.Break;
