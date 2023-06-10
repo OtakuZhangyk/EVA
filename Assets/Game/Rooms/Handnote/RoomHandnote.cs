@@ -40,7 +40,7 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 		G.InventoryBar.Hide();
 		
 		Prop("TurnL").Disable();
-		Prop("TextR").Enable();
+		Prop("TurnR").Enable();
 		C.Plr.Disable();
 		
 		page = 1;
