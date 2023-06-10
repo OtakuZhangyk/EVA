@@ -40,12 +40,13 @@ public class RoomHandnote : RoomScript<RoomHandnote>
 		G.InventoryBar.Hide();
 		
 		Prop("TurnL").Disable();
+		Prop("TextR").Enable();
 		C.Plr.Disable();
-
+		
 		page = 1;
 		((PropComponent)Prop("TextL").Instance).GetComponent<TextMesh>().text = textPage1;
 		((PropComponent)Prop("TextR").Instance).GetComponent<TextMesh>().text = textPage2;
-
+		
 		// Later we could start some music here
 		//SystemAudio.PlayMusic("MusicSlowStrings", 1);
 	}
